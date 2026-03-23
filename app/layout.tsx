@@ -16,8 +16,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "APASE 2026 | Annual International Conference on Applied Physics and Applied Science Engineering",
-  description: "Join leading researchers and practitioners in exploring the frontiers of physics and engineering at APASE 2026 in Osaka, Japan.",
+  title:
+    "APASE 2026 | Annual International Conference on Applied Physics and Applied Science Engineering",
+  description:
+    "Join leading researchers and practitioners in exploring the frontiers of physics and engineering at APASE 2026 in Osaka, Japan.",
 };
 
 export default function RootLayout({
@@ -31,9 +33,9 @@ export default function RootLayout({
       className={`${manrope.variable} ${inter.variable} light antialiased`}
     >
       <body className="min-h-full flex flex-col">
-      <Navigation />
+        <Navigation />
 
-      {children}
+        {children}
       </body>
     </html>
   );

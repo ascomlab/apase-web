@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { navigationLinks } from "@/data/content";
 
 export default function Navigation() {
   return (
@@ -11,42 +12,19 @@ export default function Navigation() {
           APASE 2026
         </Link>
         <div className="hidden md:flex gap-8 items-center">
-          <Link
-            href="#"
-            className="font-headline font-bold tracking-tight text-lg text-[#1A365D] border-b-2 border-[#1A365D] pb-1"
-          >
-            Home
-          </Link>
-          <Link
-            href="#committee"
-            className="font-headline font-bold tracking-tight text-lg text-slate-500 hover:text-[#1A365D] transition-colors"
-          >
-            Committee
-          </Link>
-          <Link
-            href="#submission"
-            className="font-headline font-bold tracking-tight text-lg text-slate-500 hover:text-[#1A365D] transition-colors"
-          >
-            Submission
-          </Link>
-          <Link
-            href="#registration"
-            className="font-headline font-bold tracking-tight text-lg text-slate-500 hover:text-[#1A365D] transition-colors"
-          >
-            Registration
-          </Link>
-          <Link
-            href="#attendance"
-            className="font-headline font-bold tracking-tight text-lg text-slate-500 hover:text-[#1A365D] transition-colors"
-          >
-            Attendance
-          </Link>
-          <Link
-            href="#history"
-            className="font-headline font-bold tracking-tight text-lg text-slate-500 hover:text-[#1A365D] transition-colors"
-          >
-            History
-          </Link>
+          {navigationLinks.map((link) => (
+            <Link
+              key={link.label}
+              href={link.href}
+              className={`font-headline font-bold tracking-tight text-lg transition-colors ${
+                link.active
+                  ? "text-[#1A365D] border-b-2 border-[#1A365D] pb-1"
+                  : "text-slate-500 hover:text-[#1A365D]"
+              }`}
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
         <button className="bg-gradient-to-br from-primary to-primary-dim text-on-primary px-6 py-2.5 rounded-md font-semibold tracking-wide hover:scale-95 transition-all duration-200">
           Submit Paper

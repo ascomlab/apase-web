@@ -1,4 +1,5 @@
 import { BookOpen } from "lucide-react";
+import { publications } from "@/data/content";
 
 export default function PublicationsSection() {
   return (
@@ -19,48 +20,25 @@ export default function PublicationsSection() {
         </button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div className="p-8 bg-surface-container-low rounded-2xl border-l-4 border-primary">
-          <span className="text-xs font-bold text-outline uppercase tracking-widest">
-            APASE 2025
-          </span>
-          <h5 className="text-xl font-bold mt-2 mb-6">
-            Advances in Nanoscale Physics: Review of 2025 Proceedings
-          </h5>
-          <div className="flex items-center gap-4 text-sm text-on-surface-variant">
-            <BookOpen className="w-4 h-4" />
-            <span>IEEE Xplore</span>
-            <span className="mx-2">|</span>
-            <span>ISSN: 2345-XXXX</span>
+        {publications.map((pub) => (
+          <div
+            key={pub.year}
+            className={`p-8 bg-surface-container-low rounded-2xl border-l-4 ${
+              pub.featured ? "border-primary" : "border-slate-300"
+            }`}
+          >
+            <span className="text-xs font-bold text-outline uppercase tracking-widest">
+              {pub.year}
+            </span>
+            <h5 className="text-xl font-bold mt-2 mb-6">{pub.title}</h5>
+            <div className="flex items-center gap-4 text-sm text-on-surface-variant">
+              <BookOpen className="w-4 h-4" />
+              <span>{pub.publisher}</span>
+              <span className="mx-2">|</span>
+              <span>ISSN: {pub.issn}</span>
+            </div>
           </div>
-        </div>
-        <div className="p-8 bg-surface-container-low rounded-2xl border-l-4 border-slate-300">
-          <span className="text-xs font-bold text-outline uppercase tracking-widest">
-            APASE 2024
-          </span>
-          <h5 className="text-xl font-bold mt-2 mb-6">
-            Energy Transformations in Quantum Systems: 2024 Retrospective
-          </h5>
-          <div className="flex items-center gap-4 text-sm text-on-surface-variant">
-            <BookOpen className="w-4 h-4" />
-            <span>IOP Publishing</span>
-            <span className="mx-2">|</span>
-            <span>ISSN: 1987-XXXX</span>
-          </div>
-        </div>
-        <div className="p-8 bg-surface-container-low rounded-2xl border-l-4 border-slate-300">
-          <span className="text-xs font-bold text-outline uppercase tracking-widest">
-            APASE 2023
-          </span>
-          <h5 className="text-xl font-bold mt-2 mb-6">
-            Solid State Physics and Modern Industrial Applications
-          </h5>
-          <div className="flex items-center gap-4 text-sm text-on-surface-variant">
-            <BookOpen className="w-4 h-4" />
-            <span>Springer Link</span>
-            <span className="mx-2">|</span>
-            <span>ISSN: 4567-XXXX</span>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );

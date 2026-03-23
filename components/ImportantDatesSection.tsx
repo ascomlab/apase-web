@@ -1,4 +1,5 @@
 import { Info } from "lucide-react";
+import { importantDates } from "@/data/content";
 
 export default function ImportantDatesSection() {
   return (
@@ -26,79 +27,36 @@ export default function ImportantDatesSection() {
           </div>
         </div>
         <div className="md:w-2/3 grid gap-4">
-          {/* Date Card 1 */}
-          <div className="bg-surface-container-lowest p-8 flex items-center justify-between rounded-xl group hover:bg-surface-container-low transition-colors border border-transparent hover:border-primary-container">
-            <div className="flex gap-10 items-center">
-              <div className="text-center min-w-[100px]">
-                <p className="text-3xl font-black text-primary">SEP 15</p>
-                <p className="text-xs font-bold uppercase tracking-widest text-outline">
-                  2025
-                </p>
+          {importantDates.map((date) => (
+            <div
+              key={date.title}
+              className="bg-surface-container-lowest p-8 flex items-center justify-between rounded-xl group hover:bg-surface-container-low transition-colors border border-transparent hover:border-primary-container"
+            >
+              <div className="flex gap-10 items-center">
+                <div className="text-center min-w-[100px]">
+                  <p
+                    className={`text-3xl font-black ${
+                      date.active ? "text-primary" : "text-slate-400"
+                    }`}
+                  >
+                    {date.date}
+                  </p>
+                  <p className="text-xs font-bold uppercase tracking-widest text-outline">
+                    {date.year}
+                  </p>
+                </div>
+                <div>
+                  <h4 className="text-xl font-bold mb-1">{date.title}</h4>
+                  <p className="text-on-surface-variant">{date.description}</p>
+                </div>
               </div>
-              <div>
-                <h4 className="text-xl font-bold mb-1">Initial Submission</h4>
-                <p className="text-on-surface-variant">
-                  Full paper or abstract for peer review
-                </p>
-              </div>
+              {date.status && (
+                <span className="px-3 py-1 bg-primary/10 text-primary text-xs font-bold rounded uppercase tracking-tighter">
+                  {date.status}
+                </span>
+              )}
             </div>
-            <span className="px-3 py-1 bg-primary/10 text-primary text-xs font-bold rounded uppercase tracking-tighter">
-              Open
-            </span>
-          </div>
-          {/* Date Card 2 */}
-          <div className="bg-surface-container-lowest p-8 flex items-center justify-between rounded-xl group hover:bg-surface-container-low transition-colors border border-transparent hover:border-primary-container">
-            <div className="flex gap-10 items-center">
-              <div className="text-center min-w-[100px]">
-                <p className="text-3xl font-black text-slate-400">OCT 10</p>
-                <p className="text-xs font-bold uppercase tracking-widest text-outline">
-                  2025
-                </p>
-              </div>
-              <div>
-                <h4 className="text-xl font-bold mb-1">
-                  Acceptance Notification
-                </h4>
-                <p className="text-on-surface-variant">
-                  Results sent to corresponding authors
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* Date Card 3 */}
-          <div className="bg-surface-container-lowest p-8 flex items-center justify-between rounded-xl group hover:bg-surface-container-low transition-colors border border-transparent hover:border-primary-container">
-            <div className="flex gap-10 items-center">
-              <div className="text-center min-w-[100px]">
-                <p className="text-3xl font-black text-slate-400">OCT 25</p>
-                <p className="text-xs font-bold uppercase tracking-widest text-outline">
-                  2025
-                </p>
-              </div>
-              <div>
-                <h4 className="text-xl font-bold mb-1">Final Registration</h4>
-                <p className="text-on-surface-variant">
-                  Registration deadline for accepted authors
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* Date Card 4 */}
-          <div className="bg-surface-container-lowest p-8 flex items-center justify-between rounded-xl group hover:bg-surface-container-low transition-colors border border-transparent hover:border-primary-container">
-            <div className="flex gap-10 items-center">
-              <div className="text-center min-w-[100px]">
-                <p className="text-3xl font-black text-slate-400">NOV 05</p>
-                <p className="text-xs font-bold uppercase tracking-widest text-outline">
-                  2025
-                </p>
-              </div>
-              <div>
-                <h4 className="text-xl font-bold mb-1">Listener Deadline</h4>
-                <p className="text-on-surface-variant">
-                  Last call for attendees without papers
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
