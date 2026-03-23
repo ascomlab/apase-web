@@ -1,26 +1,81 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Color palette */
+  --color-on-primary-fixed: #254067;
+  --color-secondary-dim: #495467;
+  --color-primary-container: #d6e3ff;
+  --color-primary-dim: #39537c;
+  --color-secondary-fixed: #d8e3fa;
+  --color-tertiary-fixed: #d9d7f8;
+  --color-on-secondary-fixed-variant: #515c6f;
+  --color-secondary-fixed-dim: #cad5ec;
+  --color-surface-bright: #f7fafc;
+  --color-surface-tint: #455f88;
+  --color-background: #f7fafc;
+  --color-on-background: #283439;
+  --color-on-surface: #283439;
+  --color-outline-variant: #a7b4ba;
+  --color-on-tertiary: #fbf7ff;
+  --color-on-secondary-fixed: #354052;
+  --color-error-container: #fe8983;
+  --color-surface-container-lowest: #ffffff;
+  --color-error-dim: #4e0309;
+  --color-outline: #707d82;
+  --color-surface-container-high: #dfeaef;
+  --color-primary-fixed: #d6e3ff;
+  --color-tertiary-container: #d9d7f8;
+  --color-surface-variant: #d7e5eb;
+  --color-on-primary-container: #38527b;
+  --color-on-tertiary-container: #4a4a65;
+  --color-secondary: #546073;
+  --color-surface-container: #e7eff3;
+  --color-on-secondary-container: #475265;
+  --color-on-primary: #f6f7ff;
+  --color-on-error-container: #752121;
+  --color-on-error: #fff7f6;
+  --color-error: #9f403d;
+  --color-tertiary-dim: #51516c;
+  --color-on-surface-variant: #546166;
+  --color-inverse-on-surface: #9a9d9f;
+  --color-primary: #455f88;
+  --color-surface-container-highest: #d7e5eb;
+  --color-surface-container-low: #eff4f7;
+  --color-tertiary-fixed-dim: #cbc9e9;
+  --color-inverse-surface: #0b0f10;
+  --color-surface-dim: #ccdde4;
+  --color-on-secondary: #f8f8ff;
+  --color-on-tertiary-fixed: #373851;
+  --color-tertiary: #5d5d78;
+  --color-primary-fixed-dim: #bfd5ff;
+  --color-on-tertiary-fixed-variant: #54546f;
+  --color-surface: #f7fafc;
+  --color-inverse-primary: #b3cdfd;
+  --color-on-primary-fixed-variant: #425c85;
+  --color-secondary-container: #d8e3fa;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Font families */
+  --font-headline: var(--font-manrope);
+  --font-body: var(--font-inter);
+  --font-label: var(--font-inter);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-body);
+}
+
+body::selection {
+  background: var(--color-primary-container);
+  color: var(--color-on-primary-container);
+}
+
+.editorial-shadow {
+  box-shadow: 0 24px 48px -12px rgba(40, 52, 57, 0.06);
+}
+
+.glass-nav {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
