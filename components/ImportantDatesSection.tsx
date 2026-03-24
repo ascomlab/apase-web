@@ -21,7 +21,7 @@ export default function ImportantDatesSection() {
               </span>
             </div>
             <p className="text-on-tertiary-container text-sm leading-relaxed">
-              All deadlines are 23:59 GMT+9 (Japan Standard Time). Extensions
+              All deadlines are 23:59 GMT+8 (China Standard Time). Extensions
               are rarely granted.
             </p>
           </div>
@@ -50,11 +50,6 @@ export default function ImportantDatesSection() {
                   <p className="text-on-surface-variant">{date.description}</p>
                 </div>
               </div>
-              {date.status && (
-                <span className="px-3 py-1 bg-primary/10 text-primary text-xs font-bold rounded uppercase tracking-tighter">
-                  {date.status}
-                </span>
-              )}
             </div>
           ))}
         </div>

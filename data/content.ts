@@ -8,15 +8,15 @@ export const navigationLinks = [
 ];
 
 export const heroData = {
-  badge: "Annual International Conference",
+  badge: "International Conference",
   title: {
     main: "Asia-Pacific Aerospace Science &",
     highlighted: "Engineering Symposium.",
   },
   description:
-    "The Digital Curator for global scientific discourse. Join leading researchers and practitioners in exploring the frontiers of physics and engineering.",
+    "Join leading researchers and practitioners in exploring the frontiers of physics and engineering.",
   image: {
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuAHY62xIWvEtciyizfQM7yYWURGSAm7K6xbGe_8Llhfd8qqvlq3HlasuEjQnK7jgxhMLuZ1jDRK4q-8DX1W_gozosOhMSJTuVp_chXBd04KFG3l_tAtx9DfoZagTOhe3oBMkmrrAn8wQXIWbZQtLb9X8AOxKBwhRia0fc3CKeo31hU3icaNLKQ2unEt1fZci9fYkQ8e85Bi_JWf0QtRDw6XQMsqb-SB94jaFduaIsgCGPcDzrnOeHQJunW5IMESn2cjQn-TkfBZ67o",
+    src: "/images/hero-image.png",
     alt: "Microscopic view of advanced physical materials",
   },
   buttons: [
@@ -25,12 +25,13 @@ export const heroData = {
   ],
   eventInfo: {
     year: "2026",
-    location: "Osaka, Japan / Virtual Hybrid",
+    location: "Harbin, China",
   },
   organizers: [
-    { name: "Placeholder University Logo" },
-    { name: "Placeholder Physics Institute" },
-    { name: "Placeholder Tech Partner" },
+    { name: "HIT", logo: "/logo/organizors/hit-logo.png" },
+    { name: "IDSEA", logo: "/logo/organizors/idsea-logo.png" },
+    { name: "KMITL", logo: "/logo/organizors/kmitl-logo.png" },
+    { name: "NARIT", logo: "/logo/organizors/narit-logo.png" },
   ],
 };
 
@@ -88,105 +89,299 @@ export const quickAccessItems = [
   },
 ];
 
+const monthToNumber: Record<string, string> = {
+  JAN: "01",
+  FEB: "02",
+  MAR: "03",
+  APR: "04",
+  MAY: "05",
+  JUN: "06",
+  JUL: "07",
+  AUG: "08",
+  SEP: "09",
+  OCT: "10",
+  NOV: "11",
+  DEC: "12",
+};
+
+function getTodayKey(timeZone: string) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+
+  const year = parts.find((part) => part.type === "year")?.value;
+  const month = parts.find((part) => part.type === "month")?.value;
+  const day = parts.find((part) => part.type === "day")?.value;
+
+  return `${year}-${month}-${day}`;
+}
+
+function getMilestoneKey(date: string, year: string) {
+  const firstDate = date.split(/[–-]/)[0].trim();
+  const [monthLabel, day] = firstDate.split(/\s+/);
+  const month = monthToNumber[monthLabel.toUpperCase()];
+
+  if (!month || !day) {
+    return null;
+  }
+
+  return `${year}-${month}-${day.padStart(2, "0")}`;
+}
+
+const todayKey = getTodayKey("Asia/Shanghai");
+
 export const importantDates = [
   {
+    date: "APR 01",
+    year: "2026",
+    title: "Paper Submission Opens",
+    description: "Submission portal opens for authors",
+    // status: "Open",
+    active: todayKey >= getMilestoneKey("APR 01", "2026")!,
+  },
+  {
+    date: "JUL 31",
+    year: "2026",
+    title: "Full Paper Submission Deadline",
+    description: "Final deadline for full paper submission",
+    active: todayKey >= getMilestoneKey("JUL 31", "2026")!,
+  },
+  {
     date: "SEP 15",
-    year: "2025",
-    title: "Initial Submission",
-    description: "Full paper or abstract for peer review",
-    status: "Open",
-    active: true,
+    year: "2026",
+    title: "Notification of Acceptance",
+    description: "Acceptance results sent to authors",
+    active: todayKey >= getMilestoneKey("SEP 15", "2026")!,
   },
   {
-    date: "OCT 10",
-    year: "2025",
-    title: "Acceptance Notification",
-    description: "Results sent to corresponding authors",
-    active: false,
+    date: "OCT 15",
+    year: "2026",
+    title: "Camera-Ready Paper Submission",
+    description: "Revised final papers due",
+    active: todayKey >= getMilestoneKey("OCT 15", "2026")!,
   },
   {
-    date: "OCT 25",
-    year: "2025",
-    title: "Final Registration",
-    description: "Registration deadline for accepted authors",
-    active: false,
+    date: "OCT 31",
+    year: "2026",
+    title: "Early-Bird Registration Deadline",
+    description: "Last day to register at the early-bird rate",
+    active: todayKey >= getMilestoneKey("OCT 31", "2026")!,
   },
   {
-    date: "NOV 05",
-    year: "2025",
-    title: "Listener Deadline",
-    description: "Last call for attendees without papers",
-    active: false,
+    date: "NOV 30",
+    year: "2026",
+    title: "Regular Registration Deadline",
+    description: "Standard registration closes",
+    active: todayKey >= getMilestoneKey("NOV 30", "2026")!,
+  },
+  {
+    date: "DEC 20–22",
+    year: "2026",
+    title: "Conference Dates",
+    description: "APASE 2026 conference in Harbin, China",
+    active: todayKey >= getMilestoneKey("DEC 20", "2026")!,
   },
 ];
 
 export const technicalTracks = [
   {
-    id: "applied-physics",
-    icon: "Microscope",
-    title: "Applied Physics",
-    topics: [
-      "Condensed Matter Physics",
-      "Optics & Photonics",
-      "Plasma Physics",
-      "Quantum Information",
+    id: "astronomy-space-science",
+    title: "Astronomy & Space Science",
+    covers: [
+      "Astrophysics",
+      "Cosmology",
+      "Planetary Science",
+      "Solar Physics",
+      "Search for Exoplanets",
     ],
   },
   {
-    id: "science-engineering",
-    icon: "Settings",
-    title: "Science Engineering",
-    topics: [
-      "Materials Science",
-      "Nanotechnology",
-      "Chemical Engineering",
-      "Environmental Engineering",
+    id: "mission-design-systems-engineering",
+    title: "Space Mission Design & Systems Engineering",
+    covers: [
+      "End-to-end mission design",
+      "Conceptual studies",
+      "Systems architecture",
+      "Systems integration",
+      "Mission analysis for robotic and human spaceflight",
     ],
   },
   {
-    id: "computational-science",
-    icon: "BarChart3",
-    title: "Computational Science",
-    topics: [
-      "Mathematical Modeling",
-      "Simulation & HPC",
-      "AI in Physics",
-      "Big Data Analytics",
+    id: "rf-microwave-antennas-radio-science",
+    title: "RF/Microwave Systems, Antennas & Radio Science",
+    covers: [
+      "Advanced antenna design",
+      "RF front-end electronics",
+      "Microwave components",
+      "Telecommunication systems",
+      "Radar systems",
+      "Radio science experiments for planetary exploration",
+    ],
+  },
+  {
+    id: "gnc",
+    title: "Guidance, Navigation, & Control (GNC)",
+    covers: [
+      "Attitude determination and control",
+      "Orbit determination and propagation",
+      "Autonomous navigation",
+      "GNC algorithms for all flight phases",
+    ],
+  },
+  {
+    id: "small-satellites-emerging-technologies",
+    title: "Small Satellites & Emerging Space Technologies",
+    covers: [
+      "CubeSats",
+      "SmallSats",
+      "Distributed spacecraft systems",
+      "Miniaturized technologies",
+      "Rapid prototyping for low-cost missions",
+    ],
+  },
+  {
+    id: "spacecraft-launch-vehicle-subsystems",
+    title: "Spacecraft & Launch Vehicle Subsystems",
+    covers: [
+      "Power systems",
+      "Propulsion",
+      "Thermal control",
+      "Structures",
+      "Mechanisms",
+      "Launch vehicle stages",
+    ],
+  },
+  {
+    id: "earth-observation-remote-sensing-gnss",
+    title: "Earth Observation, Remote Sensing & GNSS Applications",
+    covers: [
+      "Optical and radar remote sensing",
+      "Hyperspectral imaging",
+      "Data processing and analysis",
+      "Calibration and validation",
+      "GNSS applications for science and engineering",
+    ],
+  },
+  {
+    id: "avionics-electronics-onboard-computing",
+    title: "Avionics, Electronics & Onboard Computing",
+    covers: [
+      "On-board computers",
+      "FPGAs",
+      "Radiation-hardened electronics",
+      "COTS-based electronics",
+      "Data handling systems",
+      "Advanced electronics architectures",
+    ],
+  },
+  {
+    id: "air-vehicle-systems-uas",
+    title: "Air Vehicle Systems & Unmanned Aerial Systems (UAS)",
+    covers: [
+      "Aircraft design and technologies",
+      "High-altitude platforms",
+      "Drones",
+      "UAS aerodynamics",
+      "Propulsion",
+      "Flight mechanics",
+    ],
+  },
+  {
+    id: "space-ground-operations",
+    title: "Space & Ground Operations",
+    covers: [
+      "Mission operations",
+      "Ground station networks",
+      "Data acquisition and distribution",
+      "Command and control systems",
+      "LEOP logistics",
+    ],
+  },
+  {
+    id: "space-biology-life-support",
+    title: "Space Biology & Life Support Systems",
+    covers: [
+      "Astrobiology",
+      "Effects of space environment on living organisms",
+      "Biology in microgravity",
+      "Life support systems for human spaceflight",
+    ],
+  },
+  {
+    id: "aerospace-education-workforce-development",
+    title: "Aerospace Education & Workforce Development",
+    covers: [
+      "Innovative teaching methods",
+      "Student-led projects such as CanSats",
+      "Outreach programs",
+      "Next-generation aerospace workforce development",
     ],
   },
 ];
 
 export const publications = [
   {
-    year: "APASE 2025",
-    title: "Advances in Nanoscale Physics: Review of 2025 Proceedings",
-    publisher: "IEEE Xplore",
-    issn: "2345-XXXX",
+    year: "APASE 2026",
+    title:
+      "The 5th Asia-Pacific Aerospace Science and Engineering Symposium - International Conference",
+    publisher: null,
+    location: "Harbin, China",
     featured: true,
+    href: null,
   },
   {
-    year: "APASE 2024",
-    title: "Energy Transformations in Quantum Systems: 2024 Retrospective",
-    publisher: "IOP Publishing",
-    issn: "1987-XXXX",
+    year: "IAAI 2025",
+    title:
+      "The 4th Innovation Aviation & Aerospace Industry - International Conference",
+    publisher: null,
+    location: "Pattaya, Thailand",
     featured: false,
+    href: "https://drive.google.com/file/d/1kBE-rOmUJGK4BNzfwIWMIrUgbYbJzgZa/view?usp=sharing",
   },
   {
-    year: "APASE 2023",
-    title: "Solid State Physics and Modern Industrial Applications",
-    publisher: "Springer Link",
-    issn: "4567-XXXX",
+    year: "IAAI 2024",
+    title:
+      "The 3rd Innovation Aviation & Aerospace Industry - International Conference",
+    publisher: null,
+    location: "Bangkok, Thailand",
     featured: false,
+    href: "https://drive.google.com/file/d/15wECvdKK5eAgL7daUuVf24DRzANt1w55/view?usp=drive_link",
+  },
+  {
+    year: "IAAI 2021",
+    title:
+      "Innovation Aviation & Aerospace Industry - International Conference",
+    publisher: "MDPI",
+    location: "Chiang Mai, Thailand",
+    featured: false,
+    href: "https://drive.google.com/file/d/1FpfGemDJ5rFgFe0pRgGUoey5Y_ZX9IHq/view?usp=drive_link",
+  },
+  {
+    year: "IAAI 2020",
+    title:
+      "Innovation Aviation & Aerospace Industry - International Conference",
+    publisher: "MDPI",
+    location: "Chumphon, Thailand",
+    featured: false,
+    href: "https://drive.google.com/file/d/1kXA_OOzkD4vt7YaIZ6P76qiQOlyjzFAu/view?usp=drive_link",
   },
 ];
 
-export const sponsors = [
-  { name: "SPONSOR ONE" },
-  { name: "UNIVERSITY TWO" },
-  { name: "TECH INST. THREE" },
-  { name: "FOUNDATION FOUR" },
-  { name: "ACADEMY FIVE" },
-];
+export const institutionalSupport = {
+  sponsors: [
+    { name: "APSCO", logo: "/logo/sponsors/apsco-logo.png" },
+    { name: "NRCT", logo: "/logo/sponsors/nrct-logo.png" },
+  ],
+  assistances: [
+    { name: "CRA", logo: "/logo/assistances/cra-logo.png" },
+    { name: "KU", logo: "/logo/assistances/ku-logo.png" },
+    { name: "MU", logo: "/logo/assistances/mu-logo.png" },
+    { name: "PIM", logo: "/logo/assistances/pim-logo.png" },
+  ],
+};
 
 export const footerData = {
   brand: {

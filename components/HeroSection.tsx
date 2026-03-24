@@ -55,17 +55,25 @@ export default function HeroSection() {
         </div>
       </div>
       {/* Organizer Logos */}
-      <div className="mt-24 pt-12 border-t border-slate-200/50 flex flex-wrap items-center gap-12 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all">
+      <div className="mt-24 pt-12 border-t border-slate-200/50 flex flex-wrap items-center gap-16 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all">
         <p className="font-bold text-sm text-outline tracking-widest uppercase">
           Organized By
         </p>
-        <div className="flex gap-16 items-center">
+        <div className="flex gap-12 items-center">
           {heroData.organizers.map((org, index) => (
             <div
               key={index}
-              className="h-10 w-32 bg-slate-200 rounded animate-pulse"
+              className="relative h-20 w-36 flex items-center justify-center"
               title={org.name}
-            ></div>
+            >
+              <Image
+                src={org.logo}
+                alt={org.name}
+                width={128}
+                height={48}
+                className="h-full w-auto object-contain"
+              />
+            </div>
           ))}
         </div>
       </div>

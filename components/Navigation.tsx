@@ -3,13 +3,13 @@ import { navigationLinks } from "@/data/content";
 
 export default function Navigation() {
   return (
-    <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md bg-surface-container-low">
+    <nav className="fixed top-0 w-full z-50 bg-white/85 backdrop-blur-md bg-surface-container-low">
       <div className="flex justify-between items-center px-12 py-4 max-w-[1440px] mx-auto">
         <Link
           href="/"
-          className="font-headline text-2xl font-black text-[#1A365D] tracking-tighter"
+          className="font-headline text-3xl font-black text-[#1A365D] tracking-tighter"
         >
-          APASE 2026
+          APASE
         </Link>
         <div className="hidden md:flex gap-8 items-center">
           {navigationLinks.map((link) => (
