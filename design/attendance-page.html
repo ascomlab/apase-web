@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Attendance - APASE 2026</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-primary-fixed": "#254067",
+              "secondary-dim": "#495467",
+              "primary-container": "#d6e3ff",
+              "primary-dim": "#39537c",
+              "secondary-fixed": "#d8e3fa",
+              "tertiary-fixed": "#d9d7f8",
+              "on-secondary-fixed-variant": "#515c6f",
+              "secondary-fixed-dim": "#cad5ec",
+              "surface-bright": "#f7fafc",
+              "surface-tint": "#455f88",
+              "background": "#f7fafc",
+              "on-background": "#283439",
+              "on-surface": "#283439",
+              "outline-variant": "#a7b4ba",
+              "on-tertiary": "#fbf7ff",
+              "on-secondary-fixed": "#354052",
+              "error-container": "#fe8983",
+              "surface-container-lowest": "#ffffff",
+              "error-dim": "#4e0309",
+              "outline": "#707d82",
+              "surface-container-high": "#dfeaef",
+              "primary-fixed": "#d6e3ff",
+              "tertiary-container": "#d9d7f8",
+              "surface-variant": "#d7e5eb",
+              "on-primary-container": "#38527b",
+              "on-tertiary-container": "#4a4a65",
+              "secondary": "#546073",
+              "surface-container": "#e7eff3",
+              "on-secondary-container": "#475265",
+              "on-primary": "#f6f7ff",
+              "on-error-container": "#752121",
+              "on-error": "#fff7f6",
+              "error": "#9f403d",
+              "tertiary-dim": "#51516c",
+              "on-surface-variant": "#546166",
+              "inverse-on-surface": "#9a9d9f",
+              "primary": "#455f88",
+              "surface-container-highest": "#d7e5eb",
+              "surface-container-low": "#eff4f7",
+              "tertiary-fixed-dim": "#cbc9e9",
+              "inverse-surface": "#0b0f10",
+              "surface-dim": "#ccdde4",
+              "on-secondary": "#f8f8ff",
+              "on-tertiary-fixed": "#373851",
+              "tertiary": "#5d5d78",
+              "primary-fixed-dim": "#bfd5ff",
+              "on-tertiary-fixed-variant": "#54546f",
+              "surface": "#f7fafc",
+              "inverse-primary": "#b3cdfd",
+              "on-primary-fixed-variant": "#425c85",
+              "secondary-container": "#d8e3fa"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #455f88 0%, #39537c 100%);
+        }
+        .asymmetric-border {
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body">
+<!-- TopAppBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#f7fafc]/80 backdrop-blur-xl">
+<div class="flex justify-between items-center px-12 py-4 max-w-[1440px] mx-auto">
+<div class="font-['Manrope'] text-2xl font-black text-[#1A365D] tracking-tighter">
+                APASE 2026
+            </div>
+<div class="hidden md:flex items-center space-x-8 font-['Manrope'] font-bold tracking-tight text-lg">
+<a class="text-slate-500 hover:text-[#1A365D] transition-colors" href="#">Home</a>
+<a class="text-slate-500 hover:text-[#1A365D] transition-colors" href="#">Committee</a>
+<a class="text-slate-500 hover:text-[#1A365D] transition-colors" href="#">Submission</a>
+<a class="text-slate-500 hover:text-[#1A365D] transition-colors" href="#">Registration</a>
+<a class="text-[#1A365D] border-b-2 border-[#1A365D] pb-1" href="#">Attendance</a>
+<a class="text-slate-500 hover:text-[#1A365D] transition-colors" href="#">History</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-md font-['Manrope'] font-bold hover:scale-95 transition-all duration-200">
+                Submit Paper
+            </button>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section / Editorial Header -->
+<header class="max-w-[1440px] mx-auto px-12 py-20 grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
+<div class="lg:col-span-8">
+<span class="inline-block px-4 py-1 mb-6 rounded-full bg-surface-container-highest text-on-surface-variant font-label text-sm font-semibold tracking-wider">GUIDE FOR ATTENDEES</span>
+<h1 class="font-headline text-6xl md:text-8xl font-extrabold tracking-tighter text-on-background mb-8 leading-[0.9]">
+                    The Digital Curator <br/><span class="text-primary italic font-medium">Conference Experience</span>
+</h1>
+<p class="font-body text-xl text-on-surface-variant max-w-2xl leading-relaxed">
+                    Access the essential logistical information for APASE 2026. From venue navigation to presentation guidelines, we provide the framework for your academic excellence.
+                </p>
+</div>
+<div class="lg:col-span-4 flex flex-col items-end">
+<div class="bg-surface-container-low p-8 rounded-xl w-full border-l-4 border-primary">
+<p class="font-headline font-bold text-primary mb-2">QUICK LINKS</p>
+<ul class="space-y-3 font-label text-on-surface">
+<li class="flex items-center gap-2 cursor-pointer hover:translate-x-1 transition-transform">
+<span class="material-symbols-outlined text-primary text-sm">arrow_forward</span> Venue Map
+                        </li>
+<li class="flex items-center gap-2 cursor-pointer hover:translate-x-1 transition-transform">
+<span class="material-symbols-outlined text-primary text-sm">arrow_forward</span> Visa Letter Request
+                        </li>
+<li class="flex items-center gap-2 cursor-pointer hover:translate-x-1 transition-transform">
+<span class="material-symbols-outlined text-primary text-sm">arrow_forward</span> Full Schedule
+                        </li>
+</ul>
+</div>
+</div>
+</header>
+<!-- Venue Section -->
+<section class="bg-surface-container-low py-24">
+<div class="max-w-[1440px] mx-auto px-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="order-2 lg:order-1">
+<div class="aspect-video bg-surface-container-highest rounded-xl overflow-hidden shadow-sm relative group">
+<div class="absolute inset-0 flex items-center justify-center bg-slate-200/50">
+<span class="material-symbols-outlined text-6xl text-outline opacity-40">map</span>
+</div>
+<img alt="Venue Map Location" class="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 transition-all duration-700" data-alt="Map showing the conference venue location in downtown Manhattan" data-location="New York" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXgQFnHkHrw9mSvtssLCbM5C7d57f52jYs4aDzbb1OPKj-h7mEVB3ZqQ5AzZhTh2Bf5JSpIJYhoeUz4mFXeRn8HvXaXpKCXZrbLpbjLj3yWnLowNdVdAMaQL2zEBpCXRkIgPHxExFe9_HjVZpm3E497v_ZCJ3lVE10FccIRCXrx-Xt1yS4SNo7VV_HSS89jcUyFRUxxZPC0nu03xR_IHME5C0RSrCpWvjTyGSM9cy7QhFvSOfJRZ1pnmilFn4SqDjHwmtXzXNPlyw"/>
+<div class="absolute bottom-6 left-6 right-6 bg-surface-container-lowest/90 backdrop-blur-md p-6 rounded-lg">
+<p class="font-headline font-bold text-on-surface">Main Conference Center</p>
+<p class="text-sm text-on-surface-variant">450 Research Plaza, Academic District</p>
+</div>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<h2 class="font-headline text-4xl font-bold mb-8 text-on-background">Venue &amp; Location</h2>
+<div class="space-y-8">
+<div class="flex gap-6">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-primary">location_on</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-xl mb-2">Academic Grand Hall</h3>
+<p class="text-on-surface-variant leading-relaxed">Centrally located in the heart of the Innovation District, providing state-of-the-art facilities for hybrid academic exchange.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-primary">hotel</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-xl mb-2">Accommodations</h3>
+<p class="text-on-surface-variant leading-relaxed">Special conference rates are available at the Regent International and The Scholar's Inn, located within walking distance.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Presentation & Schedule (Bento Grid Style) -->
+<section class="py-24 max-w-[1440px] mx-auto px-12">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Schedule Block -->
+<div class="md:col-span-7 bg-surface-container-lowest p-12 rounded-2xl flex flex-col justify-between min-h-[400px]">
+<div>
+<h2 class="font-headline text-3xl font-bold mb-4">Conference Schedule</h2>
+<p class="text-on-surface-variant max-w-md">The 2026 program is currently being finalized by the technical committee to ensure a diverse range of peer-reviewed sessions.</p>
+</div>
+<div class="mt-12 p-8 border-2 border-dashed border-outline-variant rounded-xl flex items-center justify-center bg-background/50">
+<div class="text-center">
+<span class="material-symbols-outlined text-4xl text-primary/30 mb-2">pending_actions</span>
+<p class="font-headline font-bold text-primary tracking-tight">Full schedule coming soon</p>
+<p class="text-xs text-on-surface-variant mt-1 uppercase tracking-widest font-bold">Estimated Release: September 2025</p>
+</div>
+</div>
+</div>
+<!-- Visa Block -->
+<div class="md:col-span-5 bg-primary-container p-12 rounded-2xl flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 bg-on-primary-container rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary-container">travel</span>
+</div>
+<h2 class="font-headline text-3xl font-bold text-on-primary-container mb-4">Visa Information</h2>
+<p class="text-on-primary-container/80 font-medium">International attendees may require a visitor visa to enter the host country.</p>
+</div>
+<div class="mt-8">
+<p class="text-sm text-on-primary-container/70 mb-6">Invitation letters will be available for download through the registration portal once payment is confirmed.</p>
+<button class="w-full bg-on-primary-container text-primary-container py-3 rounded-lg font-bold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+                            View Visa Guide
+                            <span class="material-symbols-outlined text-sm">open_in_new</span>
+</button>
+</div>
+</div>
+<!-- Presentation Guide -->
+<div class="md:col-span-12 bg-surface-container p-12 rounded-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+<div class="lg:col-span-1">
+<h2 class="font-headline text-4xl font-extrabold text-on-background leading-tight">Presentation<br/>Instructions</h2>
+<p class="mt-4 text-on-surface-variant">Detailed requirements for both oral and poster presenters to ensure technical consistency across all sessions.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border-t-4 border-primary">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary" data-weight="fill">podium</span>
+<h3 class="font-headline font-bold text-xl">Oral Presentations</h3>
+</div>
+<p class="text-on-surface-variant text-sm mb-6">Standard sessions are 20 minutes (15 min presentation + 5 min Q&amp;A). Please use 16:9 aspect ratio for slides.</p>
+<span class="text-xs font-bold text-primary uppercase tracking-widest">Guide coming soon</span>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border-t-4 border-primary">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary" data-weight="fill">view_carousel</span>
+<h3 class="font-headline font-bold text-xl">Poster Sessions</h3>
+</div>
+<p class="text-on-surface-variant text-sm mb-6">Physical posters must be A0 size (Portrait). Mounting supplies will be provided in the exhibition hall.</p>
+<span class="text-xs font-bold text-primary uppercase tracking-widest">Guide coming soon</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 border-t-0 mt-auto">
+<div class="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-4 gap-12 max-w-[1440px] mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="font-['Manrope'] font-extrabold text-2xl text-[#1A365D] mb-6">APASE 2026</div>
+<p class="text-slate-500 font-['Inter'] text-sm leading-relaxed max-w-xs">
+                    Advancing research in applied sciences and engineering through global collaboration and digital excellence.
+                </p>
+</div>
+<div>
+<h4 class="font-headline font-bold text-on-background mb-6">Quick Links</h4>
+<ul class="space-y-4 font-['Inter'] text-sm text-slate-500">
+<li><a class="hover:text-[#1A365D] transition-colors" href="#">Submission</a></li>
+<li><a class="hover:text-[#1A365D] transition-colors" href="#">Templates</a></li>
+<li><a class="hover:text-[#1A365D] transition-colors" href="#">Call for Papers</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold text-on-background mb-6">Support</h4>
+<ul class="space-y-4 font-['Inter'] text-sm text-slate-500">
+<li><a class="hover:text-[#1A365D] transition-colors" href="#">Contact</a></li>
+<li><a class="hover:text-[#1A365D] transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-[#1A365D] transition-colors" href="#">Terms of Use</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold text-on-background mb-6">Newsletter</h4>
+<div class="flex flex-col gap-4">
+<p class="text-sm text-slate-500">Stay updated with the latest conference news.</p>
+<div class="flex gap-2">
+<input class="bg-white border-none rounded-md px-4 py-2 text-sm w-full focus:ring-2 focus:ring-primary" placeholder="Email address" type="email"/>
+<button class="bg-primary text-on-primary px-4 py-2 rounded-md font-bold text-sm">Join</button>
+</div>
+</div>
+</div>
+</div>
+<div class="max-w-[1440px] mx-auto px-12 py-8 border-t border-slate-200">
+<p class="text-slate-500 font-['Inter'] text-sm">© 2026 APASE Conference. All rights reserved.</p>
+</div>
+</footer>
+</body></html>

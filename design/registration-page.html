@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Registration | APASE 2026</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-primary-fixed": "#254067",
+              "secondary-dim": "#495467",
+              "primary-container": "#d6e3ff",
+              "primary-dim": "#39537c",
+              "secondary-fixed": "#d8e3fa",
+              "tertiary-fixed": "#d9d7f8",
+              "on-secondary-fixed-variant": "#515c6f",
+              "secondary-fixed-dim": "#cad5ec",
+              "surface-bright": "#f7fafc",
+              "surface-tint": "#455f88",
+              "background": "#f7fafc",
+              "on-background": "#283439",
+              "on-surface": "#283439",
+              "outline-variant": "#a7b4ba",
+              "on-tertiary": "#fbf7ff",
+              "on-secondary-fixed": "#354052",
+              "error-container": "#fe8983",
+              "surface-container-lowest": "#ffffff",
+              "error-dim": "#4e0309",
+              "outline": "#707d82",
+              "surface-container-high": "#dfeaef",
+              "primary-fixed": "#d6e3ff",
+              "tertiary-container": "#d9d7f8",
+              "surface-variant": "#d7e5eb",
+              "on-primary-container": "#38527b",
+              "on-tertiary-container": "#4a4a65",
+              "secondary": "#546073",
+              "surface-container": "#e7eff3",
+              "on-secondary-container": "#475265",
+              "on-primary": "#f6f7ff",
+              "on-error-container": "#752121",
+              "on-error": "#fff7f6",
+              "error": "#9f403d",
+              "tertiary-dim": "#51516c",
+              "on-surface-variant": "#546166",
+              "inverse-on-surface": "#9a9d9f",
+              "primary": "#455f88",
+              "surface-container-highest": "#d7e5eb",
+              "surface-container-low": "#eff4f7",
+              "tertiary-fixed-dim": "#cbc9e9",
+              "inverse-surface": "#0b0f10",
+              "surface-dim": "#ccdde4",
+              "on-secondary": "#f8f8ff",
+              "on-tertiary-fixed": "#373851",
+              "tertiary": "#5d5d78",
+              "primary-fixed-dim": "#bfd5ff",
+              "on-tertiary-fixed-variant": "#54546f",
+              "surface": "#f7fafc",
+              "inverse-primary": "#b3cdfd",
+              "on-primary-fixed-variant": "#425c85",
+              "secondary-container": "#d8e3fa"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-effect {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body antialiased">
+<nav class="bg-[#f7fafc]/80 dark:bg-slate-900/80 backdrop-blur-xl fixed top-0 w-full z-50">
+<div class="flex justify-between items-center px-12 py-4 max-w-[1440px] mx-auto">
+<div class="font-['Manrope'] text-2xl font-black text-[#1A365D] dark:text-white tracking-tighter">
+                APASE 2026
+            </div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors font-['Manrope'] font-bold tracking-tight text-lg" href="#">Home</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors font-['Manrope'] font-bold tracking-tight text-lg" href="#">Committee</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors font-['Manrope'] font-bold tracking-tight text-lg" href="#">Submission</a>
+<a class="text-[#1A365D] dark:text-white border-b-2 border-[#1A365D] dark:border-blue-400 pb-1 font-['Manrope'] font-bold tracking-tight text-lg" href="#">Registration</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors font-['Manrope'] font-bold tracking-tight text-lg" href="#">Attendance</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors font-['Manrope'] font-bold tracking-tight text-lg" href="#">History</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-dim text-on-primary px-6 py-2 rounded-md font-bold text-sm tracking-wide shadow-sm hover:scale-95 transition-transform duration-200">
+                Submit Paper
+            </button>
+</div>
+</nav>
+<main class="pt-32 pb-24 px-6 md:px-12 max-w-[1440px] mx-auto">
+<header class="mb-20 max-w-3xl">
+<div class="inline-block bg-primary-container text-on-primary-container px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
+                Registration Portal
+            </div>
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold text-on-background tracking-tighter leading-none mb-8">
+                Join the <span class="text-primary">Intellectual</span> Discourse.
+            </h1>
+<p class="text-on-surface-variant text-lg md:text-xl leading-relaxed">
+                Secure your place at the forefront of digital curation and academic innovation. Review the registration tiers and deadlines below to facilitate your attendance.
+            </p>
+</header>
+<section class="mb-24">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<div class="lg:col-span-8 space-y-12">
+<div class="bg-surface-container-low p-8 md:p-12 rounded-xl">
+<div class="flex items-center gap-4 mb-8">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="payments">payments</span>
+<h2 class="font-headline text-2xl font-bold tracking-tight">Registration Fees</h2>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="text-on-surface-variant border-b border-outline-variant/20">
+<th class="py-4 font-semibold text-sm uppercase tracking-wider">Participant Type</th>
+<th class="py-4 font-semibold text-sm uppercase tracking-wider">Early Bird</th>
+<th class="py-4 font-semibold text-sm uppercase tracking-wider">Regular</th>
+</tr>
+</thead>
+<tbody class="text-on-surface">
+<tr class="bg-surface-container-low hover:bg-surface-container transition-colors">
+<td class="py-6 pr-4">
+<div class="font-bold text-lg">Author (Regular)</div>
+<div class="text-sm text-on-surface-variant">Includes full access, banquet &amp; proceedings</div>
+</td>
+<td class="py-6 font-headline font-bold text-primary text-xl">$450</td>
+<td class="py-6 font-headline font-bold text-xl">$550</td>
+</tr>
+<tr class="bg-background/50 hover:bg-surface-container transition-colors">
+<td class="py-6 pr-4">
+<div class="font-bold text-lg">Student Author</div>
+<div class="text-sm text-on-surface-variant">Requires valid student identification</div>
+</td>
+<td class="py-6 font-headline font-bold text-primary text-xl">$300</td>
+<td class="py-6 font-headline font-bold text-xl">$400</td>
+</tr>
+<tr class="bg-surface-container-low hover:bg-surface-container transition-colors">
+<td class="py-6 pr-4">
+<div class="font-bold text-lg">Listener</div>
+<div class="text-sm text-on-surface-variant">Access to all sessions &amp; keynote</div>
+</td>
+<td class="py-6 font-headline font-bold text-primary text-xl">$200</td>
+<td class="py-6 font-headline font-bold text-xl">$250</td>
+</tr>
+<tr class="bg-background/50 hover:bg-surface-container transition-colors">
+<td class="py-6 pr-4">
+<div class="font-bold text-lg">Accompanying Person</div>
+<div class="text-sm text-on-surface-variant">Gala dinner &amp; city tour only</div>
+</td>
+<td class="py-6 font-headline font-bold text-primary text-xl">$150</td>
+<td class="py-6 font-headline font-bold text-xl">$150</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-surface-container-lowest p-8 rounded-xl border-l-4 border-primary shadow-sm">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary" data-icon="event_note">event_note</span>
+<h3 class="font-headline font-bold text-xl">Early Bird Deadline</h3>
+</div>
+<p class="text-on-surface-variant body-md leading-relaxed mb-4">
+                                Register before the early bird cut-off to benefit from reduced rates.
+                            </p>
+<div class="text-primary font-bold text-2xl font-headline tracking-tight">August 15, 2025</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl border-l-4 border-secondary shadow-sm">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-secondary" data-icon="update">update</span>
+<h3 class="font-headline font-bold text-xl">Regular Deadline</h3>
+</div>
+<p class="text-on-surface-variant body-md leading-relaxed mb-4">
+                                Final registration for all participants must be completed by the date below.
+                            </p>
+<div class="text-on-surface font-bold text-2xl font-headline tracking-tight">January 10, 2026</div>
+</div>
+</div>
+</div>
+<aside class="lg:col-span-4 space-y-8">
+<div class="bg-surface-container-highest p-8 rounded-xl">
+<h3 class="font-headline font-bold text-xl mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="account_balance">account_balance</span>
+                            Payment Information
+                        </h3>
+<div class="space-y-6">
+<div>
+<h4 class="text-sm font-bold text-primary uppercase tracking-widest mb-2">Method 01: Credit Card</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                                    Secure online payment via our gateway (Stripe/PayPal). Most major international cards accepted.
+                                </p>
+</div>
+<div class="pt-4">
+<h4 class="text-sm font-bold text-primary uppercase tracking-widest mb-2">Method 02: Bank Transfer</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed mb-4">
+                                    Wire transfer to the conference operating account. Please include your Registration ID in the memo.
+                                </p>
+<div class="bg-surface-container-low p-4 rounded text-xs font-mono text-on-surface">
+                                    SWIFT: APASE-INT-2026<br/>
+                                    IBAN: GB44 0000 1234 5678 90
+                                </div>
+</div>
+</div>
+</div>
+<div class="bg-primary text-on-primary p-8 rounded-xl relative overflow-hidden">
+<div class="relative z-10">
+<h3 class="font-headline font-bold text-2xl mb-4">Ready to register?</h3>
+<p class="text-primary-fixed/80 text-sm mb-8 leading-relaxed">
+                                Complete your registration in less than 5 minutes through our centralized portal.
+                            </p>
+<a class="inline-flex items-center gap-2 bg-surface-container-lowest text-primary px-6 py-3 rounded font-bold text-sm hover:translate-x-1 transition-transform" href="#">
+                                Go to Registration Portal
+                                <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<div class="absolute -right-8 -bottom-8 opacity-10">
+<span class="material-symbols-outlined text-[120px]" data-icon="how_to_reg">how_to_reg</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-8 rounded-xl">
+<h3 class="font-headline font-bold text-lg mb-4">Important Notes</h3>
+<ul class="space-y-4 text-sm text-on-surface-variant">
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-sm text-primary" data-icon="check_circle">check_circle</span>
+                                One registration covers one paper only.
+                            </li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-sm text-primary" data-icon="check_circle">check_circle</span>
+                                Student status verification must be uploaded during registration.
+                            </li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-sm text-primary" data-icon="check_circle">check_circle</span>
+                                Cancellation before Dec 1st: 70% refund. No refunds after Jan 1st.
+                            </li>
+</ul>
+</div>
+</aside>
+</div>
+</section>
+<section class="bg-surface-container-low rounded-3xl p-12 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-1/3 h-full opacity-5 pointer-events-none">
+<img alt="" class="w-full h-full object-cover grayscale" data-alt="Modern geometric architecture pattern in grey" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuR4_T7dnb0OX7VN1K3ROC-OVycvro4mCnTbatHfN_fa3302pXbpFhRfJtGpl2ps05XW4jwM3kVhDr9QG_hJEkrP9HtwjN4SNsMeP6PDOccy7OS6EpngNVFwdYeeh-seHE97iplz3t9F6pc9OJYChhYbnKer_uj3SxBu8SXz8kS0OIR_8v4cPy_pCNIPD1URDNSN0yuQlqbQt-wXnvSMS8w1yo8UpFlVcfWhzQ18kRTV22y5Y1njU9L07VoyjMv5iyZ4UVRlWOO4g"/>
+</div>
+<div class="max-w-2xl relative z-10">
+<h2 class="font-headline text-3xl font-extrabold tracking-tight mb-6">Need Assistance?</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-8">
+                    Our organizing committee is here to help with your registration queries, visa invitation letters, or special accommodation requests.
+                </p>
+<div class="flex flex-wrap gap-6">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl" data-icon="mail">mail</span>
+</div>
+<div>
+<div class="text-xs font-bold text-on-surface-variant uppercase tracking-tighter">Email Support</div>
+<div class="font-semibold">reg@apase2026.org</div>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl" data-icon="call">call</span>
+</div>
+<div>
+<div class="text-xs font-bold text-on-surface-variant uppercase tracking-tighter">Direct Hotline</div>
+<div class="font-semibold">+44 20 7946 0123</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-slate-50 dark:bg-slate-950 w-full mt-auto border-t-0">
+<div class="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-4 gap-12 max-w-[1440px] mx-auto">
+<div class="md:col-span-1">
+<div class="font-['Manrope'] font-extrabold text-[#1A365D] dark:text-white text-xl mb-6">APASE 2026</div>
+<p class="font-['Inter'] text-sm leading-relaxed text-slate-500 dark:text-slate-400 mb-8">
+                    Advancing technology and society through collaborative innovation and digital curation excellence.
+                </p>
+</div>
+<div>
+<h4 class="font-['Manrope'] font-bold text-on-background mb-6">Conference</h4>
+<div class="flex flex-col gap-3">
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors font-['Inter'] text-sm leading-relaxed" href="#">Submission</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors font-['Inter'] text-sm leading-relaxed" href="#">Templates</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors font-['Inter'] text-sm leading-relaxed" href="#">Call for Papers</a>
+</div>
+</div>
+<div>
+<h4 class="font-['Manrope'] font-bold text-on-background mb-6">Resources</h4>
+<div class="flex flex-col gap-3">
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors font-['Inter'] text-sm leading-relaxed" href="#">Contact</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors font-['Inter'] text-sm leading-relaxed" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors font-['Inter'] text-sm leading-relaxed" href="#">FAQs</a>
+</div>
+</div>
+<div>
+<h4 class="font-['Manrope'] font-bold text-on-background mb-6">Social</h4>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center hover:bg-primary transition-colors hover:text-white" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="share">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center hover:bg-primary transition-colors hover:text-white" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="hub">hub</span>
+</a>
+</div>
+</div>
+</div>
+<div class="border-t border-outline-variant/10 py-8 px-12 max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="font-['Inter'] text-sm leading-relaxed text-slate-500 dark:text-slate-400">© 2026 APASE Conference. All rights reserved.</div>
+<div class="flex gap-8 text-xs font-medium text-slate-400">
+<span>Designed for Academic Excellence</span>
+<span>The Digital Curator System v1.0</span>
+</div>
+</div>
+</footer>
+</body></html>

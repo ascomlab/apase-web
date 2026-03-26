@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Submission | APASE 2026</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-primary-fixed": "#254067",
+              "secondary-dim": "#495467",
+              "primary-container": "#d6e3ff",
+              "primary-dim": "#39537c",
+              "secondary-fixed": "#d8e3fa",
+              "tertiary-fixed": "#d9d7f8",
+              "on-secondary-fixed-variant": "#515c6f",
+              "secondary-fixed-dim": "#cad5ec",
+              "surface-bright": "#f7fafc",
+              "surface-tint": "#455f88",
+              "background": "#f7fafc",
+              "on-background": "#283439",
+              "on-surface": "#283439",
+              "outline-variant": "#a7b4ba",
+              "on-tertiary": "#fbf7ff",
+              "on-secondary-fixed": "#354052",
+              "error-container": "#fe8983",
+              "surface-container-lowest": "#ffffff",
+              "error-dim": "#4e0309",
+              "outline": "#707d82",
+              "surface-container-high": "#dfeaef",
+              "primary-fixed": "#d6e3ff",
+              "tertiary-container": "#d9d7f8",
+              "surface-variant": "#d7e5eb",
+              "on-primary-container": "#38527b",
+              "on-tertiary-container": "#4a4a65",
+              "secondary": "#546073",
+              "surface-container": "#e7eff3",
+              "on-secondary-container": "#475265",
+              "on-primary": "#f6f7ff",
+              "on-error-container": "#752121",
+              "on-error": "#fff7f6",
+              "error": "#9f403d",
+              "tertiary-dim": "#51516c",
+              "on-surface-variant": "#546166",
+              "inverse-on-surface": "#9a9d9f",
+              "primary": "#455f88",
+              "surface-container-highest": "#d7e5eb",
+              "surface-container-low": "#eff4f7",
+              "tertiary-fixed-dim": "#cbc9e9",
+              "inverse-surface": "#0b0f10",
+              "surface-dim": "#ccdde4",
+              "on-secondary": "#f8f8ff",
+              "on-tertiary-fixed": "#373851",
+              "tertiary": "#5d5d78",
+              "primary-fixed-dim": "#bfd5ff",
+              "on-tertiary-fixed-variant": "#54546f",
+              "surface": "#f7fafc",
+              "inverse-primary": "#b3cdfd",
+              "on-primary-fixed-variant": "#425c85",
+              "secondary-container": "#d8e3fa"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      body { font-family: 'Inter', sans-serif; }
+      h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="bg-[#f7fafc]/80 dark:bg-slate-900/80 backdrop-blur-xl fixed top-0 w-full z-50">
+<nav class="flex justify-between items-center px-12 py-4 max-w-[1440px] mx-auto">
+<div class="font-['Manrope'] text-2xl font-black text-[#1A365D] dark:text-white tracking-tighter">
+                APASE 2026
+            </div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors" href="#">Home</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors" href="#">Committee</a>
+<a class="text-[#1A365D] dark:text-white border-b-2 border-[#1A365D] dark:border-blue-400 pb-1" href="#">Submission</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors" href="#">Registration</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors" href="#">Attendance</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors" href="#">History</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-dim text-on-primary px-6 py-2 rounded-md font-['Inter'] font-medium text-sm hover:opacity-90 transition-all active:scale-95 duration-200">
+                Submit Paper
+            </button>
+</nav>
+</header>
+<main class="pt-32 pb-24 px-6 md:px-12 max-w-[1440px] mx-auto">
+<!-- Hero Section / Header -->
+<section class="mb-20">
+<div class="max-w-4xl">
+<span class="text-primary font-bold tracking-widest text-xs uppercase mb-4 block">Call for Papers</span>
+<h1 class="text-5xl md:text-7xl font-extrabold text-on-background tracking-tighter mb-8 leading-tight">
+                    Shaping the Future <br/>of <span class="text-primary italic">Digital Intelligence</span>
+</h1>
+<p class="text-lg text-on-surface-variant leading-relaxed max-w-2xl font-body">
+                    We invite researchers, scholars, and industry professionals to submit their original, unpublished work to the 2026 Asia-Pacific Applied Science and Engineering Conference. Join us in setting the editorial standard for academic excellence.
+                </p>
+</div>
+</section>
+<!-- Main Submission Action (Bento Style) -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-24">
+<!-- CTA Card -->
+<div class="md:col-span-7 bg-surface-container-lowest p-10 md:p-14 rounded-xl shadow-sm border-l-4 border-primary">
+<h2 class="text-3xl font-extrabold text-on-surface mb-6 tracking-tight">Paper Submission System</h2>
+<div class="space-y-6 mb-10 text-on-surface-variant leading-relaxed">
+<p>All papers must be submitted electronically through the <strong>EasyChair</strong> Conference Management System. Please ensure your manuscript follows the standard IEEE two-column format.</p>
+<ul class="space-y-3">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl" data-icon="check_circle">check_circle</span>
+<span>Standard length: 6–8 pages including figures and references.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl" data-icon="check_circle">check_circle</span>
+<span>Blind peer-review process (Please anonymize your paper).</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl" data-icon="check_circle">check_circle</span>
+<span>Accepted formats: PDF only.</span>
+</li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-3 bg-gradient-to-br from-primary to-primary-dim text-on-primary px-10 py-5 rounded-md font-bold text-lg hover:opacity-95 transition-all group" href="#">
+                    Enter Submission Portal
+                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- Guidelines Card -->
+<div class="md:col-span-5 flex flex-col gap-8">
+<div class="bg-surface-container-low p-8 rounded-xl h-full flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-lg mb-6">
+<span class="material-symbols-outlined text-primary" data-icon="description">description</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Manuscript Templates</h3>
+<p class="text-sm text-on-surface-variant mb-6">Download the official Word and LaTeX templates to ensure your submission meets our formatting standards.</p>
+</div>
+<div class="flex flex-col gap-3">
+<button class="w-full flex justify-between items-center px-4 py-3 bg-white hover:bg-slate-50 rounded-lg text-sm font-semibold transition-colors">
+<span>LaTeX Template (.zip)</span>
+<span class="material-symbols-outlined text-sm" data-icon="download">download</span>
+</button>
+<button class="w-full flex justify-between items-center px-4 py-3 bg-white hover:bg-slate-50 rounded-lg text-sm font-semibold transition-colors">
+<span>Word Template (.docx)</span>
+<span class="material-symbols-outlined text-sm" data-icon="download">download</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Timeline Section -->
+<section class="mb-32">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<h2 class="text-4xl font-extrabold tracking-tight mb-2">Important Dates</h2>
+<p class="text-on-surface-variant">Mark your calendar for these critical submission milestones.</p>
+</div>
+<div class="hidden md:block h-px flex-grow mx-12 bg-outline-variant/20 mb-4"></div>
+<div class="text-right">
+<span class="text-sm font-bold text-primary px-3 py-1 bg-primary/10 rounded-full">2026 Schedule</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-px bg-outline-variant/20 rounded-xl overflow-hidden">
+<div class="bg-surface-container-lowest p-8 hover:bg-surface-container-low transition-colors group">
+<span class="text-primary font-bold block mb-4">May 15, 2026</span>
+<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Full Paper Deadline</h4>
+<p class="text-sm text-on-surface-variant">Last day to submit full manuscripts for review.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 hover:bg-surface-container-low transition-colors group">
+<span class="text-primary font-bold block mb-4">June 30, 2026</span>
+<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Notification Date</h4>
+<p class="text-sm text-on-surface-variant">Acceptance or rejection notifications sent to authors.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 hover:bg-surface-container-low transition-colors group">
+<span class="text-primary font-bold block mb-4">July 20, 2026</span>
+<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Camera Ready</h4>
+<p class="text-sm text-on-surface-variant">Submission of finalized papers and registrations.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 hover:bg-surface-container-low transition-colors group">
+<span class="text-primary font-bold block mb-4">Aug 15, 2026</span>
+<h4 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Main Conference</h4>
+<p class="text-sm text-on-surface-variant">Event commencement in Kuala Lumpur.</p>
+</div>
+</div>
+</section>
+<!-- Topics / Scope Section -->
+<section class="mb-32">
+<h2 class="text-4xl font-extrabold tracking-tight mb-4">Research Scope</h2>
+<p class="text-on-surface-variant mb-12 max-w-2xl">The conference topics include, but are not limited to, the following primary research tracks.</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Track 1 -->
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<span class="w-8 h-8 bg-primary text-on-primary flex items-center justify-center rounded-lg text-sm font-bold">01</span>
+<h3 class="text-xl font-bold text-[#1A365D]">Applied Engineering</h3>
+</div>
+<ul class="space-y-4 border-l-2 border-surface-container-high pl-6">
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Robotics and Autonomous Systems</li>
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Signal Processing &amp; Communications</li>
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Sustainable Energy Technologies</li>
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Structural Engineering Systems</li>
+</ul>
+</div>
+<!-- Track 2 -->
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<span class="w-8 h-8 bg-primary text-on-primary flex items-center justify-center rounded-lg text-sm font-bold">02</span>
+<h3 class="text-xl font-bold text-[#1A365D]">Computational Science</h3>
+</div>
+<ul class="space-y-4 border-l-2 border-surface-container-high pl-6">
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Artificial Intelligence &amp; ML</li>
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Quantum Computing Frameworks</li>
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Big Data Analysis &amp; Modeling</li>
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Cyber-Physical Systems</li>
+</ul>
+</div>
+<!-- Track 3 -->
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<span class="w-8 h-8 bg-primary text-on-primary flex items-center justify-center rounded-lg text-sm font-bold">03</span>
+<h3 class="text-xl font-bold text-[#1A365D]">Materials &amp; Environment</h3>
+</div>
+<ul class="space-y-4 border-l-2 border-surface-container-high pl-6">
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Nano-materials &amp; Semiconductors</li>
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Environmental Sensor Networks</li>
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Green Manufacturing Processes</li>
+<li class="text-on-surface-variant hover:text-primary transition-colors cursor-default">Biotechnology Applications</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Final Support Block -->
+<section class="bg-slate-900 rounded-3xl p-12 md:p-20 text-white relative overflow-hidden">
+<div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="max-w-xl">
+<h2 class="text-3xl md:text-5xl font-extrabold tracking-tighter mb-6">Need assistance with your submission?</h2>
+<p class="text-slate-400 leading-relaxed text-lg">Our editorial support team is available to help with technical difficulties, formatting questions, or special requests regarding your paper.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+<button class="bg-white text-slate-950 px-8 py-4 rounded-md font-bold hover:bg-slate-100 transition-colors">Contact Support</button>
+<button class="border border-slate-700 px-8 py-4 rounded-md font-bold hover:bg-slate-800 transition-colors">View FAQ</button>
+</div>
+</div>
+<!-- Decorative circle -->
+<div class="absolute -bottom-24 -right-24 w-96 h-96 bg-primary/20 blur-[120px] rounded-full"></div>
+<div class="absolute -top-24 -left-24 w-64 h-64 bg-blue-500/10 blur-[80px] rounded-full"></div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-950 w-full mt-auto">
+<div class="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-4 gap-12 max-w-[1440px] mx-auto">
+<div class="md:col-span-1">
+<div class="font-['Manrope'] font-extrabold text-[#1A365D] dark:text-white text-2xl mb-6">APASE 2026</div>
+<p class="text-slate-500 dark:text-slate-400 font-['Inter'] text-sm leading-relaxed mb-6">
+                    A premier gathering for applied science and engineering researchers across the Asia-Pacific region.
+                </p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-slate-400 hover:text-primary cursor-pointer" data-icon="public">public</span>
+<span class="material-symbols-outlined text-slate-400 hover:text-primary cursor-pointer" data-icon="mail">mail</span>
+</div>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-[#1A365D] dark:text-white uppercase text-xs tracking-widest">Navigation</h4>
+<ul class="space-y-4 text-sm font-['Inter'] text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Home</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors underline decoration-2 text-[#1A365D]" href="#">Submission</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Registration</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Committee</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-[#1A365D] dark:text-white uppercase text-xs tracking-widest">Resources</h4>
+<ul class="space-y-4 text-sm font-['Inter'] text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Templates</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Call for Papers</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Past Conferences</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-[#1A365D] dark:text-white uppercase text-xs tracking-widest">Legal</h4>
+<ul class="space-y-4 text-sm font-['Inter'] text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Terms of Service</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-slate-200 dark:border-slate-800 py-8 px-12 max-w-[1440px] mx-auto text-center md:text-left">
+<p class="text-slate-500 dark:text-slate-400 text-sm font-['Inter']">
+                © 2026 APASE Conference. All rights reserved.
+            </p>
+</div>
+</footer>
+</body></html>

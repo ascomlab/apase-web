@@ -1,10 +1,10 @@
 export const navigationLinks = [
-  { href: "#", label: "Home", active: true },
-  { href: "#committee", label: "Committee", active: false },
-  { href: "#submission", label: "Submission", active: false },
-  { href: "#registration", label: "Registration", active: false },
-  { href: "#attendance", label: "Attendance", active: false },
-  { href: "#history", label: "History", active: false },
+  { href: "/", label: "Home" },
+  { href: "/committee", label: "Committee" },
+  { href: "/submission", label: "Submission" },
+  { href: "/registration", label: "Registration" },
+  { href: "/attendance", label: "Attendance" },
+  { href: "/history", label: "History" },
 ];
 
 export const heroData = {

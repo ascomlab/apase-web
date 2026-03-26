@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Committee | APASE 2026</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-primary-fixed": "#254067",
+              "secondary-dim": "#495467",
+              "primary-container": "#d6e3ff",
+              "primary-dim": "#39537c",
+              "secondary-fixed": "#d8e3fa",
+              "tertiary-fixed": "#d9d7f8",
+              "on-secondary-fixed-variant": "#515c6f",
+              "secondary-fixed-dim": "#cad5ec",
+              "surface-bright": "#f7fafc",
+              "surface-tint": "#455f88",
+              "background": "#f7fafc",
+              "on-background": "#283439",
+              "on-surface": "#283439",
+              "outline-variant": "#a7b4ba",
+              "on-tertiary": "#fbf7ff",
+              "on-secondary-fixed": "#354052",
+              "error-container": "#fe8983",
+              "surface-container-lowest": "#ffffff",
+              "error-dim": "#4e0309",
+              "outline": "#707d82",
+              "surface-container-high": "#dfeaef",
+              "primary-fixed": "#d6e3ff",
+              "tertiary-container": "#d9d7f8",
+              "surface-variant": "#d7e5eb",
+              "on-primary-container": "#38527b",
+              "on-tertiary-container": "#4a4a65",
+              "secondary": "#546073",
+              "surface-container": "#e7eff3",
+              "on-secondary-container": "#475265",
+              "on-primary": "#f6f7ff",
+              "on-error-container": "#752121",
+              "on-error": "#fff7f6",
+              "error": "#9f403d",
+              "tertiary-dim": "#51516c",
+              "on-surface-variant": "#546166",
+              "inverse-on-surface": "#9a9d9f",
+              "primary": "#455f88",
+              "surface-container-highest": "#d7e5eb",
+              "surface-container-low": "#eff4f7",
+              "tertiary-fixed-dim": "#cbc9e9",
+              "inverse-surface": "#0b0f10",
+              "surface-dim": "#ccdde4",
+              "on-secondary": "#f8f8ff",
+              "on-tertiary-fixed": "#373851",
+              "tertiary": "#5d5d78",
+              "primary-fixed-dim": "#bfd5ff",
+              "on-tertiary-fixed-variant": "#54546f",
+              "surface": "#f7fafc",
+              "inverse-primary": "#b3cdfd",
+              "on-primary-fixed-variant": "#425c85",
+              "secondary-container": "#d8e3fa"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 24px 48px -12px rgba(40, 52, 57, 0.06);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="bg-[#f7fafc]/80 dark:bg-slate-900/80 backdrop-blur-xl fixed top-0 w-full z-50">
+<div class="flex justify-between items-center px-12 py-4 max-w-[1440px] mx-auto">
+<div class="font-['Manrope'] text-2xl font-black text-[#1A365D] dark:text-white tracking-tighter">
+                APASE 2026
+            </div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors font-['Manrope'] font-bold tracking-tight text-lg" href="#">Home</a>
+<a class="text-[#1A365D] dark:text-white border-b-2 border-[#1A365D] dark:border-blue-400 pb-1 font-['Manrope'] font-bold tracking-tight text-lg" href="#">Committee</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors font-['Manrope'] font-bold tracking-tight text-lg" href="#">Submission</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors font-['Manrope'] font-bold tracking-tight text-lg" href="#">Registration</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors font-['Manrope'] font-bold tracking-tight text-lg" href="#">Attendance</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#1A365D] dark:hover:text-white transition-colors font-['Manrope'] font-bold tracking-tight text-lg" href="#">History</a>
+</nav>
+<button class="bg-gradient-to-br from-primary to-primary-dim text-on-primary px-6 py-2.5 rounded-md font-['Manrope'] font-bold text-sm hover:opacity-90 active:scale-95 transition-all">
+                Submit Paper
+            </button>
+</div>
+</header>
+<main class="pt-32 pb-24">
+<!-- Hero Section -->
+<section class="max-w-[1440px] mx-auto px-12 mb-24">
+<div class="max-w-4xl">
+<span class="inline-block px-4 py-1.5 bg-surface-container-highest text-on-surface-variant font-label text-xs font-bold tracking-widest uppercase mb-6 rounded-full">Governance &amp; Expertise</span>
+<h1 class="font-headline text-6xl md:text-7xl font-extrabold text-on-background tracking-tighter mb-8 leading-[1.1]">
+                    The Minds Behind <br/>
+<span class="text-primary italic">APASE 2026</span>
+</h1>
+<p class="font-body text-xl text-on-surface-variant leading-relaxed max-w-2xl">
+                    Our committee brings together world-renowned researchers and industry pioneers to curate an unparalleled academic experience in digital systems and applied engineering.
+                </p>
+</div>
+</section>
+<!-- Keynote Speakers: Visual Bento Grid -->
+<section class="max-w-[1440px] mx-auto px-12 mb-32">
+<div class="flex items-end justify-between mb-12">
+<div>
+<h2 class="font-headline text-3xl font-bold tracking-tight mb-2">Keynote Speakers</h2>
+<div class="w-12 h-1 bg-primary"></div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Main Keynote -->
+<div class="md:col-span-7 group relative overflow-hidden rounded-xl bg-surface-container-low aspect-[16/9]">
+<img alt="Dr. Elena Sterling" class="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" data-alt="Professional portrait of a female keynote speaker in a modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFe5hCdESQdRijOAElyCd4qUIMzeY0qIhllIhKAYgETKbwPt46YYz-Xtt3Qz4RLR7GT-RoXNvB2A1aS9FB9dNQ9dtugrwtrjB3GjVlZ63eq0Tr7b2X4e-_WdLNNes1njO3aM25loX9GgFATLBcT3EjJQUMzf1uwtWvGo9uAHCRnIVuz67Rs9g-EuWB7MJDy3og5dwkZEaFck3AQ7eKi8byjj4C5x2YcSUh-_r0nylXkXvv_gw572Wvhc_wC8sR_tKVEwnkxaN4Qyo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/90 via-on-background/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-10">
+<span class="font-label text-xs font-bold text-primary-fixed tracking-widest uppercase mb-2 block">Opening Keynote</span>
+<h3 class="font-headline text-4xl font-bold text-surface-container-lowest mb-2">Dr. Elena Sterling</h3>
+<p class="font-body text-lg text-surface-variant">Director of AI Ethics, Global Research Institute</p>
+</div>
+</div>
+<!-- Secondary Keynote -->
+<div class="md:col-span-5 flex flex-col gap-6">
+<div class="flex-1 group relative overflow-hidden rounded-xl bg-surface-container-low">
+<img alt="Prof. Marcus Thorne" class="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Portrait of a male professor smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-n_nhPkNoe2F6qLE5FvBMwnojbBI8TOF3-QqsVUr8bfFt4Rk-7rURbH3jhoz2VwiyhIWRzk18tnqGloXcKPSGaMCVNdSPNfgdanhB30su1brSP9XalKbtX6rhJPlF4YLQWY2DeQQkEJnIIIQ0GlLP7kwYx4TxA0PWcH03cgycaBf4q6nwaWS1nJpvBz8TCzNMh4LyYQoaJAUMZ3X7OEtMBvib9iq_rDjL4R3SmehVwUzoC7-DXUGTCEgrtg-UR4YGSx7-E_YQKac"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent opacity-80"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h4 class="font-headline text-2xl font-bold text-surface-container-lowest">Prof. Marcus Thorne</h4>
+<p class="font-body text-sm text-surface-variant">Quantum Computing Chair, ETH Zürich</p>
+</div>
+</div>
+<div class="flex-1 group relative overflow-hidden rounded-xl bg-surface-container-low">
+<img alt="Dr. Julian Vane" class="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Male researcher in professional attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZtzkesH7cicgqcxAGQus6sChpyLegCM83yF0ctMHbxWikW1wpefzCzIypdcY3svaKbooGeKTh7yy7HnRQ8WdZ3oEE1JS4NHow_wMwMQE34aFZ7ikkDfdZE4iJAfkEC68aMTPpToy911VqAcp2fyMvEuHKYsOlWOBT4iA6CKRsTitPUmv7UnRvfa_IjlPgB_Y5zX6MFGv-INuvOpL_vQa1giq0C2VKJJjaINHW4yFbwlQtjo9jgfqqOB-8VlGPOiDfITEKT9S8BUE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent opacity-80"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h4 class="font-headline text-2xl font-bold text-surface-container-lowest">Dr. Julian Vane</h4>
+<p class="font-body text-sm text-surface-variant">Senior Scientist, Neuromorphic Systems Lab</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Organizing Committee: Editorial List -->
+<section class="max-w-[1440px] mx-auto px-12 mb-32">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+<div class="lg:col-span-4">
+<h2 class="font-headline text-4xl font-bold tracking-tighter mb-6">Organizing Committee</h2>
+<p class="text-on-surface-variant leading-relaxed">The stewards of APASE 2026, responsible for the operational excellence and strategic vision of this year's conference.</p>
+</div>
+<div class="lg:col-span-8">
+<div class="space-y-px">
+<!-- Committee Row -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 py-8 border-b border-surface-variant/30 group hover:bg-surface-container-low/50 transition-colors px-4 -mx-4">
+<div>
+<span class="font-label text-[10px] font-bold text-primary tracking-widest uppercase mb-1 block">General Chair</span>
+<h4 class="font-headline text-xl font-bold">Prof. Aris Thorne</h4>
+</div>
+<div class="flex items-center text-on-surface-variant font-body">
+<span>Imperial College London, United Kingdom</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 py-8 border-b border-surface-variant/30 group hover:bg-surface-container-low/50 transition-colors px-4 -mx-4">
+<div>
+<span class="font-label text-[10px] font-bold text-primary tracking-widest uppercase mb-1 block">Program Chair</span>
+<h4 class="font-headline text-xl font-bold">Dr. Sarah Jenkins</h4>
+</div>
+<div class="flex items-center text-on-surface-variant font-body">
+<span>Stanford University, USA</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 py-8 border-b border-surface-variant/30 group hover:bg-surface-container-low/50 transition-colors px-4 -mx-4">
+<div>
+<span class="font-label text-[10px] font-bold text-primary tracking-widest uppercase mb-1 block">Publicity Chair</span>
+<h4 class="font-headline text-xl font-bold">Michael Chen</h4>
+</div>
+<div class="flex items-center text-on-surface-variant font-body">
+<span>National University of Singapore</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 py-8 border-b border-surface-variant/30 group hover:bg-surface-container-low/50 transition-colors px-4 -mx-4">
+<div>
+<span class="font-label text-[10px] font-bold text-primary tracking-widest uppercase mb-1 block">Publication Chair</span>
+<h4 class="font-headline text-xl font-bold">Prof. Yumi Sato</h4>
+</div>
+<div class="flex items-center text-on-surface-variant font-body">
+<span>Tokyo Institute of Technology, Japan</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 py-8 group hover:bg-surface-container-low/50 transition-colors px-4 -mx-4">
+<div>
+<span class="font-label text-[10px] font-bold text-primary tracking-widest uppercase mb-1 block">Finance Chair</span>
+<h4 class="font-headline text-xl font-bold">Dr. Robert Downey</h4>
+</div>
+<div class="flex items-center text-on-surface-variant font-body">
+<span>University of Melbourne, Australia</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Program Committee: Tonal Grid -->
+<section class="bg-surface-container-low py-32">
+<div class="max-w-[1440px] mx-auto px-12">
+<div class="text-center max-w-3xl mx-auto mb-20">
+<h2 class="font-headline text-4xl font-extrabold tracking-tight mb-4 text-on-background">Technical Program Committee</h2>
+<p class="text-on-surface-variant font-body">A global network of experts ensuring the rigorous peer-review process and scientific integrity of all accepted submissions.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+<!-- Column 1 -->
+<div class="space-y-12">
+<div class="pl-6 border-l-2 border-primary/20">
+<h5 class="font-headline font-bold text-lg mb-1">Prof. Alicia Sierra</h5>
+<p class="text-sm text-on-surface-variant mb-3">Universidad de Madrid</p>
+<span class="inline-block px-2 py-0.5 bg-surface-container-highest rounded text-[10px] font-bold text-primary-dim uppercase tracking-wider">Cybersecurity</span>
+</div>
+<div class="pl-6 border-l-2 border-primary/20">
+<h5 class="font-headline font-bold text-lg mb-1">Dr. Kevin Zhang</h5>
+<p class="text-sm text-on-surface-variant mb-3">Tsinghua University</p>
+<span class="inline-block px-2 py-0.5 bg-surface-container-highest rounded text-[10px] font-bold text-primary-dim uppercase tracking-wider">Data Mining</span>
+</div>
+<div class="pl-6 border-l-2 border-primary/20">
+<h5 class="font-headline font-bold text-lg mb-1">Prof. Linda Dubois</h5>
+<p class="text-sm text-on-surface-variant mb-3">Sorbonne Université</p>
+<span class="inline-block px-2 py-0.5 bg-surface-container-highest rounded text-[10px] font-bold text-primary-dim uppercase tracking-wider">HCI</span>
+</div>
+</div>
+<!-- Column 2 -->
+<div class="space-y-12">
+<div class="pl-6 border-l-2 border-primary/20">
+<h5 class="font-headline font-bold text-lg mb-1">Dr. Omar Al-Fayed</h5>
+<p class="text-sm text-on-surface-variant mb-3">King Abdullah University</p>
+<span class="inline-block px-2 py-0.5 bg-surface-container-highest rounded text-[10px] font-bold text-primary-dim uppercase tracking-wider">Robotics</span>
+</div>
+<div class="pl-6 border-l-2 border-primary/20">
+<h5 class="font-headline font-bold text-lg mb-1">Prof. Elena Rossi</h5>
+<p class="text-sm text-on-surface-variant mb-3">Politecnico di Milano</p>
+<span class="inline-block px-2 py-0.5 bg-surface-container-highest rounded text-[10px] font-bold text-primary-dim uppercase tracking-wider">Smart Cities</span>
+</div>
+<div class="pl-6 border-l-2 border-primary/20">
+<h5 class="font-headline font-bold text-lg mb-1">Dr. Samuel Thompson</h5>
+<p class="text-sm text-on-surface-variant mb-3">University of Toronto</p>
+<span class="inline-block px-2 py-0.5 bg-surface-container-highest rounded text-[10px] font-bold text-primary-dim uppercase tracking-wider">Distributed Systems</span>
+</div>
+</div>
+<!-- Column 3 -->
+<div class="space-y-12">
+<div class="pl-6 border-l-2 border-primary/20">
+<h5 class="font-headline font-bold text-lg mb-1">Prof. Ingrid Meyer</h5>
+<p class="text-sm text-on-surface-variant mb-3">TU Munich</p>
+<span class="inline-block px-2 py-0.5 bg-surface-container-highest rounded text-[10px] font-bold text-primary-dim uppercase tracking-wider">Software Eng</span>
+</div>
+<div class="pl-6 border-l-2 border-primary/20">
+<h5 class="font-headline font-bold text-lg mb-1">Dr. Sanjay Gupta</h5>
+<p class="text-sm text-on-surface-variant mb-3">IIT Delhi</p>
+<span class="inline-block px-2 py-0.5 bg-surface-container-highest rounded text-[10px] font-bold text-primary-dim uppercase tracking-wider">Edge Computing</span>
+</div>
+<div class="pl-6 border-l-2 border-primary/20">
+<h5 class="font-headline font-bold text-lg mb-1">Prof. Catherine Bell</h5>
+<p class="text-sm text-on-surface-variant mb-3">Cambridge University</p>
+<span class="inline-block px-2 py-0.5 bg-surface-container-highest rounded text-[10px] font-bold text-primary-dim uppercase tracking-wider">Bio-Informatics</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="max-w-[1440px] mx-auto px-12 mt-32">
+<div class="relative overflow-hidden rounded-2xl bg-on-background p-16 text-center">
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary rounded-full blur-[120px] -mr-48 -mt-48"></div>
+<div class="absolute bottom-0 left-0 w-96 h-96 bg-primary-dim rounded-full blur-[120px] -ml-48 -mb-48"></div>
+</div>
+<div class="relative z-10">
+<h2 class="font-headline text-4xl font-bold text-white mb-6">Join the Elite Research Community</h2>
+<p class="text-surface-variant/80 text-lg mb-10 max-w-2xl mx-auto">Call for Papers is now open. Submit your breakthrough research and be part of the future of digital applied systems.</p>
+<div class="flex flex-wrap justify-center gap-4">
+<button class="bg-primary text-on-primary px-10 py-4 rounded-md font-headline font-bold text-lg hover:scale-105 transition-transform">Submit Your Paper</button>
+<button class="bg-transparent border border-surface-variant/20 text-white px-10 py-4 rounded-md font-headline font-bold text-lg hover:bg-white/5 transition-colors">Registration Info</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-950 w-full mt-auto">
+<div class="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-4 gap-12 max-w-[1440px] mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="font-['Manrope'] font-extrabold text-[#1A365D] dark:text-white mb-6 text-2xl tracking-tighter">APASE 2026</div>
+<p class="font-['Inter'] text-sm leading-relaxed text-slate-500 dark:text-slate-400 mb-6">The premier international conference for Applied Digital Systems and Engineering.</p>
+</div>
+<div>
+<h5 class="font-headline font-bold text-[#1A365D] mb-6">Resources</h5>
+<ul class="space-y-4 font-['Inter'] text-sm text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Submission</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Templates</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Call for Papers</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-headline font-bold text-[#1A365D] mb-6">Information</h5>
+<ul class="space-y-4 font-['Inter'] text-sm text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Important Dates</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-[#1A365D] dark:hover:text-blue-400 transition-colors" href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-headline font-bold text-[#1A365D] mb-6">Connect</h5>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-primary transition-colors" data-icon="public">public</span>
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-primary transition-colors" data-icon="mail">mail</span>
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-primary transition-colors" data-icon="share">share</span>
+</div>
+</div>
+</div>
+<div class="max-w-[1440px] mx-auto px-12 py-8 border-t border-surface-variant/20 flex justify-between items-center text-xs text-slate-400">
+<span>© 2026 APASE Conference. All rights reserved.</span>
+<div class="flex gap-6">
+<a class="hover:underline" href="#">Legal Notice</a>
+<a class="hover:underline" href="#">Cookie Policy</a>
+</div>
+</div>
+</footer>
+</body></html>

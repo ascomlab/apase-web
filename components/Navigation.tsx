@@ -1,11 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { navigationLinks } from "@/data/content";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-white/85 backdrop-blur-md bg-surface-container-low border-b border-slate-200/60">
@@ -22,7 +24,7 @@ export default function Navigation() {
               key={link.label}
               href={link.href}
               className={`font-headline font-bold tracking-tight text-lg transition-colors ${
-                link.active
+                pathname === link.href
                   ? "text-[#1A365D] border-b-2 border-[#1A365D] pb-1"
                   : "text-slate-500 hover:text-[#1A365D]"
               }`}
@@ -79,7 +81,7 @@ export default function Navigation() {
               href={link.href}
               onClick={() => setIsOpen(false)}
               className={`font-headline text-lg font-bold tracking-tight transition-colors ${
-                link.active
+                pathname === link.href
                   ? "text-[#1A365D]"
                   : "text-slate-600 hover:text-[#1A365D]"
               }`}
