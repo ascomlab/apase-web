@@ -3,7 +3,7 @@ import { publications } from "@/data/content";
 
 export default function PublicationsSection() {
   return (
-    <section className="px-12 py-24 max-w-[1440px] mx-auto">
+    <section id="publications" className="px-12 py-24 max-w-[1440px] mx-auto">
       <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
         <div>
           <h2 className="font-headline text-4xl font-extrabold text-[#1A365D] mb-4">

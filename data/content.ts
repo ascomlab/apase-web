@@ -6,7 +6,7 @@ export const navigationLinks = [
   { href: "/submission", label: "Submission" },
   { href: "/registration", label: "Registration" },
   { href: "/attendance", label: "Attendance" },
-  { href: "/history", label: "History" },
+  { href: "/#publications", label: "Proceedings" },
 ];
 
 export const heroData = {
@@ -382,6 +382,8 @@ export const institutionalSupport = {
     { name: "KU", logo: getAssetPath("/logo/assistances/ku-logo.png") },
     { name: "MU", logo: getAssetPath("/logo/assistances/mu-logo.png") },
     { name: "PIM", logo: getAssetPath("/logo/assistances/pim-logo.png") },
+    { name: "MUT", logo: getAssetPath("/logo/assistances/mut-logo.png") },
+    { name: "SWU", logo: getAssetPath("/logo/assistances/swu-logo.png") },
   ],
 };
 
