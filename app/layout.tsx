@@ -17,7 +17,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    "APASE 2026 | Annual International Conference on Applied Physics and Applied Science Engineering",
+    "APASE 2026 | Asia-Pacific Aerospace Science & Engineering Symposium International Conference",
   description:
     "Join leading researchers and practitioners in exploring the frontiers of physics and engineering at APASE 2026 in Osaka, Japan.",
 };
