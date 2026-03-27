@@ -18,20 +18,6 @@ export default function HeroSection() {
           <p className="font-body text-xl text-on-surface-variant max-w-xl mb-12 leading-relaxed">
             {heroData.description}
           </p>
-          <div className="flex flex-wrap gap-4">
-            {heroData.buttons.map((button) => (
-              <button
-                key={button.label}
-                className={
-                  button.primary
-                    ? "bg-gradient-to-br from-primary to-primary-dim text-on-primary px-8 py-4 rounded-lg font-bold shadow-lg hover:shadow-xl transition-all"
-                    : "bg-surface-container-high text-on-surface px-8 py-4 rounded-lg font-bold hover:bg-surface-container-highest transition-all"
-                }
-              >
-                {button.label}
-              </button>
-            ))}
-          </div>
         </div>
         <div className="lg:col-span-5 relative">
           <div className="aspect-square bg-surface-container-low rounded-full absolute -top-12 -right-12 w-[120%] -z-10 blur-3xl opacity-50"></div>
@@ -55,7 +41,7 @@ export default function HeroSection() {
         </div>
       </div>
       {/* Organizer Logos */}
-      <div className="mt-24 pt-12 border-t border-slate-200/50 flex flex-wrap items-center gap-16 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all">
+      <div className="mt-24 pt-12 border-t border-slate-200/50 flex flex-wrap items-center gap-16">
         <p className="font-bold text-sm text-outline tracking-widest uppercase">
           Organized By
         </p>

@@ -21,11 +21,11 @@ export default function SponsorsSection() {
                 {group.title}
               </h4>
 
-              <div className="flex flex-wrap justify-center gap-4 sm:gap-6 items-center">
+              <div className="flex flex-wrap justify-center gap-1 sm:gap-2 items-center">
                 {group.items.map((org) => (
                   <div
                     key={org.name}
-                    className="group flex min-h-36 w-[180px] sm:w-[300px] items-center justify-center px-5 py-6"
+                    className="flex min-h-36 w-[160px] sm:w-[260px] items-center justify-center px-2 py-4"
                     title={org.name}
                   >
                     <Image
@@ -33,7 +33,7 @@ export default function SponsorsSection() {
                       alt={org.name}
                       width={320}
                       height={160}
-                      className="mx-auto h-24 sm:h-28 w-auto max-w-full object-contain grayscale opacity-75 transition-all duration-300 group-hover:grayscale-0 group-hover:opacity-100"
+                      className="mx-auto h-24 sm:h-28 w-auto max-w-full object-contain"
                     />
                   </div>
                 ))}
