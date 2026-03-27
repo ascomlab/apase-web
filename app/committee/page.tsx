@@ -175,9 +175,9 @@ export default function CommitteePage() {
 
             {keynoteSpeakers
               .filter((speaker) => speaker.layout === "stacked")
-              .map((speaker) => (
+              .map((speaker, idx) => (
                 <div
-                  key={speaker.name}
+                  key={speaker.name + idx}
                   className="md:col-span-5 group relative overflow-hidden rounded-xl bg-surface-container-low h-[200px] md:h-full"
                 >
                   <Image
