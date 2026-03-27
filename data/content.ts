@@ -1,3 +1,5 @@
+import { getAssetPath } from "@/app/utils";
+
 export const navigationLinks = [
   { href: "/", label: "Home" },
   { href: "/committee", label: "Committee" },
@@ -16,7 +18,7 @@ export const heroData = {
   description:
     "Join leading researchers and practitioners in exploring the frontiers of physics and engineering.",
   image: {
-    src: "/images/hero-image.png",
+    src: getAssetPath("/images/hero-image.png"),
     alt: "Microscopic view of advanced physical materials",
   },
   buttons: [
@@ -28,10 +30,10 @@ export const heroData = {
     location: "Harbin, China",
   },
   organizers: [
-    { name: "HIT", logo: "/logo/organizors/hit-logo.png" },
-    { name: "IDSEA", logo: "/logo/organizors/idsea-logo.png" },
-    { name: "KMITL", logo: "/logo/organizors/kmitl-logo.png" },
-    { name: "NARIT", logo: "/logo/organizors/narit-logo.png" },
+    { name: "HIT", logo: getAssetPath("/logo/organizors/hit-logo.png") },
+    { name: "IDSEA", logo: getAssetPath("/logo/organizors/idsea-logo.png") },
+    { name: "KMITL", logo: getAssetPath("/logo/organizors/kmitl-logo.png") },
+    { name: "NARIT", logo: getAssetPath("/logo/organizors/narit-logo.png") },
   ],
 };
 
@@ -372,14 +374,14 @@ export const publications = [
 
 export const institutionalSupport = {
   sponsors: [
-    { name: "APSCO", logo: "/logo/sponsors/apsco-logo.png" },
-    { name: "NRCT", logo: "/logo/sponsors/nrct-logo.png" },
+    { name: "APSCO", logo: getAssetPath("/logo/sponsors/apsco-logo.png") },
+    { name: "NRCT", logo: getAssetPath("/logo/sponsors/nrct-logo.png") },
   ],
   assistances: [
-    { name: "CRA", logo: "/logo/assistances/cra-logo.png" },
-    { name: "KU", logo: "/logo/assistances/ku-logo.png" },
-    { name: "MU", logo: "/logo/assistances/mu-logo.png" },
-    { name: "PIM", logo: "/logo/assistances/pim-logo.png" },
+    { name: "CRA", logo: getAssetPath("/logo/assistances/cra-logo.png") },
+    { name: "KU", logo: getAssetPath("/logo/assistances/ku-logo.png") },
+    { name: "MU", logo: getAssetPath("/logo/assistances/mu-logo.png") },
+    { name: "PIM", logo: getAssetPath("/logo/assistances/pim-logo.png") },
   ],
 };
 
