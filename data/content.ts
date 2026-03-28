@@ -394,38 +394,33 @@ export const footerData = {
       "Advancing the future of applied sciences through global collaboration and rigorous academic exchange.",
   },
   social: [
-    { icon: "Globe", href: "#", label: "Website" },
-    { icon: "Mail", href: "#", label: "Email" },
-    { icon: "Share2", href: "#", label: "Share" },
+    { icon: "Globe", href: "/", label: "Website" },
+    { icon: "Mail", href: "mailto:info@apase.org", label: "Email" },
   ],
   sections: [
     {
       title: "Conference",
       links: [
-        { label: "Submission", href: "#" },
-        { label: "Templates", href: "#" },
-        { label: "Call for Papers", href: "#" },
-        { label: "Contact", href: "#" },
+        { label: "Submission", href: "/submission" },
+        { label: "Templates", href: "/submission" },
+        { label: "Call for Papers", href: "/submission" },
+        { label: "Committee", href: "/committee" },
       ],
     },
     {
       title: "Resources",
       links: [
-        { label: "Past Proceedings", href: "#" },
-        { label: "Venue & Travel", href: "#" },
-        { label: "Visa Info", href: "#" },
-        { label: "Privacy Policy", href: "#" },
+        { label: "Past Proceedings", href: "/#publications" },
+        { label: "Venue & Travel", href: "/attendance" },
+        { label: "Visa Info", href: "/attendance#visa" },
+        { label: "Registration", href: "/registration" },
       ],
     },
   ],
   contact: {
     title: "Contact Us",
-    info: [
-      "Conference Secretariat",
-      "Email: info@apase.org",
-      "Tel: +81 03-XXXX-XXXX",
-    ],
-    hours: ["Office Hours: Mon - Fri", "09:00 - 18:00 (JST)"],
+    info: ["Conference Secretariat", "Email: TBD", "Tel: TBD"],
+    hours: ["Office Hours: Mon - Fri", "09:00 - 18:00 (CST)"],
   },
   copyright:
     "© 2026 APASE Conference. All rights reserved. Designed for excellence in academic curation.",
