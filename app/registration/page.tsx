@@ -40,11 +40,7 @@ const registrationFeeSections = [
   },
 ];
 
-const registrationNotes = [
-  "One registration covers one paper only.",
-  "Student status verification will be required.",
-  "Payment instructions will be added later.",
-];
+const registrationNotes = ["TBD", "TBD", "TBD"];
 
 export default function RegistrationPage() {
   return (
@@ -57,8 +53,7 @@ export default function RegistrationPage() {
           Join the <span className="text-primary">Intellectual</span> Discourse.
         </h1>
         <p className="text-on-surface-variant text-lg md:text-xl leading-relaxed">
-          Placeholder registration content. Fill in the fees, deadlines, and
-          portal details when ready.
+          TBD
         </p>
       </header>
 
@@ -125,25 +120,29 @@ export default function RegistrationPage() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-surface-container-lowest px-6 py-6 rounded-xl border-l-4 border-primary shadow-sm">
-                <h3 className="font-headline font-bold text-xl mb-4">
+              <div className="group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
+                <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
+                <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-70" />
+                <h3 className="font-headline font-bold text-xl mb-4 relative z-10">
                   Early Bird Deadline
                 </h3>
-                <p className="text-on-surface-variant body-md leading-relaxed mb-3">
+                <p className="text-on-surface-variant body-md leading-relaxed mb-3 relative z-10">
                   Last day to register at the early-bird rate
                 </p>
-                <div className="text-primary font-bold text-xl font-headline tracking-tight">
+                <div className="text-primary font-bold text-xl font-headline tracking-tight relative z-10">
                   OCT 31 2026
                 </div>
               </div>
-              <div className="bg-surface-container-lowest px-6 py-6 rounded-xl border-l-4 border-secondary shadow-sm">
-                <h3 className="font-headline font-bold text-xl mb-4">
+              <div className="group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
+                <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
+                <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-70" />
+                <h3 className="font-headline font-bold text-xl mb-4 relative z-10">
                   Regular Deadline
                 </h3>
-                <p className="text-on-surface-variant body-md leading-relaxed mb-3">
+                <p className="text-on-surface-variant body-md leading-relaxed mb-3 relative z-10">
                   Standard registration closes
                 </p>
-                <div className="text-on-surface font-bold text-xl font-headline tracking-tight">
+                <div className="text-on-surface font-bold text-xl font-headline tracking-tight relative z-10">
                   NOV 30 2025
                 </div>
               </div>
@@ -157,7 +156,7 @@ export default function RegistrationPage() {
               </h3>
               <div className="space-y-6">
                 <p className="text-sm text-on-surface-variant leading-relaxed">
-                  Add your payment methods here.
+                  TBD
                 </p>
               </div>
             </div>
@@ -166,8 +165,8 @@ export default function RegistrationPage() {
                 Important Notes
               </h3>
               <ul className="space-y-4 text-sm text-on-surface-variant">
-                {registrationNotes.map((note) => (
-                  <li key={note} className="flex gap-3">
+                {registrationNotes.map((note, idx) => (
+                  <li key={note + idx} className="flex gap-3">
                     <span className="text-primary">•</span>
                     <span>{note}</span>
                   </li>
@@ -180,7 +179,7 @@ export default function RegistrationPage() {
                   Ready to register?
                 </h3>
                 <p className="text-primary-fixed/80 text-sm mb-8 leading-relaxed">
-                  Registration CTA placeholder.
+                  TBD
                 </p>
                 <button className="inline-flex items-center gap-2 bg-surface-container-lowest text-primary px-6 py-3 rounded font-bold text-sm">
                   Go to Registration Portal

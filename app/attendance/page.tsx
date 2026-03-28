@@ -49,16 +49,17 @@ export default function AttendancePage() {
             <span className="text-primary italic font-medium">Experience</span>
           </h1>
           <p className="font-body text-xl text-on-surface-variant max-w-2xl leading-relaxed">
-            Placeholder attendance content. Replace the venue, travel, and
-            schedule details when ready.
+            TBD
           </p>
         </div>
         <div className="lg:col-span-4 flex flex-col items-end">
-          <div className="bg-surface-container-low p-8 rounded-xl w-full border-l-4 border-primary">
-            <p className="font-headline font-bold text-primary mb-2">
+          <div className="group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15 w-full">
+            <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
+            <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-70" />
+            <p className="font-headline font-bold text-primary mb-2 relative z-10">
               QUICK LINKS
             </p>
-            <ul className="space-y-3 font-label text-on-surface">
+            <ul className="space-y-3 font-label text-on-surface relative z-10">
               {quickLinks.map((item, idx) => (
                 <li key={item.url + idx}>
                   <Link
@@ -123,9 +124,7 @@ export default function AttendancePage() {
               <h2 className="font-headline text-3xl font-bold mb-4">
                 Conference Schedule
               </h2>
-              <p className="text-on-surface-variant max-w-md">
-                Schedule placeholder content.
-              </p>
+              <p className="text-on-surface-variant max-w-md">TBD</p>
             </div>
             <div className="mt-12 p-8 border-2 border-dashed border-outline-variant rounded-xl flex items-center justify-center bg-background/50">
               <div className="text-center">
@@ -144,9 +143,7 @@ export default function AttendancePage() {
               <h2 className="font-headline text-3xl font-bold text-on-primary-container mb-4">
                 Visa Information
               </h2>
-              <p className="text-on-primary-container/80 font-medium">
-                Replace with the final visa instructions.
-              </p>
+              <p className="text-on-primary-container/80 font-medium">TBD</p>
             </div>
             <div className="mt-8">
               <p className="text-sm text-on-primary-container/70 mb-6">
@@ -166,29 +163,31 @@ export default function AttendancePage() {
                   <br />
                   Instructions
                 </h2>
-                <p className="mt-4 text-on-surface-variant">
-                  Placeholder presentation guidance.
-                </p>
+                <p className="mt-4 text-on-surface-variant">TBD</p>
               </div>
-              <div className="bg-surface-container-lowest p-8 rounded-xl shadow-sm border-t-4 border-primary">
-                <h3 className="font-headline font-bold text-xl mb-4">
+              <div className="group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
+                <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
+                <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-70" />
+                <h3 className="font-headline font-bold text-xl mb-4 relative z-10">
                   Oral Presentations
                 </h3>
-                <p className="text-on-surface-variant text-sm mb-6">
-                  Speaker instructions placeholder.
+                <p className="text-on-surface-variant text-sm mb-6 relative z-10">
+                  TBD
                 </p>
-                <span className="text-xs font-bold text-primary uppercase tracking-widest">
+                <span className="text-xs font-bold text-primary uppercase tracking-widest relative z-10 block">
                   Guide coming soon
                 </span>
               </div>
-              <div className="bg-surface-container-lowest p-8 rounded-xl shadow-sm border-t-4 border-primary">
-                <h3 className="font-headline font-bold text-xl mb-4">
+              <div className="group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
+                <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
+                <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-70" />
+                <h3 className="font-headline font-bold text-xl mb-4 relative z-10">
                   Poster Sessions
                 </h3>
-                <p className="text-on-surface-variant text-sm mb-6">
-                  Poster instructions placeholder.
+                <p className="text-on-surface-variant text-sm mb-6 relative z-10">
+                  TBD
                 </p>
-                <span className="text-xs font-bold text-primary uppercase tracking-widest">
+                <span className="text-xs font-bold text-primary uppercase tracking-widest relative z-10 block">
                   Guide coming soon
                 </span>
               </div>

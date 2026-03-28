@@ -126,8 +126,7 @@ export default function CommitteePage() {
             <span className="text-primary italic">APASE 2026</span>
           </h1>
           <p className="font-body text-xl text-on-surface-variant leading-relaxed max-w-2xl">
-            Placeholder committee content. Replace each name, role, and
-            description with the final conference roster.
+            TBD
           </p>
         </div>
       </section>
@@ -238,9 +237,7 @@ export default function CommitteePage() {
             <h2 className="font-headline text-4xl font-extrabold tracking-tight mb-4 text-on-background">
               Technical Program Committee
             </h2>
-            <p className="text-on-surface-variant font-body">
-              Placeholder technical committee entries for now.
-            </p>
+            <p className="text-on-surface-variant font-body">TBC</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-8">
             {technicalCommittee.map((committee, idx) => (

@@ -1,8 +1,4 @@
-const submissionTracks = [
-  "Applied engineering",
-  "Computational science",
-  "Materials and environment",
-];
+const submissionTracks = ["TBD", "TBD", "TBD"];
 
 const importantDate = [
   {
@@ -39,24 +35,22 @@ export default function SubmissionPage() {
           of <span className="text-primary italic">Digital Intelligence</span>
         </h1>
         <p className="text-lg text-on-surface-variant leading-relaxed max-w-2xl font-body">
-          Placeholder submission content. Replace this with the final call for
-          papers, guidelines, and portal links.
+          TBD
         </p>
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-24">
-        <div className="md:col-span-7 bg-surface-container-lowest p-10 md:p-14 rounded-xl shadow-sm border-l-4 border-primary">
-          <h2 className="text-3xl font-extrabold text-on-surface mb-6 tracking-tight">
+        <div className="md:col-span-7 group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
+          <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
+          <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-70" />
+          <h2 className="text-3xl font-extrabold text-on-surface mb-6 tracking-tight relative z-10">
             Paper Submission System
           </h2>
           <div className="space-y-6 mb-10 text-on-surface-variant leading-relaxed">
-            <p>
-              Replace this placeholder with your official submission
-              instructions.
-            </p>
+            <p>TBD</p>
             <ul className="space-y-3">
-              {submissionTracks.map((track) => (
-                <li key={track} className="flex items-start gap-3">
+              {submissionTracks.map((track, idx) => (
+                <li key={track + idx} className="flex items-start gap-3">
                   <span className="text-primary text-xl">•</span>
                   <span>{track}</span>
                 </li>
@@ -99,9 +93,7 @@ export default function SubmissionPage() {
             <h2 className="text-4xl font-extrabold tracking-tight mb-2">
               Important Dates
             </h2>
-            <p className="text-on-surface-variant">
-              Replace each milestone with the final schedule.
-            </p>
+            <p className="text-on-surface-variant">TBD</p>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-px bg-outline-variant/20 rounded-xl overflow-hidden">
