@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -12,11 +13,15 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-white/85 backdrop-blur-md bg-surface-container-low border-b border-slate-200/60">
       <div className="flex items-center justify-between px-4 sm:px-6 lg:px-12 py-4 max-w-[1440px] mx-auto">
-        <Link
-          href="/"
-          className="font-headline text-3xl font-black text-[#1A365D] tracking-tighter"
-        >
-          APASE
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo/apase-logo.jpg"
+            alt="APASE Logo"
+            width={120}
+            height={50}
+            priority
+            className="h-12 w-auto"
+          />
         </Link>
         <div className="hidden lg:flex gap-8 items-center">
           {navigationLinks.map((link) => (

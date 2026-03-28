@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Globe, Mail, Share2, LucideIcon } from "lucide-react";
 import { footerData } from "@/data/content";
@@ -14,9 +15,15 @@ export default function Footer() {
       <div className="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-4 gap-12 max-w-[1440px] mx-auto">
         {/* Brand Section */}
         <div className="md:col-span-1">
-          <div className="font-headline font-extrabold text-[#1A365D] text-2xl mb-6">
-            {footerData.brand.name}
-          </div>
+          <Link href="/" className="inline-block mb-6">
+            <Image
+              src="/logo/apase-logo.jpg"
+              alt="APASE Logo"
+              width={150}
+              height={60}
+              className="h-16 w-auto"
+            />
+          </Link>
           <p className="font-body text-sm leading-relaxed text-slate-500 mb-8">
             {footerData.brand.description}
           </p>

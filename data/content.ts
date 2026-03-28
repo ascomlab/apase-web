@@ -1,5 +1,3 @@
-import { getAssetPath } from "@/app/utils";
-
 export const navigationLinks = [
   { href: "/", label: "Home" },
   { href: "/committee", label: "Committee" },
