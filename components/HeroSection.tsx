@@ -41,11 +41,11 @@ export default function HeroSection() {
         </div>
       </div>
       {/* Organizer Logos */}
-      <div className="mt-24 pt-12 border-t border-slate-200/50 flex flex-wrap items-center gap-16">
+      <div className="mt-24 pt-12 border-t border-slate-200/50 flex flex-col md:flex-row flex-wrap items-center gap-16">
         <p className="font-bold text-sm text-outline tracking-widest uppercase">
           Organized By
         </p>
-        <div className="flex gap-12 items-center">
+        <div className="flex flex-wrap gap-12 items-center justify-center">
           {heroData.organizers.map((org, index) => (
             <div
               key={index}
