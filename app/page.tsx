@@ -1,31 +1,8 @@
 import Image from "next/image";
-
-// import QuickAccessBento from "@/components/QuickAccessBento";
-import { getAssetPath, getMilestoneKey, getTodayKey } from "./utils";
 import { BookOpen } from "lucide-react";
 
-const importantDate = [
-  {
-    date: "JUL 31 2026",
-    title: "Full Paper Deadline",
-    description: "Replace with the actual deadline for paper submission.",
-  },
-  {
-    date: "SEP 15 2026",
-    title: "Review result",
-    description: "Acceptance results sent to authors",
-  },
-  {
-    date: "OCT 15 2026",
-    title: "Camera-Ready Paper Submission",
-    description: "Revised final papers due",
-  },
-  {
-    date: "DEC 20–22 2026",
-    title: "Conference Dates",
-    description: "APASE 2026 conference in Harbin, China",
-  },
-];
+import { getAssetPath, getMilestoneKey, getTodayKey } from "./utils";
+import { importantDate } from "./data";
 
 const heroData = {
   badge: "International Conference",
@@ -439,8 +416,6 @@ export default function Home() {
         </section>
       </div>
 
-      {/* <QuickAccessBento /> */}
-
       <section className="px-12 py-24 max-w-[1440px] mx-auto">
         <div className="flex flex-col md:flex-row gap-20">
           <div className="md:w-1/3">
@@ -525,9 +500,6 @@ export default function Home() {
               Proceedings
             </p>
           </div>
-          {/* <button className="text-primary font-bold border-b-2 border-primary pb-1 hover:text-primary-dim transition-colors">
-          View All Publications
-        </button> */}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {publications.map((pub) => (

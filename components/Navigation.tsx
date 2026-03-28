@@ -4,7 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { navigationLinks } from "@/data/content";
+
+const navigationLinks = [
+  { href: "/", label: "Home" },
+  { href: "/committee", label: "Committee" },
+  { href: "/submission", label: "Submission" },
+  { href: "/registration", label: "Registration" },
+  { href: "/attendance", label: "Attendance" },
+  { href: "/#publications", label: "Proceedings" },
+];
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
