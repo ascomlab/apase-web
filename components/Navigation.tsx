@@ -12,15 +12,15 @@ export default function Navigation() {
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-white/85 backdrop-blur-md bg-surface-container-low border-b border-slate-200/60">
-      <div className="flex items-center justify-between px-4 sm:px-6 lg:px-12 py-4 max-w-[1440px] mx-auto">
+      <div className="flex items-center justify-between px-4 sm:px-6 lg:px-12 py-2 max-w-[1440px] mx-auto">
         <Link href="/" className="flex items-center">
           <Image
-            src="/logo/apase-logo.jpg"
+            src="/logo/apase-logo.png"
             alt="APASE Logo"
             width={120}
-            height={50}
+            height={64}
             priority
-            className="h-12 w-auto"
+            className="h-14 w-auto"
           />
         </Link>
         <div className="hidden lg:flex gap-8 items-center">
