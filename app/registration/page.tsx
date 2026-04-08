@@ -4,7 +4,7 @@ const registrationFeeSections = [
     entries: [
       { category: "Presentation & Publication", rate: "US $600 / CNY4200" },
       {
-        category: "Presentation Only (TBC with system)",
+        category: "Presentation Only",
         rate: "US $450 / CNY3200",
       },
       { category: "Listeners", rate: "US $280 / CNY1900" },
@@ -19,7 +19,7 @@ const registrationFeeSections = [
     entries: [
       { category: "Presentation & Publication", rate: "US $550 / CNY3800" },
       {
-        category: "Presentation Only (TBC with system)",
+        category: "Presentation Only",
         rate: "US $400 / CNY2800",
       },
       { category: "Listeners", rate: "US $240 / CNY1600" },
