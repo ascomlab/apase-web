@@ -47,9 +47,11 @@ export default function Navigation() {
             </Link>
           ))}
         </div>
-        <button className="hidden lg:inline-flex bg-gradient-to-br from-primary to-primary-dim text-on-primary px-6 py-2.5 rounded-md font-semibold tracking-wide hover:scale-95 transition-all duration-200">
-          Submit Paper
-        </button>
+        <Link href="/submission">
+          <button className="hidden lg:inline-flex bg-gradient-to-br from-primary to-primary-dim text-on-primary px-6 py-2.5 rounded-md font-semibold tracking-wide hover:scale-95 transition-all duration-200">
+            Submit Paper
+          </button>
+        </Link>
         <button
           type="button"
           aria-label={isOpen ? "Close menu" : "Open menu"}
