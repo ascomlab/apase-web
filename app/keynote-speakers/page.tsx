@@ -14,7 +14,7 @@ export default function KeynoteSpeakersPage() {
             Conference Highlights
           </span>
           <h1 className="font-headline text-5xl md:text-7xl font-extrabold tracking-tighter text-on-background mb-8 leading-[0.95]">
-            Keynote
+            Keynote{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-dim">
               Speakers
             </span>
