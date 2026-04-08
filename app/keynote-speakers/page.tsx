@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { speakers, pageContent } from "./speakers";
+import { speakers } from "./speakers";
 import { getAssetPath } from "../utils";
 
 export default function KeynoteSpeakersPage() {

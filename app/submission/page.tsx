@@ -10,8 +10,8 @@ export default function SubmissionPage() {
           Call for Papers
         </span>
         <h1 className="text-5xl md:text-7xl font-extrabold text-[#1A365D] tracking-tighter mb-8 leading-tight">
-          Shaping the Future <br />
-          of <span className="text-primary italic">Digital Intelligence</span>
+          Paper <br />
+          <span className="text-primary italic">Submission</span>
         </h1>
         <p className="text-lg text-on-surface-variant leading-relaxed max-w-2xl font-body">
           TBD
