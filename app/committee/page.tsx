@@ -108,6 +108,11 @@ const technicalCommittee = [
     badge: null,
   },
   {
+    name: "Asst. Prof. Dr. Wares Chancharoen ",
+    description: "Chulabhorn Royal Academy, Thailand",
+    badge: null,
+  },
+  {
     name: "Dr. Tatpong Tulyananda",
     description: "Mahidol University, Thailand",
     badge: null,
@@ -117,6 +122,7 @@ const technicalCommittee = [
     description: "Panyapiwat Institute of Management, Thailand",
     badge: null,
   },
+  
   
   {
     name: "TBD",
