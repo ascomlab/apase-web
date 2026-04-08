@@ -8,6 +8,7 @@ import { useState } from "react";
 const navigationLinks = [
   { href: "/", label: "Home" },
   { href: "/committee", label: "Committee" },
+  { href: "/keynote-speakers", label: "Keynote Speakers" },
   { href: "/submission", label: "Submission" },
   { href: "/registration", label: "Registration" },
   { href: "/attendance", label: "Attendance" },
