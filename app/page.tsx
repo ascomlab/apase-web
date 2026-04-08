@@ -36,7 +36,7 @@ const aboutData = {
   intro:
     "2026 The 5th Asia-Pacific Aerospace Science and Engineering Symposium (APASE 2026).",
   descriptions: [
-    "2026 The 5th Asia-Pacific Aerospace Science and Engineering Symposium (APASE 2026), the annual conference held from the year 2020 with the name of The Innovation Aviation & Aerospace Industry (IAAI)- International Conference, will take place on December 20-22, 2026(TBC). in Harbin, China. Accepted papers in APASE 2026 will be submitted for publication into EI Compendex(JPCS). APASE 2026 conference focuses on innovations in aviation and aerospace by fostering knowledge and new ideas for research work within the community, speakers, plenary speeches, young researchers and practitioners.",
+    "2026 The 5th Asia-Pacific Aerospace Science and Engineering Symposium (APASE 2026), the annual conference held from the year 2020 with the name of The Innovation Aviation & Aerospace Industry (IAAI)- International Conference, will take place on December 18-21, 2026. in Harbin, China. Accepted papers in APASE 2026 will be submitted for publication into <p><b>EI Compendex(JPCS)</b></p>EI. The APASE 2026 conference focuses on innovations in aviation and aerospace by fostering knowledge and new ideas for research work within the community, speakers, plenary speeches, young researchers and practitioners.",
     "APASE 2026 also seeks to provide forums, oral presentations, and scientific sessions. APASE 2026 invites researchers, aerospace and aviation industry representatives, and others with an interest in the impacts of the aerospace and aviation industry to join us for what will be an exciting event.",
   ],
 };
