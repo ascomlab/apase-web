@@ -46,8 +46,8 @@ const organizingCommittee = [
   },
   {
     role: "General Chairs",
-    name: "Soemsak Yooyen",
-    affiliation: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
+    name: "xxxx",
+    affiliation: "Harbin Institute of Technology, China",
   },
   {
     role: "Program Committee Chairs",
@@ -56,8 +56,18 @@ const organizingCommittee = [
   },
   {
     role: "Executive Committee Chairs",
-    name: "TBD",
-    affiliation: "TBD",
+    name: "Athikom Roeksabutr",
+    affiliation: "Mahanakorn University of Technology & EEAAT,Thailand",
+  },
+  {
+    role: "Executive Committee Chairs",
+    name: "Chunxiang Cao",
+    affiliation: "Aerospace Information research Institute,Chinese Academy of Sciences,China",
+  },
+  {
+    role: "Executive Committee Chairs",
+    name: "Zhao You",
+    affiliation: "National Astronomical Observatories,Chinese Academy of Sciences,China",
   },
   {
     role: "Publication Chairs",
@@ -78,33 +88,10 @@ const organizingCommittee = [
 
 const technicalCommittee = [
   {
-    name: "Prof. Cao Chunxiang",
-    description: "Chinese Academy of Sciences, China",
-    badge: null,
-  },
-  {
-    name: "Prof. Shuai Yuan",
-    description: "Harbin Institute of Technology, China",
-    badge: null,
-  },
-  {
-    name: "Prof. Zhao You",
-    description: "Chinese Academy of Sciences, China",
-    badge: null,
-  },
-  
-  {
     name: "Assoc. Prof. Dr. Pisit Boonsrimuang",
     description: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
     badge: null,
   },
-
-  {
-    name: "Asst. Prof. Dr. Patcharin Kamsing",
-    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
-    badge: null,
-  },
-
   {
     name: "Asst. Prof. Dr. Prasert Prapamonthon",
     description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
@@ -115,11 +102,7 @@ const technicalCommittee = [
     description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
     badge: null,
   },
-  {
-    name: "Dr. Peerapong Torteeka",
-    description: "National Astronomical Research Institute of Thailand, Thailand",
-    badge: null,
-  },
+  
   {
     name: "TBD",
     description: "Committee member details",
