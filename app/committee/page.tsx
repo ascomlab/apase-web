@@ -89,9 +89,15 @@ const organizingCommittee = [
 const technicalCommittee = [
   {
     name: "Assoc. Prof. Dr. Pisit Boonsrimuang",
-    description: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
+    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
     badge: null,
   },
+  {
+    name: "Assoc. Prof. Dr. Kritsanapong Phansri",
+    description: "Rajamangala University of Technology Isan, Khon Kaen Campus, Thailand",
+    badge: null,
+  },
+
   {
     name: "Asst. Prof. Dr. Prasert Prapamonthon",
     description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
@@ -108,10 +114,15 @@ const technicalCommittee = [
     badge: null,
   },
   {
-    name: "Asst. Prof. Dr. Wares Chancharoen ",
+    name: "Asst. Prof. Dr. Wares Chancharoen",
     description: "Chulabhorn Royal Academy, Thailand",
     badge: null,
   },
+  {
+    name: "Asst. Prof. Dr.Sethakarn Prongnuch",
+    description: "Suan Sunandha Rajabhat University, Thailand",
+    badge: null,
+  }, 
   {
     name: "Dr. Tatpong Tulyananda",
     description: "Mahidol University, Thailand",
@@ -128,6 +139,8 @@ const technicalCommittee = [
     description: "Mahidol University, Thailand",
     badge: null,
   },
+
+
 
   {
     name: "Shariff Manuthasna",
