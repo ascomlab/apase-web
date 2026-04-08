@@ -41,8 +41,8 @@ const organizingCommittee = [
   },
   {
     role: "General Chairs",
-    name: "TBD",
-    affiliation: "TBD",
+    name: "Soemsak Yooyen",
+    affiliation: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
   },
   {
     role: "Program Committee Chairs",
@@ -74,7 +74,17 @@ const organizingCommittee = [
 const technicalCommittee = [
   {
     name: "Prof. Cao Chunxiang",
-    description: "Chinese Academy of Sciences",
+    description: "Chinese Academy of Sciences, China",
+    badge: null,
+  },
+  {
+    name: "Prof. Shuai Yuan",
+    description: "Harbin Institute of Technology, China",
+    badge: null,
+  },
+  {
+    name: "Prof. Zhao You",
+    description: "Chinese Academy of Sciences, China",
     badge: null,
   },
   
@@ -101,8 +111,8 @@ const technicalCommittee = [
     badge: null,
   },
   {
-    name: "TBD",
-    description: "Committee member details",
+    name: "Dr. Peerapong Torteeka",
+    description: "National Astronomical Research Institute of Thailand, Thailand",
     badge: null,
   },
   {
