@@ -45,7 +45,7 @@ const todayKey = getTodayKey("Asia/Shanghai");
 
 const importantDates = [
   {
-    date: "APR 01",
+    date: "MAY 01",
     year: "2026",
     title: "Paper Submission Opens",
     description: "Submission portal opens for authors",
