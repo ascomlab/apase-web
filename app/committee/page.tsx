@@ -96,8 +96,8 @@ const technicalCommittee = [
     badge: null,
   },
   {
-    name: "TBD",
-    description: "Committee member details",
+    name: "Asst. Prof. Dr. Pititat Itsariyapinyo",
+    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
     badge: null,
   },
   {
