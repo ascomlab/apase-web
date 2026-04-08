@@ -75,11 +75,6 @@ const organizingCommittee = [
     affiliation: "Harbin Institute of Technology, China",
   },
   {
-    role: "Treasurer",
-    name: "TBD",
-    affiliation: "TBD",
-  },
-  {
     role: "Local Chair",
     name: "TBD",
     affiliation: "TBD",
