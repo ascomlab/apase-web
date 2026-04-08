@@ -1,6 +1,7 @@
-import { importantDate } from "../data";
+import ReactMarkdown from "react-markdown";
 
-const submissionTracks = ["TBD", "TBD", "TBD"];
+import { importantDate } from "../data";
+import { submissionGuidelinesContent } from "./data";
 
 export default function SubmissionPage() {
   return (
@@ -18,52 +19,50 @@ export default function SubmissionPage() {
         </p>
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-24">
-        <div className="md:col-span-7 group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
-          <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
-          <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-70" />
-          <h2 className="text-3xl font-extrabold text-on-surface mb-6 tracking-tight relative z-10">
-            Paper Submission System
-          </h2>
-          <div className="space-y-6 mb-10 text-on-surface-variant leading-relaxed">
-            <p>TBD</p>
-            <ul className="space-y-3">
-              {submissionTracks.map((track, idx) => (
-                <li key={track + idx} className="flex items-start gap-3">
-                  <span className="text-primary text-xl">•</span>
-                  <span>{track}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <button className="inline-flex items-center gap-3 bg-gradient-to-br from-primary to-primary-dim text-on-primary px-10 py-5 rounded-md font-bold text-lg hover:opacity-95 transition-all group">
-            Enter Submission Portal
-          </button>
-        </div>
-
-        <div className="md:col-span-5 flex flex-col gap-8">
-          <div className="bg-surface-container-low p-8 rounded-xl h-full flex flex-col justify-between">
-            <div>
-              <div className="w-12 h-12 bg-primary/10 flex items-center justify-center rounded-lg mb-6">
-                <span className="text-primary">□</span>
-              </div>
-              <h3 className="text-xl font-bold mb-3">Manuscript Templates</h3>
-              <p className="text-sm text-on-surface-variant mb-6">
-                Template links will be added later.
+      <section className="mb-24 bg-surface-container-low rounded-2xl p-8 md:p-12 prose prose-invert max-w-none">
+        <ReactMarkdown
+          components={{
+            h1: ({ children }) => (
+              <h1 className="text-4xl font-extrabold tracking-tight mb-8 mt-8">
+                {children}
+              </h1>
+            ),
+            h2: ({ children }) => (
+              <h2 className="text-2xl font-bold tracking-tight mb-6 mt-8">
+                {children}
+              </h2>
+            ),
+            p: ({ children }) => (
+              <p className="text-on-surface-variant leading-relaxed mb-6">
+                {children}
               </p>
-            </div>
-            <div className="flex flex-col gap-3">
-              <button className="w-full flex justify-between items-center px-4 py-3 bg-white hover:bg-slate-50 rounded-lg text-sm font-semibold transition-colors">
-                <span>LaTeX Template</span>
-                <span>↓</span>
-              </button>
-              <button className="w-full flex justify-between items-center px-4 py-3 bg-white hover:bg-slate-50 rounded-lg text-sm font-semibold transition-colors">
-                <span>Word Template</span>
-                <span>↓</span>
-              </button>
-            </div>
-          </div>
-        </div>
+            ),
+            ul: ({ children }) => (
+              <ul className="space-y-2 mb-6 ml-2">{children}</ul>
+            ),
+            li: ({ children }) => (
+              <li className="flex items-start gap-3">
+                <span className="text-primary mt-1">•</span>
+                <span>{children}</span>
+              </li>
+            ),
+            a: ({ href, children }) => (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline hover:opacity-80 transition-opacity"
+              >
+                {children}
+              </a>
+            ),
+            strong: ({ children }) => (
+              <strong className="font-semibold">{children}</strong>
+            ),
+          }}
+        >
+          {submissionGuidelinesContent}
+        </ReactMarkdown>
       </section>
 
       <section className="mb-32">
