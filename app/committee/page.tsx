@@ -102,17 +102,29 @@ const technicalCommittee = [
     description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
     badge: null,
   },
+  {
+    name: "Asst. Prof. Dr. Suphongsa Khetkeeree",
+    description: "Mahanakorn University of Technology，Thailand",
+    badge: null,
+  },
+  {
+    name: "Dr. Tatpong Tulyananda",
+    description: "Mahidol University, Thailand",
+    badge: null,
+  },
+  {
+    name: "Dr. Potiwat Ngamkajornwiwat",
+    description: "Panyapiwat Institute of Management, Thailand",
+    badge: null,
+  },
   
   {
     name: "TBD",
     description: "Committee member details",
     badge: null,
   },
-  {
-    name: "TBD",
-    description: "Committee member details",
-    badge: null,
-  },
+
+
 ];
 
 export default function CommitteePage() {
