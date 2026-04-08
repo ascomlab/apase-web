@@ -77,19 +77,22 @@ const technicalCommittee = [
     description: "Chinese Academy of Sciences",
     badge: null,
   },
+  
+  {
+    name: "Assoc. Prof. Dr. Pisit Boonsrimuang",
+    description: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
+    badge: null,
+  },
+
   {
     name: "Asst. Prof. Dr. Patcharin Kamsing",
-    description: "King Mongkut's Institute of Technology Ladkrabang",
+    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
     badge: null,
   },
+
   {
-    name: "TBD",
-    description: "Committee member details",
-    badge: null,
-  },
-  {
-    name: "TBD",
-    description: "Committee member details",
+    name: "Asst. Prof. Dr. Prasert Prapamonthon",
+    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
     badge: null,
   },
   {
