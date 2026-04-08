@@ -45,6 +45,11 @@ const organizingCommittee = [
     affiliation: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
   },
   {
+    role: "General Chairs",
+    name: "Soemsak Yooyen",
+    affiliation: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
+  },
+  {
     role: "Program Committee Chairs",
     name: "TBD",
     affiliation: "TBD",
