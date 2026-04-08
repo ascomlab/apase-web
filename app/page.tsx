@@ -293,6 +293,8 @@ export const institutionalSupport = {
     { name: "PIM", logo: getAssetPath("/logo/assistances/pim-logo.png") },
     { name: "SWU", logo: getAssetPath("/logo/assistances/swu-logo.png") },
     { name: "MUT", logo: getAssetPath("/logo/assistances/mut-logo.png") },
+    { name: "RMUTI", logo: getAssetPath("/logo/assistances/Logo_rmuti.png") },
+    { name: "SSRU", logo: getAssetPath("/logo/assistances/SSRU_LOGO.png") },
   ],
 };
 
