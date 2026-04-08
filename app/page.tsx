@@ -25,6 +25,7 @@ const heroData = {
     { name: "HIT", logo: getAssetPath("/logo/organizors/hit-logo.png") },
     { name: "NARIT", logo: getAssetPath("/logo/organizors/narit-logo.png") },
     { name: "IDSEA", logo: getAssetPath("/logo/organizors/idsea-logo.png") },
+    { name: "APSCO", logo: getAssetPath("/logo/sponsors/apsco-logo.png") },
   ],
 };
 
@@ -282,7 +283,7 @@ const publications = [
 
 export const institutionalSupport = {
   sponsors: [
-    { name: "APSCO", logo: getAssetPath("/logo/sponsors/apsco-logo.png") },
+   
     { name: "NRCT", logo: getAssetPath("/logo/sponsors/nrct-logo.png") },
   ],
   assistances: [
