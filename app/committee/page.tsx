@@ -29,8 +29,9 @@ const keynoteSpeakers = [
 const organizingCommittee = [
   {
     role: "Honorary Chair",
-    name: "Komsan Maleesee",
-    affiliation: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
+    name: "Komsan Maleesee", 
+    affiliation: "King Mongkut's Institute of Technology Ladkrabang, Thailand", 
+
   },
   {
     role: "Honorary Chair",
@@ -72,13 +73,13 @@ const organizingCommittee = [
 
 const technicalCommittee = [
   {
-    name: "Asst. Prof. Dr. Patcharin Kamsing",
-    description: "King Mongkut's Institute of Technology Ladkrabang",
+    name: "Prof. Cao Chunxiang",
+    description: "Chinese Academy of Sciences",
     badge: null,
   },
   {
-    name: "Prof. Cao Chunxiang",
-    description: "Chinese Academy of Sciences",
+    name: "Asst. Prof. Dr. Patcharin Kamsing",
+    description: "King Mongkut's Institute of Technology Ladkrabang",
     badge: null,
   },
   {
