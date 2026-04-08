@@ -50,7 +50,7 @@ const importantDates = [
     title: "Paper Submission Opens",
     description: "Submission portal opens for authors",
     // status: "Open",
-    active: todayKey >= getMilestoneKey("APR 01", "2026")!,
+    active: todayKey >= getMilestoneKey("MAY 01", "2026")!,
   },
   {
     date: "JUL 31",
@@ -88,11 +88,11 @@ const importantDates = [
     active: todayKey >= getMilestoneKey("NOV 30", "2026")!,
   },
   {
-    date: "DEC 20–22",
+    date: "DEC 18–21",
     year: "2026",
     title: "Conference Dates",
     description: "APASE 2026 conference in Harbin, China",
-    active: todayKey >= getMilestoneKey("DEC 20", "2026")!,
+    active: todayKey >= getMilestoneKey("DEC 18", "2026")!,
   },
 ];
 
