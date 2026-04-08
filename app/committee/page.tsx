@@ -123,13 +123,23 @@ const technicalCommittee = [
     badge: null,
   },
   
-  
-  {
-    name: "TBD",
-    description: "Committee member details",
+   {
+    name: "Dr.Kullapha Chaiwongkhot",
+    description: "Mahidol University, Thailand",
     badge: null,
   },
 
+  {
+    name: "Shariff Manuthasna",
+    description: "National Astronomical Research Institute of Thailand, Thailand",
+    badge: null,
+  },
+  {
+    name: "Thanayuth Panyalert",
+    description: "National Astronomical Research Institute of Thailand, Thailand",
+    badge: null,
+  },
+ 
 
 ];
 
