@@ -4,7 +4,7 @@ The Asia-Pacific Aerospace Science & Engineering Symposium(APASE) 2026 will be p
 
 ## JPCS Guidelines:
 
-Full details of the author publication guidelines for JPCS can be found [here](https://publishingsupport.iopscience.iop.org/author-guidelines-for-conference-proceedings/).  The following lists the essential requirements for an article to be published in an IOP: Conference Series journal: 
+Full details of the author publication guidelines for JPCS can be found [**here**](https://publishingsupport.iopscience.iop.org/author-guidelines-for-conference-proceedings/).  The following lists the essential requirements for an article to be published in an IOP: Conference Series journal: 
 
 - the page size should be A4
 - each page should have clear margins of 4cm (top), 2.5cm (left and right) and 2.7cm (bottom) 
@@ -14,9 +14,9 @@ Full details of the author publication guidelines for JPCS can be found [here](h
 
 The IOP Conference Series template is mandatory for submission. It can be found below:
 
-- [Microsoft Word](https://cms.iopscience.iop.org/alfresco/d/d/workspace/SpacesStore/f67538ae-18b2-11e4-831a-29411a5deefe/WordGuidelines.zip)
-- [LaTeX](https://cms.iopscience.iop.org/alfresco/d/d/workspace/SpacesStore/a83f1ab6-cd8f-11e0-be51-5d01ae4695ed/LaTeXTemplates.zip)
-- [Overleaf](https://www.overleaf.com/read/qhbdnjyswhxg#7770de)
+- [**Microsoft Word**](https://cms.iopscience.iop.org/alfresco/d/d/workspace/SpacesStore/f67538ae-18b2-11e4-831a-29411a5deefe/WordGuidelines.zip)
+- [**LaTeX**](https://cms.iopscience.iop.org/alfresco/d/d/workspace/SpacesStore/a83f1ab6-cd8f-11e0-be51-5d01ae4695ed/LaTeXTemplates.zip)
+- [**Overleaf**](https://www.overleaf.com/read/qhbdnjyswhxg#7770de)
 
 Ensure that within the template, all other JPCS formatting rules are still followed. The paper should be submitted as an editable and not password protected PDF. 
 
