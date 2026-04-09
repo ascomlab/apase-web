@@ -464,8 +464,8 @@ export default function Home() {
               Publication &amp; Proceedings
             </h2>
             <p className="text-on-surface-variant max-w-lg">
-              All accepted papers will be published in the Conference
-              Proceedings
+              {/*All accepted papers will be published in the Conference
+              Proceedings*/}
             </p>
           </div>
         </div>
