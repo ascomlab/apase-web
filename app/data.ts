@@ -1,9 +1,5 @@
 export const importantDate = [
-  {
-    date: "MAY 01 2026",
-    title: "Paper Submission Opens",
-    description: "Submission portal opens for authors",
-  },
+ 
   {
     date: "JUL 31 2026",
     title: "Full Paper Submission Deadline",
@@ -24,9 +20,5 @@ export const importantDate = [
     title: "Registration",
     description: "Period for registration",
   },
-  {
-    date: "DEC 18–21 2026",
-    title: "Conference Dates",
-    description: "APASE 2026 conference in Harbin, China",
-  },
+  
 ];
