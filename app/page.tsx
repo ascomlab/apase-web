@@ -28,19 +28,6 @@ const heroData = {
   ],
 };
 
-const aboutData = {
-  title: {
-    main: "About the",
-    highlighted: "Conference",
-  },
-  intro:
-    "2026 The 5th Asia-Pacific Aerospace Science and Engineering Symposium (APASE 2026).",
-  descriptions: [
-    "2026 The 5th Asia-Pacific Aerospace Science and Engineering Symposium (APASE 2026), the annual conference held from the year 2020 with the name of The Innovation Aviation & Aerospace Industry (IAAI)- International Conference, will take place on December 18-21, 2026. in Harbin, China. Accepted papers in APASE 2026 will be submitted for publication into <b>EI Compendex(Journal of Physics: Conference Series, JPCS).</b> The APASE 2026 conference focuses on innovations in aviation and aerospace by fostering knowledge and new ideas for research work within the community, speakers, plenary speeches, young researchers and practitioners.",
-    "APASE 2026 also seeks to provide forums, oral presentations, and scientific sessions. APASE 2026 invites researchers, aerospace and aviation industry representatives, and others with an interest in the impacts of the aerospace and aviation industry to join us for what will be an exciting event.",
-  ],
-};
-
 const todayKey = getTodayKey("Asia/Shanghai");
 
 const importantDates = [
@@ -359,25 +346,38 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
             <div className="lg:col-span-4">
               <h2 className="font-headline text-4xl font-extrabold text-[#1A365D] leading-tight sticky top-32">
-                {aboutData.title.main} <br />
-                <span className="text-primary">
-                  {aboutData.title.highlighted}
-                </span>
+                About the <br />
+                <span className="text-primary">Conference</span>
               </h2>
             </div>
             <div className="lg:col-span-8">
               <div className="max-w-3xl space-y-8">
                 <p className="font-body text-2xl text-on-surface leading-snug font-medium">
-                  {aboutData.intro}
+                  2026 The 5th Asia-Pacific Aerospace Science and Engineering
+                  Symposium (APASE 2026).
                 </p>
-                {aboutData.descriptions.map((desc, index) => (
-                  <p
-                    key={index}
-                    className="font-body text-lg text-on-surface-variant leading-relaxed"
-                  >
-                    {desc}
-                  </p>
-                ))}
+                <p className="font-body text-lg text-on-surface-variant leading-relaxed">
+                  2026 The 5th Asia-Pacific Aerospace Science and Engineering
+                  Symposium (APASE 2026), the annual conference held from the
+                  year 2020 with the name of The Innovation Aviation {"&"}{" "}
+                  Aerospace Industry (IAAI)- International Conference, will take
+                  place on December 18-21, 2026. in Harbin, China. Accepted
+                  papers in APASE 2026 will be submitted for publication into{" "}
+                  <b>
+                    EI Compendex(Journal of Physics: Conference Series, JPCS)
+                  </b>
+                  . The APASE 2026 conference focuses on innovations in aviation
+                  and aerospace by fostering knowledge and new ideas for
+                  research work within the community, speakers, plenary
+                  speeches, young researchers and practitioners.
+                </p>
+                <p className="font-body text-lg text-on-surface-variant leading-relaxed">
+                  APASE 2026 also seeks to provide forums, oral presentations,
+                  and scientific sessions. APASE 2026 invites researchers,
+                  aerospace and aviation industry representatives, and others
+                  with an interest in the impacts of the aerospace and aviation
+                  industry to join us for what will be an exciting event.
+                </p>
               </div>
             </div>
           </div>
@@ -388,7 +388,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-20">
           <div className="md:w-1/3">
             <h2 className="font-headline text-4xl font-extrabold text-[#1A365D] mb-6 leading-tight">
-               Important Dates
+              Important Dates
             </h2>
             <p className="text-on-surface-variant text-lg leading-relaxed">
               Stay informed about critical deadlines. Early bird registrations

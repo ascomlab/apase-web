@@ -135,6 +135,105 @@ export default function AttendancePage() {
             </div>
           </div>
 
+          <div className="bg-surface-container-low rounded-2xl p-12">
+            <div className="mb-12">
+              <h2 className="font-headline text-4xl font-extrabold text-on-background leading-tight mb-4">
+                Presentation Instructions
+              </h2>
+              <p className="text-on-surface-variant max-w-2xl">
+                Guidelines for presenters to ensure smooth and engaging oral
+                presentations at the conference.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="group relative overflow-hidden rounded-xl border bg-surface-container p-6 shadow-sm transition-all duration-300 hover:shadow-md border-outline/20">
+                <h3 className="font-headline font-bold text-lg mb-6 text-on-background">
+                  Presentation Details
+                </h3>
+                <ul className="space-y-4">
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold flex-shrink-0">
+                      •
+                    </span>
+                    <span className="text-on-surface-variant text-sm">
+                      Duration: 15-20 minutes including Q&A
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold flex-shrink-0">
+                      •
+                    </span>
+                    <span className="text-on-surface-variant text-sm">
+                      English is the only language for presentations
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold flex-shrink-0">
+                      •
+                    </span>
+                    <span className="text-on-surface-variant text-sm">
+                      Organizers provide laptops and equipment; prepare your
+                      presentation 5 minutes before
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold flex-shrink-0">
+                      •
+                    </span>
+                    <span className="text-on-surface-variant text-sm">
+                      Strict time management is essential due to schedule
+                      constraints
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="group relative overflow-hidden rounded-xl border bg-surface-container p-6 shadow-sm transition-all duration-300 hover:shadow-md border-outline/20">
+                <h3 className="font-headline font-bold text-lg mb-6 text-on-background">
+                  Evaluation & Logistics
+                </h3>
+                <ul className="space-y-4">
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold flex-shrink-0">
+                      •
+                    </span>
+                    <span className="text-on-surface-variant text-sm">
+                      Evaluated on: Applicability, Originality, Significance,
+                      Visual Aids, English Delivery, and Timeliness
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold flex-shrink-0">
+                      •
+                    </span>
+                    <span className="text-on-surface-variant text-sm">
+                      One outstanding presentation selected for award per
+                      session
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold flex-shrink-0">
+                      •
+                    </span>
+                    <span className="text-on-surface-variant text-sm">
+                      Arrive 30 minutes early to your assigned meeting room
+                    </span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-primary font-bold flex-shrink-0">
+                      •
+                    </span>
+                    <span className="text-on-surface-variant text-sm">
+                      Certificates provided at the end of each session by
+                      session chairs
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
           <div
             id="visa"
             className="bg-primary-container p-12 rounded-2xl flex flex-col justify-between"
@@ -143,87 +242,75 @@ export default function AttendancePage() {
               <h2 className="font-headline text-3xl font-bold text-on-primary-container mb-4">
                 Visa Information
               </h2>
-              <p className="text-on-primary-container/80 font-medium">{/*TBD*/}</p>
-            </div>
-            <div className="mt-8">
-              <p className="text-sm text-on-primary-container/70 mb-6">
-                
-                Your passport must be valid for at least six months after the expiry date of your visa and you’ll need at least one entire blank page in your passport for the visa. You may be required to show proof of hotel reservations and onward travel from China, as well as a bank statement showing you have $100 in your account for every day you plan to spend in China.
-<br />
-<br />
-A standard 30-day single-entry visa can be issued from most Chinese embassies abroad in three to five working days. Express visas cost twice the usual fee. In some countries (eg the UK and the US) the visa service has been outsourced from the Chinese embassy to a Chinese Visa Application Service Centre, which levies an extra administration fee. In the case of the UK, a single-entry visa costs £30, but the standard administration charge levied by the centre is a further £36.
-<br />
-<br />
-A standard 30-day visa is activated on the date you enter China, and must be used within three months of the date of issue. 60-day and 90-day tourist visas are reasonably easy to obtain in your home country but difficult elsewhere. To stay longer, you can extend your visa in China at least once, sometimes twice.
-<br />
-<br />
-Visa applications require a completed application form (available at the embassy or downloaded from its website) and at least one photo (normally 51mm x 51mm). You normally pay for your visa when you collect it. A visa mailed to you will take up to three weeks. In the US and Canada, mailed visa applications have to go via a visa agent, at extra cost. In the US, many people use the China Visa Service Center, which offers prompt service. The procedure takes around 10 to 14 days.
-<br />
-<br />
-Hong Kong is a good place to pick up a China visa. However, at the time of writing only Hong Kong residents were able to obtain them direct from the Visa Office of the People’s Republic of China. Single-entry visas processed here cost HK$200, double-entry visas HK$300, while six-month/one-year multiple-entry visas are HK$500. But China Travel Service (CTS) and many travel agencies in Hong Kong can get you a visa in two to three working days. Expect to pay HK$650 for a single-entry visa and HK$750 for a double-entry. Both erican and UK passport holders must pay considerably more for their visas.
-Be aware that political events can suddenly make visas more difficult to procure or renew.
-<br />
-<br />
-Passports
-Chinese law requires foreign visitors to carry their passport with them at all times; it is the most basic travel document and all hotels (and internet cafes) will insist on seeing it. You also need it to buy train tickets or to get into some tourist sights, particularly those which are free.
-It’s a good idea to bring an ID card with your photo in case you lose your passport. Even better, make photocopies, or take digital photos of your passport – your embassy may need these before issuing a new one. You should also report the loss to the local Public Security Bureau (PSB).
-
-
-
-
-
-
+              <p className="text-on-primary-container/80 font-medium">
+                {/*TBD*/}
               </p>
-              {/*<button className="w-full bg-on-primary-container text-primary-container py-3 rounded-lg font-bold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
-                View Visa Guide
-              </button>*/}
             </div>
-          </div>
-
-          <div className="bg-surface-container p-12 rounded-2xl">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-              <div className="lg:col-span-1">
-                <h2 className="font-headline text-4xl font-extrabold text-on-background leading-tight">
-                  Presentation
-                  <br />
-                  Instructions
-                </h2>
-                <p className="mt-4 text-on-surface-variant">TBD</p>
-              </div>
-              <div className="group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
-                <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
-                <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-70" />
-                <h3 className="font-headline font-bold text-xl mb-4 relative z-10">
-                  Oral Presentations
-                </h3>
-                <p className="text-on-surface-variant text-sm mb-6 relative z-10">
-                  {/*TBD*/}
+            <div className="mt-6">
+              <div className="text-sm text-on-primary-container/70 mb-6 space-y-3">
+                <p>
+                  Your passport must be valid for at least six months after the
+                  expiry date of your visa and you’ll need at least one entire
+                  blank page in your passport for the visa. You may be required
+                  to show proof of hotel reservations and onward travel from
+                  China, as well as a bank statement showing you have $100 in
+                  your account for every day you plan to spend in China.
                 </p>
-                <span className="text-xs font-bold text-primary uppercase tracking-widest relative z-10 block">
-                  Oral Presentation<br />
-                  
-                    • Each oral presentation will last 15-20 mins (Including Q&A)<br />
-                    • English is the only language for presentation<br />
-                    • The organizer will provide laptop and other equipments for the presentation. Presenters should get their PPT prepared 5 minutes before the conference.<br />
-                    • Due to the limitation of time, each presenter must manage the time strictly.<br />
-                    • The presentations will be evaluated from Applicability, Originality, Significance, Visual Aids, English Delivery, and Timeliness, six aspects.<br />
-                    • One excellent presentation will be selected and awarded from each session.<br />
-                    • Please arrive at the designated meeting room 30 minutes earlier, in case some authors are not able to make the presentation on time<br />
-                    • The presentation certificates will be given at the end of each session by session chairs.<br />
-                </span>
-              </div>
-              <div className="group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
-                <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
-                <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-70" />
-                <h3 className="font-headline font-bold text-xl mb-4 relative z-10">
-                  Poster Sessions
-                </h3>
-                <p className="text-on-surface-variant text-sm mb-6 relative z-10">
-                  {/*TBD*/}
+                <p>
+                  A standard 30-day single-entry visa can be issued from most
+                  Chinese embassies abroad in three to five working days.
+                  Express visas cost twice the usual fee. In some countries (eg
+                  the UK and the US) the visa service has been outsourced from
+                  the Chinese embassy to a Chinese Visa Application Service
+                  Centre, which levies an extra administration fee. In the case
+                  of the UK, a single-entry visa costs £30, but the standard
+                  administration charge levied by the centre is a further £36.
                 </p>
-                <span className="text-xs font-bold text-primary uppercase tracking-widest relative z-10 block">
-                  Guide coming soon
-                </span>
+                <p>
+                  A standard 30-day visa is activated on the date you enter
+                  China, and must be used within three months of the date of
+                  issue. 60-day and 90-day tourist visas are reasonably easy to
+                  obtain in your home country but difficult elsewhere. To stay
+                  longer, you can extend your visa in China at least once,
+                  sometimes twice.
+                </p>
+                <p>
+                  Visa applications require a completed application form
+                  (available at the embassy or downloaded from its website) and
+                  at least one photo (normally 51mm x 51mm). You normally pay
+                  for your visa when you collect it. A visa mailed to you will
+                  take up to three weeks. In the US and Canada, mailed visa
+                  applications have to go via a visa agent, at extra cost. In
+                  the US, many people use the China Visa Service Center, which
+                  offers prompt service. The procedure takes around 10 to 14
+                  days.
+                </p>
+                <p>
+                  Hong Kong is a good place to pick up a China visa. However, at
+                  the time of writing only Hong Kong residents were able to
+                  obtain them direct from the Visa Office of the People’s
+                  Republic of China. Single-entry visas processed here cost
+                  HK$200, double-entry visas HK$300, while six-month/one-year
+                  multiple-entry visas are HK$500. But China Travel Service
+                  (CTS) and many travel agencies in Hong Kong can get you a visa
+                  in two to three working days. Expect to pay HK$650 for a
+                  single-entry visa and HK$750 for a double-entry. Both erican
+                  and UK passport holders must pay considerably more for their
+                  visas. Be aware that political events can suddenly make visas
+                  more difficult to procure or renew.
+                </p>
+                <p>
+                  Passports Chinese law requires foreign visitors to carry their
+                  passport with them at all times; it is the most basic travel
+                  document and all hotels (and internet cafes) will insist on
+                  seeing it. You also need it to buy train tickets or to get
+                  into some tourist sights, particularly those which are free.
+                  It’s a good idea to bring an ID card with your photo in case
+                  you lose your passport. Even better, make photocopies, or take
+                  digital photos of your passport – your embassy may need these
+                  before issuing a new one. You should also report the loss to
+                  the local Public Security Bureau (PSB).
+                </p>
               </div>
             </div>
           </div>
