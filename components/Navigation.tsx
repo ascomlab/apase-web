@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { getAssetPath } from "../app/utils";
 
 const navigationLinks = [
   { href: "/", label: "Home" },
@@ -24,7 +25,7 @@ export default function Navigation() {
       <div className="flex items-center justify-between px-4 sm:px-6 lg:px-12 py-2 max-w-[1440px] mx-auto">
         <Link href="/" className="flex items-center">
           <Image
-            src="/logo/apase-logo.png"
+            src={getAssetPath("/logo/apase-logo.png")}
             alt="APASE Logo"
             width={120}
             height={64}
