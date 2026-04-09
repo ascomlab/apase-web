@@ -388,7 +388,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-20">
           <div className="md:w-1/3">
             <h2 className="font-headline text-4xl font-extrabold text-[#1A365D] mb-6 leading-tight">
-              Key Milestones
+               Important Dates
             </h2>
             <p className="text-on-surface-variant text-lg leading-relaxed">
               Stay informed about critical deadlines. Early bird registrations
