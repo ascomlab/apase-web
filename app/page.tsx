@@ -363,7 +363,7 @@ export default function Home() {
                   Aerospace Industry (IAAI)- International Conference, will take
                   place on December 18-21, 2026. in Harbin, China. Accepted
                   papers in APASE 2026 will be submitted for publication into{" "}
-                  <b>
+                  <b className="text-black">
                     EI Compendex(Journal of Physics: Conference Series, JPCS)
                   </b>
                   . The APASE 2026 conference focuses on innovations in aviation
@@ -449,7 +449,7 @@ export default function Home() {
           <ul className="list-disc space-y-4 pl-5 text-base sm:text-lg leading-relaxed text-slate-100/90">
             {technicalTracks.map((track) => (
               <li key={track.id}>
-                <span className="font-semibold">{track.title}</span>:{" "}
+                <span className="font-bold text-white">{track.title}</span>:{" "}
                 {track.covers.join(", ")}
               </li>
             ))}
