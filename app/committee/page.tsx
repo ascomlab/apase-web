@@ -28,23 +28,23 @@ const keynoteSpeakers = [
 const organizingCommittee = [
   {
     role: "Honorary Chair",
-    name: "Komsan Maleesee",
+    name: "Assoc. Prof. Dr. Komsan Maleesee",
     affiliation: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
   },
   {
     role: "Honorary Chair",
-    name: "Wiphu Rujopakarn",
+    name: "Dr. Wiphu Rujopakarn",
     affiliation:
       "National Astronomical Research Institute of Thailand, Thailand",
   },
   {
     role: "General Chairs",
-    name: "Soemsak Yooyen",
+    name: "Asst. Prof. Dr. Soemsak Yooyen",
     affiliation: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
   },
   {
     role: "General Chairs",
-    name: "xxxx",
+    name: "TBD",
     affiliation: "Harbin Institute of Technology, China",
   },
   {
@@ -54,30 +54,30 @@ const organizingCommittee = [
   },
   {
     role: "Executive Committee Chairs",
-    name: "Athikom Roeksabutr",
+    name: "Assoc. Prof. Dr. Athikom Roeksabutr",
     affiliation: "Mahanakorn University of Technology & EEAAT,Thailand",
   },
   {
     role: "Executive Committee Chairs",
-    name: "Chunxiang Cao",
+    name: "Prof. Chunxiang Cao",
     affiliation:
       "Aerospace Information research Institute,Chinese Academy of Sciences,China",
   },
   {
     role: "Executive Committee Chairs",
-    name: "Zhao You",
+    name: "Prof. Zhao You",
     affiliation:
       "National Astronomical Observatories,Chinese Academy of Sciences,China",
   },
   {
     role: "Publication Chairs",
-    name: "Shuai Yuan",
+    name: "Prof. Shuai Yuan",
     affiliation: "Harbin Institute of Technology, China",
   },
   {
     role: "Local Chair",
     name: "TBD",
-    affiliation: "TBD",
+    affiliation: "Harbin Institute of Technology, China",
   },
 ];
 
