@@ -49,7 +49,7 @@ export default function AttendancePage() {
             <span className="text-primary italic font-medium">Experience</span>
           </h1>
           <p className="font-body text-xl text-on-surface-variant max-w-2xl leading-relaxed">
-            TBD
+            {/*TBD*/}
           </p>
         </div>
         <div className="lg:col-span-4 flex flex-col items-end">
@@ -124,7 +124,7 @@ export default function AttendancePage() {
               <h2 className="font-headline text-3xl font-bold mb-4">
                 Conference Schedule
               </h2>
-              <p className="text-on-surface-variant max-w-md">TBD</p>
+              <p className="text-on-surface-variant max-w-md">Coming Soon</p>
             </div>
             <div className="mt-12 p-8 border-2 border-dashed border-outline-variant rounded-xl flex items-center justify-center bg-background/50">
               <div className="text-center">
