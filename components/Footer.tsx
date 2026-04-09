@@ -55,7 +55,7 @@ export default function Footer() {
         <div className="md:col-span-1">
           <Link href="/" className="inline-block mb-6">
             <Image
-              src="/logo/apase-logo.png"
+              src="public/logo/apase-logo.png"
               alt="APASE Logo"
               width={150}
               height={60}
