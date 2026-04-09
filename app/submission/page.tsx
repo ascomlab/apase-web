@@ -71,7 +71,7 @@ export default function SubmissionPage() {
             <h2 className="text-4xl font-extrabold tracking-tight mb-2">
               Important Dates
             </h2>
-            <p className="text-on-surface-variant">TBD</p>
+            <p className="text-on-surface-variant">{/*TBD*/}</p>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-px bg-outline-variant/20 rounded-xl overflow-hidden">
