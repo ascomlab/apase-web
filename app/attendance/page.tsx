@@ -174,9 +174,9 @@ It’s a good idea to bring an ID card with your photo in case you lose your pas
 
 
               </p>
-              <button className="w-full bg-on-primary-container text-primary-container py-3 rounded-lg font-bold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+              {/*<button className="w-full bg-on-primary-container text-primary-container py-3 rounded-lg font-bold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
                 View Visa Guide
-              </button>
+              </button>*/}
             </div>
           </div>
 
