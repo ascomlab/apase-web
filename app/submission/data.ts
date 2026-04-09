@@ -20,5 +20,5 @@ The IOP Conference Series template is mandatory for submission. It can be found 
 
 Ensure that within the template, all other JPCS formatting rules are still followed. The paper should be submitted as an editable and not password protected PDF. 
 
-It is important to ensure that when you submit your paper, it is in its final form ready for publication, and has been thoroughly proofread. IOP do not copy edit or reformat papers and will not send out author proofs prior to publication. Post-publication changes are not permitted, so please ensure that your paper has been checked for errors.
+**It is important to ensure that when you submit your paper, it is in its final form ready for publication, and has been thoroughly proofread. IOP do not copy edit or reformat papers and will not send out author proofs prior to publication.** Post-publication changes are not permitted, so please ensure that your paper has been checked for errors.
 `;
