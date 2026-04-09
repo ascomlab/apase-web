@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { getAssetPath } from "../utils";
 
 const keynoteSpeakers = [
@@ -29,9 +28,8 @@ const keynoteSpeakers = [
 const organizingCommittee = [
   {
     role: "Honorary Chair",
-    name: "Komsan Maleesee", 
-    affiliation: "King Mongkut's Institute of Technology Ladkrabang, Thailand", 
-
+    name: "Komsan Maleesee",
+    affiliation: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
   },
   {
     role: "Honorary Chair",
@@ -62,12 +60,14 @@ const organizingCommittee = [
   {
     role: "Executive Committee Chairs",
     name: "Chunxiang Cao",
-    affiliation: "Aerospace Information research Institute,Chinese Academy of Sciences,China",
+    affiliation:
+      "Aerospace Information research Institute,Chinese Academy of Sciences,China",
   },
   {
     role: "Executive Committee Chairs",
     name: "Zhao You",
-    affiliation: "National Astronomical Observatories,Chinese Academy of Sciences,China",
+    affiliation:
+      "National Astronomical Observatories,Chinese Academy of Sciences,China",
   },
   {
     role: "Publication Chairs",
@@ -89,7 +89,8 @@ const technicalCommittee = [
   },
   {
     name: "Assoc. Prof. Dr. Kritsanapong Phansri",
-    description: "Rajamangala University of Technology Isan, Khon Kaen Campus, Thailand",
+    description:
+      "Rajamangala University of Technology Isan, Khon Kaen Campus, Thailand",
     badge: null,
   },
 
@@ -117,7 +118,7 @@ const technicalCommittee = [
     name: "Asst. Prof. Dr.Sethakarn Prongnuch",
     description: "Suan Sunandha Rajabhat University, Thailand",
     badge: null,
-  }, 
+  },
   {
     name: "Dr. Tatpong Tulyananda",
     description: "Mahidol University, Thailand",
@@ -128,27 +129,25 @@ const technicalCommittee = [
     description: "Panyapiwat Institute of Management, Thailand",
     badge: null,
   },
-  
-   {
+
+  {
     name: "Dr.Kullapha Chaiwongkhot",
     description: "Mahidol University, Thailand",
     badge: null,
   },
 
-
-
   {
     name: "Shariff Manuthasna",
-    description: "National Astronomical Research Institute of Thailand, Thailand",
+    description:
+      "National Astronomical Research Institute of Thailand, Thailand",
     badge: null,
   },
   {
     name: "Thanayuth Panyalert",
-    description: "National Astronomical Research Institute of Thailand, Thailand",
+    description:
+      "National Astronomical Research Institute of Thailand, Thailand",
     badge: null,
   },
- 
-
 ];
 
 export default function CommitteePage() {
@@ -169,79 +168,13 @@ export default function CommitteePage() {
         </div>
       </section>
 
-      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 mb-32">
-        <div className="flex items-end justify-between mb-12">
-          <div>
-            <h2 className="font-headline text-3xl font-bold tracking-tight mb-2">
-              Keynote Speakers
-            </h2>
-            <div className="w-12 h-1 bg-primary" />
-          </div>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-12 md:auto-rows-[240px] gap-6">
-          {keynoteSpeakers.map((speaker, idx) =>
-            speaker.layout === "featured" ? (
-              <div
-                key={speaker.name + idx}
-                className="md:col-span-7 md:row-span-2 group relative overflow-hidden rounded-xl bg-surface-container-low h-[420px] md:h-full"
-              >
-                <Image
-                  alt={speaker.alt}
-                  src={speaker.image}
-                  width={1200}
-                  height={675}
-                  className="absolute inset-0 h-full w-full object-cover transition-all duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-on-background/90 via-on-background/20 to-transparent" />
-                <div className="absolute bottom-0 left-0 p-10">
-                  <span className="font-label text-xs font-bold text-primary-fixed tracking-widest uppercase mb-2 block">
-                    {speaker.title}
-                  </span>
-                  <h3 className="font-headline text-4xl font-bold text-surface-container-lowest mb-2">
-                    {speaker.name}
-                  </h3>
-                  <p className="font-body text-lg text-surface-variant">
-                    {speaker.role}
-                  </p>
-                </div>
-              </div>
-            ) : null,
-          )}
-
-          {keynoteSpeakers
-            .filter((speaker) => speaker.layout === "stacked")
-            .map((speaker, idx) => (
-              <div
-                key={speaker.name + idx}
-                className="md:col-span-5 group relative overflow-hidden rounded-xl bg-surface-container-low h-[200px] md:h-full"
-              >
-                <Image
-                  alt={speaker.alt}
-                  src={speaker.image}
-                  width={900}
-                  height={600}
-                  className="absolute inset-0 h-full w-full object-cover transition-all duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent opacity-80" />
-                <div className="absolute bottom-0 left-0 p-6">
-                  <h4 className="font-headline text-2xl font-bold text-surface-container-lowest">
-                    {speaker.name}
-                  </h4>
-                  <p className="font-body text-sm text-surface-variant">
-                    {speaker.role}
-                  </p>
-                </div>
-              </div>
-            ))}
-        </div>
-      </section>
-
       <section className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 mb-28">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           <div className="lg:col-span-4">
-            <h2 className="font-headline text-4xl font-bold tracking-tighter mb-6">
+            <h2 className="font-headline text-4xl font-bold tracking-tighter mb-4">
               Organizing Committee
             </h2>
+            <div className="w-12 h-1 bg-primary mb-4" />
             <p className="text-on-surface-variant leading-relaxed">
               Insert the committee names and affiliations here.
             </p>
@@ -299,20 +232,6 @@ export default function CommitteePage() {
           </div>
         </div>
       </section>
-
-      {/* <section className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 mt-28">
-          <div className="relative overflow-hidden rounded-2xl bg-on-background p-12 md:p-16 text-center">
-            <div className="relative z-10">
-              <h2 className="font-headline text-4xl font-bold text-white mb-6">
-                Committee details coming soon
-              </h2>
-              <p className="text-surface-variant/80 text-lg mb-10 max-w-2xl mx-auto">
-                Swap this placeholder copy with your final committee roster and
-                bios.
-              </p>
-            </div>
-          </div>
-        </section> */}
     </main>
   );
 }

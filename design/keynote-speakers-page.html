@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary": "#f8f8ff",
+                    "on-primary-container": "#38527b",
+                    "error": "#9f403d",
+                    "on-primary-fixed": "#254067",
+                    "error-dim": "#4e0309",
+                    "on-tertiary": "#fbf7ff",
+                    "inverse-on-surface": "#9a9d9f",
+                    "secondary-dim": "#495467",
+                    "tertiary": "#5d5d78",
+                    "primary-fixed-dim": "#bfd5ff",
+                    "on-background": "#283439",
+                    "surface-variant": "#d7e5eb",
+                    "surface": "#f7fafc",
+                    "primary-dim": "#39537c",
+                    "on-secondary-fixed": "#354052",
+                    "secondary-container": "#d8e3fa",
+                    "surface-bright": "#f7fafc",
+                    "on-tertiary-container": "#4a4a65",
+                    "inverse-surface": "#0b0f10",
+                    "secondary": "#546073",
+                    "outline": "#707d82",
+                    "on-tertiary-fixed": "#373851",
+                    "on-error": "#fff7f6",
+                    "primary": "#455f88",
+                    "on-primary": "#f6f7ff",
+                    "surface-container-highest": "#d7e5eb",
+                    "background": "#f7fafc",
+                    "on-surface": "#283439",
+                    "on-surface-variant": "#546166",
+                    "on-primary-fixed-variant": "#425c85",
+                    "surface-container-high": "#dfeaef",
+                    "secondary-fixed-dim": "#cad5ec",
+                    "surface-container-low": "#eff4f7",
+                    "error-container": "#fe8983",
+                    "inverse-primary": "#b3cdfd",
+                    "tertiary-dim": "#51516c",
+                    "surface-dim": "#ccdde4",
+                    "tertiary-fixed": "#d9d7f8",
+                    "outline-variant": "#a7b4ba",
+                    "surface-tint": "#455f88",
+                    "on-tertiary-fixed-variant": "#54546f",
+                    "surface-container-lowest": "#ffffff",
+                    "on-secondary-fixed-variant": "#515c6f",
+                    "primary-fixed": "#d6e3ff",
+                    "tertiary-fixed-dim": "#cbc9e9",
+                    "secondary-fixed": "#d8e3fa",
+                    "on-error-container": "#752121",
+                    "tertiary-container": "#d9d7f8",
+                    "surface-container": "#e7eff3",
+                    "primary-container": "#d6e3ff",
+                    "on-secondary-container": "#475265"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 24px 48px -12px rgba(40, 52, 57, 0.06);
+        }
+        .text-editorial-gradient {
+            background: linear-gradient(135deg, #455f88 0%, #39537c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body antialiased">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#f7fafc]/80 dark:bg-slate-900/80 backdrop-blur-xl">
+<nav class="flex justify-between items-center px-12 py-4 max-w-[1440px] mx-auto">
+<div class="font-['Manrope'] text-2xl font-black text-[#1A365D] dark:text-white tracking-tighter">APASE 2026</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-['Manrope'] font-bold tracking-tight text-lg text-slate-500 dark:text-slate-400 hover:text-[#1A365D] transition-colors" href="#">Home</a>
+<a class="font-['Manrope'] font-bold tracking-tight text-lg text-slate-500 dark:text-slate-400 hover:text-[#1A365D] transition-colors" href="#">Committee</a>
+<a class="font-['Manrope'] font-bold tracking-tight text-lg text-slate-500 dark:text-slate-400 hover:text-[#1A365D] transition-colors" href="#">Submission</a>
+<a class="font-['Manrope'] font-bold tracking-tight text-lg text-slate-500 dark:text-slate-400 hover:text-[#1A365D] transition-colors" href="#">Registration</a>
+<a class="font-['Manrope'] font-bold tracking-tight text-lg text-[#1A365D] dark:text-white border-b-2 border-[#1A365D] pb-1" href="#">Attendance</a>
+<a class="font-['Manrope'] font-bold tracking-tight text-lg text-slate-500 dark:text-slate-400 hover:text-[#1A365D] transition-colors" href="#">History</a>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold hover:scale-95 duration-200 transition-all">Submit Paper</button>
+</div>
+</nav>
+</header>
+<main class="pt-32 pb-24">
+<!-- Page Header -->
+<section class="max-w-[1440px] mx-auto px-12 mb-20">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+<div class="md:col-span-8">
+<span class="font-label text-primary font-bold tracking-widest uppercase text-xs mb-4 block">Conference Highlights</span>
+<h1 class="font-headline text-7xl font-extrabold tracking-tighter text-on-background leading-none">Keynote <span class="text-editorial-gradient">Speakers</span></h1>
+</div>
+<div class="md:col-span-4 border-l-2 border-primary-container pl-8 pb-2">
+<p class="text-on-surface-variant text-lg font-light leading-relaxed">
+                        Join world-renowned experts at APASE 2026 as they explore the future of digital curation, atmospheric science, and computational modeling.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Plenary Keynote Speakers -->
+<section class="max-w-[1440px] mx-auto px-12 space-y-32 mb-32">
+<!-- Speaker 1: Peter Dueben -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-start">
+<div class="md:col-span-5 relative group">
+<div class="absolute -inset-4 bg-surface-container-low rounded-xl -z-10 transition-transform group-hover:translate-x-2 group-hover:translate-y-2"></div>
+<img alt="Peter Dueben" class="w-full aspect-[4/5] object-cover rounded-lg editorial-shadow" data-alt="Professional studio portrait of a mid-career male scientist with a confident expression, soft natural lighting, minimalist grey background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBu0cqJmWMEAO0UL_KzmPax-ZMFQe9smUPNsERDwEz8q7frJQMw4ie_VxoizUr5kEuOf2AIdQBK1GCCEIjjDs9_oWGgFIeDsEbbKbazrMK5bnRPTvZc-YqmWsJzqGy6cFkfJuHOZqHZwh-sDi0vzg6oKI6SGbpXAj66_QEhamVwRtu9jbsECntcBGvn7HVVh9OMuZ5QI15B6bPXCz3q3qvLIR2GIBMl0TnkFNRfKxOW6zU_2s8GodIEvi-laR-DdqWSS_8nHITA9-s"/>
+<div class="absolute bottom-6 left-6 bg-surface-container-lowest/90 backdrop-blur-md p-6 rounded-lg max-w-xs shadow-xl">
+<span class="font-label text-primary text-xs font-bold uppercase tracking-wider block mb-1">Plenary Session</span>
+<p class="font-headline text-xl font-bold leading-tight">Artificial Intelligence for Climate Science</p>
+</div>
+</div>
+<div class="md:col-span-7 flex flex-col justify-center">
+<div class="mb-8">
+<h2 class="font-headline text-5xl font-extrabold tracking-tight mb-2">Peter Dueben</h2>
+<p class="text-primary text-xl font-semibold">Head of Earth System Modelling Section, ECMWF</p>
+</div>
+<blockquote class="relative mb-10 pl-8 border-l-4 border-primary">
+<p class="font-headline text-2xl italic font-light text-on-surface-variant leading-relaxed">
+                            "The integration of machine learning into numerical weather prediction represents the most significant shift in atmospheric science in half a century."
+                        </p>
+</blockquote>
+<div class="space-y-6 text-on-surface-variant leading-relaxed text-lg">
+<p>
+                            Peter Dueben is the Head of the Earth System Modelling Section at the European Centre for Medium-Range Weather Forecasts (ECMWF). His research focuses on the development of machine learning applications and high-resolution simulations to improve the accuracy of weather and climate models.
+                        </p>
+<p>
+                            At APASE 2026, Dr. Dueben will discuss the "Digital Twin" approach to Earth observation and how hybrid modeling—combining classical physics with deep learning—is redefining our capacity to predict extreme weather events in a changing climate.
+                        </p>
+</div>
+<div class="mt-10 flex gap-4">
+<button class="bg-surface-container-high text-on-surface px-8 py-3 rounded-lg font-bold hover:bg-surface-container-highest transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">description</span> Read Abstract
+                        </button>
+</div>
+</div>
+</div>
+<!-- Speaker 2: Jan-Willem van Wingerden (Revised to match left-image layout) -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-start">
+<div class="md:col-span-5 relative group">
+<div class="absolute -inset-4 bg-surface-container-low rounded-xl -z-10 transition-transform group-hover:translate-x-2 group-hover:translate-y-2"></div>
+<img alt="Jan-Willem van Wingerden" class="w-full aspect-[4/5] object-cover rounded-lg editorial-shadow" data-alt="Close up portrait of a senior male professor with glasses in a modern university setting, soft daylight, blurred architectural background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbLyw5M3mDiba_FUfPPkGFX5YynQW3IvyNPEvKK1P0_z7tEjA352H3i0SwmiwJF-oso6uU7J05Ce55m7KpqMMfxEVCjacPS6NiDEv2Fj-AR_qS_RGHEGnZdNzqUGzHCL1UgtpJ_6-GB3aiZF3RyoPRNv1DH6SPEGEnqRQBLLTs3iCNRCtajhVZwdfP9LoE-oG81XMa_vade8GpSlwCj64o1fn5q-RVU2tC36Ttst10s6gIC9IgSTYfJ2rQCbDuVdLCjfIulqdg04g"/>
+<div class="absolute bottom-6 left-6 bg-surface-container-lowest/90 backdrop-blur-md p-6 rounded-lg max-w-xs shadow-xl">
+<span class="font-label text-primary text-xs font-bold uppercase tracking-wider block mb-1">Plenary Session</span>
+<p class="font-headline text-xl font-bold leading-tight">Next-Gen Wind Farm Dynamics</p>
+</div>
+</div>
+<div class="md:col-span-7 flex flex-col justify-center">
+<div class="mb-8">
+<h2 class="font-headline text-5xl font-extrabold tracking-tight mb-2">Jan-Willem van Wingerden</h2>
+<p class="text-primary text-xl font-semibold">Professor of Wind Energy Control, TU Delft</p>
+</div>
+<blockquote class="relative mb-10 pl-8 border-l-4 border-primary">
+<p class="font-headline text-2xl italic font-light text-on-surface-variant leading-relaxed">
+                            "Control theory is the invisible hand that will make offshore wind the backbone of the global energy transition."
+                        </p>
+</blockquote>
+<div class="space-y-6 text-on-surface-variant leading-relaxed text-lg">
+<p>
+                            Jan-Willem van Wingerden leads the Data-Driven Control group at TU Delft. He is a pioneer in the field of wind farm control, specifically focusing on wake steering and the active power control of large-scale wind turbine clusters.
+                        </p>
+<p>
+                            His keynote will highlight recent breakthroughs in closed-loop control for wind farms, demonstrating how real-time data processing and adaptive algorithms can increase energy yield by up to 10% while significantly reducing structural fatigue.
+                        </p>
+</div>
+<div class="mt-10 flex gap-4">
+<button class="bg-surface-container-high text-on-surface px-8 py-3 rounded-lg font-bold hover:bg-surface-container-highest transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">description</span> Read Abstract
+                        </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-950 w-full mt-auto">
+<div class="w-full py-16 px-12 grid grid-cols-1 md:grid-cols-4 gap-12 max-w-[1440px] mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="font-['Manrope'] font-extrabold text-[#1A365D] dark:text-white text-2xl mb-6">APASE 2026</div>
+<p class="font-['Inter'] text-sm leading-relaxed text-slate-500 dark:text-slate-400">
+                    Advancing Progress in Atmospheric and Space Engineering. A premier global forum for researchers and industry leaders.
+                </p>
+</div>
+<div class="col-span-1">
+<h4 class="font-headline font-bold text-on-surface mb-6">Resources</h4>
+<ul class="space-y-4">
+<li><a class="font-['Inter'] text-sm text-slate-500 hover:text-[#1A365D] transition-colors" href="#">Submission</a></li>
+<li><a class="font-['Inter'] text-sm text-slate-500 hover:text-[#1A365D] transition-colors" href="#">Templates</a></li>
+<li><a class="font-['Inter'] text-sm text-slate-500 hover:text-[#1A365D] transition-colors" href="#">Call for Papers</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h4 class="font-headline font-bold text-on-surface mb-6">Organization</h4>
+<ul class="space-y-4">
+<li><a class="font-['Inter'] text-sm text-slate-500 hover:text-[#1A365D] transition-colors" href="#">Committee</a></li>
+<li><a class="font-['Inter'] text-sm text-slate-500 hover:text-[#1A365D] transition-colors" href="#">Contact</a></li>
+<li><a class="font-['Inter'] text-sm text-slate-500 hover:text-[#1A365D] transition-colors" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h4 class="font-headline font-bold text-on-surface mb-6">Newsletter</h4>
+<p class="text-sm text-slate-500 mb-4">Stay updated with the latest conference news.</p>
+<div class="flex">
+<input class="bg-surface border-none text-sm p-3 rounded-l-lg w-full focus:ring-1 focus:ring-primary" placeholder="Email address" type="email"/>
+<button class="bg-primary text-on-primary px-4 py-3 rounded-r-lg"><span class="material-symbols-outlined">send</span></button>
+</div>
+</div>
+</div>
+<div class="max-w-[1440px] mx-auto px-12 py-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-['Inter'] text-sm text-slate-500 dark:text-slate-400">© 2026 APASE Conference. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-slate-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="text-slate-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">mail</span></a>
+<a class="text-slate-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
+</div>
+</div>
+</footer>
+</body></html>
