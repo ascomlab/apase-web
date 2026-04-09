@@ -1,10 +1,10 @@
 export const submissionGuidelinesContent = `# Paper Submission Guidelines
 
-The Asia-Pacific Aerospace Science & Engineering Symposium(APASE) 2026 will be published by IOP in the open access Journal of Physics: Conference Series (JPCS). The registration fee includes the publication of one paper. All papers submitted will undergo a peer-review process. Submission accepted for contributed orals and posters have an 8-page limit. Invited orals have a 12-page limit. References are not included in the page limit.
+The Asia-Pacific Aerospace Science & Engineering Symposium(APASE) 2026 will be published by IOP in the open access Journal of Physics: Conference Series (JPCS). The registration fee includes the publication of one paper. All papers submitted will undergo a peer-review process. Submission accepted for contributed orals and posters have an 8-page limit. References are not included in the page limit.
 
 ##JPCS Guidelines:
 
-Full details of the author publication guidelines for JPCS can be found [here](#).  The following lists the essential requirements for an article to be published in an IOP: Conference Series journal: 
+Full details of the author publication guidelines for JPCS can be found [here](https://publishingsupport.iopscience.iop.org/author-guidelines-for-conference-proceedings/).  The following lists the essential requirements for an article to be published in an IOP: Conference Series journal: 
 
 - the page size should be A4
 - each page should have clear margins of 4cm (top), 2.5cm (left and right) and 2.7cm (bottom) 
