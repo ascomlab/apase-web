@@ -176,14 +176,15 @@ export default function AttendancePage() {
                 </p>
                 <span className="text-xs font-bold text-primary uppercase tracking-widest relative z-10 block">
                   Oral Presentation<br />
-• Each oral presentation will last 15-20 mins (Including Q&A)<br />
-• English is the only language for presentation<br />
-• The organizer will provide laptop and other equipments for the presentation. Presenters should get their PPT prepared 5 minutes before the conference.
-• Due to the limitation of time, each presenter must manage the time strictly.
-• The presentations will be evaluated from Applicability, Originality, Significance, Visual Aids, English Delivery, and Timeliness, six aspects.
-• One excellent presentation will be selected and awarded from each session.
-• Please arrive at the designated meeting room 30 minutes earlier, in case some authors are not able to make the presentation on time
-• The presentation certificates will be given at the end of each session by session chairs.
+                  
+                    • Each oral presentation will last 15-20 mins (Including Q&A)<br />
+                    • English is the only language for presentation<br />
+                    • The organizer will provide laptop and other equipments for the presentation. Presenters should get their PPT prepared 5 minutes before the conference.<br />
+                    • Due to the limitation of time, each presenter must manage the time strictly.<br />
+                    • The presentations will be evaluated from Applicability, Originality, Significance, Visual Aids, English Delivery, and Timeliness, six aspects.<br />
+                    • One excellent presentation will be selected and awarded from each session.<br />
+                    • Please arrive at the designated meeting room 30 minutes earlier, in case some authors are not able to make the presentation on time<br />
+                    • The presentation certificates will be given at the end of each session by session chairs.<br />
                 </span>
               </div>
               <div className="group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
