@@ -156,7 +156,7 @@ export default function RegistrationPage() {
               </h3>
               <div className="space-y-6">
                 <p className="text-sm text-on-surface-variant leading-relaxed">
-                  TBD
+                  Coming Soon
                 </p>
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function RegistrationPage() {
                   Ready to register?
                 </h3>
                 <p className="text-primary-fixed/80 text-sm mb-8 leading-relaxed">
-                  TBD
+                  {/*TBD*/}
                 </p>
                 <button className="inline-flex items-center gap-2 bg-surface-container-lowest text-primary px-6 py-3 rounded font-bold text-sm">
                   Go to Registration Portal
