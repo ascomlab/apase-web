@@ -6,7 +6,7 @@ import { getAssetPath } from "../utils";
 
 const quickLinks = [
   { label: "Full schedule", url: "#schedule" },
-  { label: "Visa letter request", url: "#visa" },
+  { label: "Visa information", url: "#visa" },
 ];
 
 const venueContent = {
