@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Globe, Mail, Share2, LucideIcon } from "lucide-react";
+import { getAssetPath } from "@/app/utils";
 
 const iconMap: Record<string, LucideIcon> = {
   Globe,
@@ -55,7 +56,7 @@ export default function Footer() {
         <div className="md:col-span-1">
           <Link href="/" className="inline-block mb-6">
             <Image
-              src="/logo/apase-logo.png"
+              src={getAssetPath("/logo/apase-logo.png")}
               alt="APASE Logo"
               width={150}
               height={60}
