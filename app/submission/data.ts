@@ -1,19 +1,24 @@
-export const submissionGuidelinesContent = `# Lorem Ipsum Paper Submission Guidelines
+export const submissionGuidelinesContent = `# Paper Submission Guidelines
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The Asia-Pacific Aerospace Science & Engineering Symposium(APASE) 2026 will be published by IOP in the open access Journal of Physics: Conference Series (JPCS). The registration fee includes the publication of one paper. All papers submitted will undergo a peer-review process. Submission accepted for contributed orals and posters have an 8-page limit. Invited orals have a 12-page limit. References are not included in the page limit.
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. **Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium**.
+##JPCS Guidelines:
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Full details of the author publication guidelines for JPCS can be found [here](#).  The following lists the essential requirements for an article to be published in an IOP: Conference Series journal: 
 
-## Lorem Ipsum Guidelines
+- the page size should be A4
+- each page should have clear margins of 4cm (top), 2.5cm (left and right) and 2.7cm (bottom) 
+- pages should not contain page numbers, running heads or footlines 
+- all articles must contain an abstract 
+- in the PDF, all fonts should be embedded 
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem:
+The IOP Conference Series template is mandatory for submission. It can be found below:
 
 - [Microsoft Word](#)
 - [LaTeX](#)
 - [Overleaf](#)
 
-Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+Ensure that within the template, all other JPCS formatting rules are still followed. The paper should be submitted as an editable and not password protected PDF. 
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.`;
+It is important to ensure that when you submit your paper, it is in its final form ready for publication, and has been thoroughly proofread. IOP do not copy edit or reformat papers and will not send out author proofs prior to publication. Post-publication changes are not permitted, so please ensure that your paper has been checked for errors.
+`;
