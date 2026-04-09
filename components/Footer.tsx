@@ -40,7 +40,7 @@ const footerData = {
   ],
   contact: {
     title: "Contact Us",
-    info: ["Conference Secretariat", "Email: TBD", "Tel: TBD"],
+    info: ["Conference Secretariat", "Email: TBD"],
     hours: ["Office Hours: Mon - Fri", "09:00 - 18:00 (CST)"],
   },
   copyright:
