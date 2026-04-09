@@ -175,9 +175,9 @@ export default function AttendancePage() {
                   {/*TBD*/}
                 </p>
                 <span className="text-xs font-bold text-primary uppercase tracking-widest relative z-10 block">
-                  Oral Presentation
-• Each oral presentation will last 15-20 mins (Including Q&A)
-• English is the only language for presentation
+                  Oral Presentation<br />
+• Each oral presentation will last 15-20 mins (Including Q&A)<br />
+• English is the only language for presentation<br />
 • The organizer will provide laptop and other equipments for the presentation. Presenters should get their PPT prepared 5 minutes before the conference.
 • Due to the limitation of time, each presenter must manage the time strictly.
 • The presentations will be evaluated from Applicability, Originality, Significance, Visual Aids, English Delivery, and Timeliness, six aspects.
