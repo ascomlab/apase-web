@@ -15,7 +15,7 @@ export default function SubmissionPage() {
           <span className="text-primary italic">Submission</span>
         </h1>
         <p className="text-lg text-on-surface-variant leading-relaxed max-w-2xl font-body">
-          TBD
+          {/* TBD*/}
         </p>
       </section>
 
