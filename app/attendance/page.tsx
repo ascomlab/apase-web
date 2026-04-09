@@ -149,16 +149,21 @@ export default function AttendancePage() {
               <p className="text-sm text-on-primary-container/70 mb-6">
                 
                 Your passport must be valid for at least six months after the expiry date of your visa and you’ll need at least one entire blank page in your passport for the visa. You may be required to show proof of hotel reservations and onward travel from China, as well as a bank statement showing you have $100 in your account for every day you plan to spend in China.
-
+<br />
+<br />
 A standard 30-day single-entry visa can be issued from most Chinese embassies abroad in three to five working days. Express visas cost twice the usual fee. In some countries (eg the UK and the US) the visa service has been outsourced from the Chinese embassy to a Chinese Visa Application Service Centre, which levies an extra administration fee. In the case of the UK, a single-entry visa costs £30, but the standard administration charge levied by the centre is a further £36.
-
+<br />
+<br />
 A standard 30-day visa is activated on the date you enter China, and must be used within three months of the date of issue. 60-day and 90-day tourist visas are reasonably easy to obtain in your home country but difficult elsewhere. To stay longer, you can extend your visa in China at least once, sometimes twice.
-
+<br />
+<br />
 Visa applications require a completed application form (available at the embassy or downloaded from its website) and at least one photo (normally 51mm x 51mm). You normally pay for your visa when you collect it. A visa mailed to you will take up to three weeks. In the US and Canada, mailed visa applications have to go via a visa agent, at extra cost. In the US, many people use the China Visa Service Center, which offers prompt service. The procedure takes around 10 to 14 days.
-
+<br />
+<br />
 Hong Kong is a good place to pick up a China visa. However, at the time of writing only Hong Kong residents were able to obtain them direct from the Visa Office of the People’s Republic of China. Single-entry visas processed here cost HK$200, double-entry visas HK$300, while six-month/one-year multiple-entry visas are HK$500. But China Travel Service (CTS) and many travel agencies in Hong Kong can get you a visa in two to three working days. Expect to pay HK$650 for a single-entry visa and HK$750 for a double-entry. Both erican and UK passport holders must pay considerably more for their visas.
 Be aware that political events can suddenly make visas more difficult to procure or renew.
-
+<br />
+<br />
 Passports
 Chinese law requires foreign visitors to carry their passport with them at all times; it is the most basic travel document and all hotels (and internet cafes) will insist on seeing it. You also need it to buy train tickets or to get into some tourist sights, particularly those which are free.
 It’s a good idea to bring an ID card with your photo in case you lose your passport. Even better, make photocopies, or take digital photos of your passport – your embassy may need these before issuing a new one. You should also report the loss to the local Public Security Bureau (PSB).
