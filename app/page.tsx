@@ -23,8 +23,8 @@ const heroData = {
     { name: "KMITL", logo: getAssetPath("/logo/organizors/kmitl-logo.png") },
     { name: "HIT", logo: getAssetPath("/logo/organizors/hit-logo.png") },
     { name: "NARIT", logo: getAssetPath("/logo/organizors/narit-logo.png") },
-    { name: "IDSEA", logo: getAssetPath("/logo/organizors/idsea-logo.png") },
-    { name: "APSCO", logo: getAssetPath("/logo/organizors/apsco-logo.png") },
+    //{ name: "IDSEA", logo: getAssetPath("/logo/organizors/idsea-logo.png") },
+    //{ name: "APSCO", logo: getAssetPath("/logo/organizors/apsco-logo.png") },
   ],
 };
 
