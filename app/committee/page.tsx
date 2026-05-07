@@ -39,24 +39,26 @@ const organizingCommittee = [
   },
   {
     role: "General Chairs",
-    name: "Asst. Prof. Dr. Soemsak Yooyen",
-    affiliation: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
-  },
-  {
-    role: "General Chairs",
-    name: "TBD",
+    name: "Prof. Xinghong Zhang",
     affiliation: "Harbin Institute of Technology, China",
   },
   {
+    role: "General Chairs",
+    name: "Asst. Prof. Dr. Soemsak Yooyen",
+    affiliation: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
+  },
+  
+  {
     role: "Program Committee Chairs",
-    name: "TBD",
-    affiliation: "TBD",
+    name: "Prof. Xiyang Zhi",
+    affiliation: "Harbin Institute of Technology, China",
   },
   {
     role: "Executive Committee Chairs",
-    name: "Assoc. Prof. Dr. Athikom Roeksabutr",
-    affiliation: "Mahanakorn University of Technology & EEAAT,Thailand",
+    name: "Prof. Zexu Zhang",
+    affiliation: "Harbin Institute of Technology, China",
   },
+  
   {
     role: "Executive Committee Chairs",
     name: "Prof. Chunxiang Cao",
@@ -70,13 +72,18 @@ const organizingCommittee = [
       "National Astronomical Observatories,Chinese Academy of Sciences,China",
   },
   {
+    role: "Executive Committee Chairs",
+    name: "Assoc. Prof. Dr. Athikom Roeksabutr",
+    affiliation: "Mahanakorn University of Technology & EEAAT,Thailand",
+  },
+  {
     role: "Publication Chairs",
     name: "Prof. Shuai Yuan",
     affiliation: "Harbin Institute of Technology, China",
   },
   {
     role: "Local Chair",
-    name: "TBD",
+    name: "Prof. Wente Pan",
     affiliation: "Harbin Institute of Technology, China",
   },
 ];
