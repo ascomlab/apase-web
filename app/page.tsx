@@ -32,7 +32,7 @@ const todayKey = getTodayKey("Asia/Shanghai");
 
 const importantDates = [
   {
-    date: "MAY 01",
+    date: "MAY 01(TBC)",
     year: "2026",
     title: "Paper Submission Opens",
     description: "Submission portal opens for authors",
@@ -40,35 +40,35 @@ const importantDates = [
     active: todayKey >= getMilestoneKey("MAY 01", "2026")!,
   },
   {
-    date: "JUL 31",
+    date: "JUL 31(TBC)",
     year: "2026",
     title: "Full Paper Submission Deadline",
     description: "Deadline for full paper submission",
     active: todayKey >= getMilestoneKey("JUL 31", "2026")!,
   },
   {
-    date: "SEP 15",
+    date: "SEP 15(TBC)",
     year: "2026",
     title: "Notification of Acceptance",
     description: "Deadline to notify authors of acceptance results",
     active: todayKey >= getMilestoneKey("SEP 15", "2026")!,
   },
   {
-    date: "OCT 15",
+    date: "OCT 15(TBC)",
     year: "2026",
     title: "Camera-Ready Paper Submission",
     description: "Deadline for submitting the camera-ready version",
     active: todayKey >= getMilestoneKey("OCT 15", "2026")!,
   },
   {
-    date: "SEP 15 - OCT 31",
+    date: "SEP 15 - OCT 31(TBC)",
     year: "2026",
     title: "Registration",
     description: "Period for registration",
     active: todayKey >= getMilestoneKey("OCT 31", "2026")!,
   },
   {
-    date: "DEC 18–21",
+    date: "DEC 18–21(TBC)",
     year: "2026",
     title: "Conference Dates",
     description: "APASE 2026 conference in Harbin, China",
