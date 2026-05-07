@@ -90,6 +90,16 @@ const organizingCommittee = [
 
 const technicalCommittee = [
   {
+    name: "Asst. Prof. Dr. Patcharin Kamsing",
+    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
+    badge: null,
+  },
+  {
+    name: "Dr. Peerapong Torteeka",
+    description: "National Astronomical Research Institute of Thailand, Thailand",
+    badge: null,
+  },
+  {
     name: "Assoc. Prof. Dr. Pisit Boonsrimuang",
     description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
     badge: null,
