@@ -216,7 +216,7 @@ const publications = [
   {
     year: "APASE 2026",
     title:
-      "The 5th Asia-Pacific Aerospace Science and Engineering Symposium - International Conference",
+      "The 5th Asia-Pacific Aerospace Science and Engineering Conference",
     publisher: null,
     location: "Harbin, China",
     featured: true,
