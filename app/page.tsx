@@ -7,7 +7,7 @@ const heroData = {
   badge: "International Conference",
   title: {
     main: "Asia-Pacific Aerospace Science &",
-    highlighted: "Engineering Symposium.",
+    highlighted: "Engineering Conference.",
   },
   description:
     "Join leading researchers and practitioners in exploring the frontiers of physics and engineering.",
