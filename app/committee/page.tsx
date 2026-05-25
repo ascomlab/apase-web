@@ -90,6 +90,11 @@ const organizingCommittee = [
 
 const technicalCommittee = [
   {
+    name: "Prof. Alessandro Bartoloni",
+    description: "Education & Outreach Coordinator of the Moon Village Association",
+    badge: null,
+  },
+  {
     name: "Asst. Prof. Dr. Patcharin Kamsing",
     description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
     badge: null,
