@@ -16,7 +16,7 @@ const heroData = {
     alt: "Microscopic view of advanced physical materials",
   },
   eventInfo: {
-    year: "2026",
+    //year: "2026",
     location: "Harbin, China",
   },
   organizers: [
