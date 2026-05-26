@@ -110,6 +110,11 @@ const technicalCommittee = [
     badge: null,
   },
   {
+    name: "Assoc. Prof. Dr. Di LIU",
+    description: "Research Center for Eco-Environment Sciences, Chinese Academy of Sciences, China",
+    badge: null,
+  },
+  {
     name: "Assoc. Prof. Dr. Kritsanapong Phansri",
     description:
       "Rajamangala University of Technology Isan, Khon Kaen Campus, Thailand",
