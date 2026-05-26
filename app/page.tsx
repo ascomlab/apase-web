@@ -341,19 +341,19 @@ export default function Home() {
               <div className="max-w-3xl space-y-8">
                 <p className="font-body text-2xl text-on-surface leading-snug font-medium">
                   2026 The 5th Asia-Pacific Aerospace Science and Engineering
-                  Conference (APASE 2026).
+                  Conference (APASE).
                 </p>
                 <p className="font-body text-lg text-on-surface-variant leading-relaxed">
-                  2026 The 5th Asia-Pacific Aerospace Science and Engineering
-                  Conference (APASE 2026), the annual conference held from the
+                  The 5th Asia-Pacific Aerospace Science and Engineering
+                  Conference (APASE), the annual conference held from the
                   year 2020 with the name of The Innovation Aviation {"&"}{" "}
                   Aerospace Industry (IAAI)- International Conference, will take
-                  place on December 18-21, 2026(TBC). in Harbin, China. Accepted
-                  papers in APASE 2026 will be submitted for publication into{" "}
+                  place on January 8-10, 2027. in Harbin, China. Accepted
+                  papers in APASE will be submitted for publication into{" "}
                   <b className="text-black">
                     EI Compendex(Journal of Physics: Conference Series, JPCS)
                   </b>
-                  . The APASE 2026 conference focuses on innovations in aviation
+                  . The APASE conference focuses on innovations in aviation
                   and aerospace by fostering knowledge and new ideas for
                   research work within the community, speakers, plenary
                   speeches, young researchers and practitioners.
