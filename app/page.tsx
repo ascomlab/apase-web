@@ -201,7 +201,7 @@ const technicalTracks = [
 
 const publications = [
   {
-    year: "APASE 2026",
+    year: "APASE",
     title:
       "The 5th Asia-Pacific Aerospace Science and Engineering Conference",
     publisher: null,
@@ -340,7 +340,7 @@ export default function Home() {
             <div className="lg:col-span-8">
               <div className="max-w-3xl space-y-8">
                 <p className="font-body text-2xl text-on-surface leading-snug font-medium">
-                  2026 The 5th Asia-Pacific Aerospace Science and Engineering
+                  The 5th Asia-Pacific Aerospace Science and Engineering
                   Conference (APASE).
                 </p>
                 <p className="font-body text-lg text-on-surface-variant leading-relaxed">
@@ -359,8 +359,8 @@ export default function Home() {
                   speeches, young researchers and practitioners.
                 </p>
                 <p className="font-body text-lg text-on-surface-variant leading-relaxed">
-                  APASE 2026 also seeks to provide forums, oral presentations,
-                  and scientific sessions. APASE 2026 invites researchers,
+                  APASE also seeks to provide forums, oral presentations,
+                  and scientific sessions. APASE invites researchers,
                   aerospace and aviation industry representatives, and others
                   with an interest in the impacts of the aerospace and aviation
                   industry to join us for what will be an exciting event.
