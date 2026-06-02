@@ -24,6 +24,7 @@ const heroData = {
     { name: "HIT", logo: getAssetPath("/logo/organizors/hit-logo.png") },
     { name: "NARIT", logo: getAssetPath("/logo/organizors/narit-logo.png") },
     { name: "MVA", logo: getAssetPath("/logo/organizors/mva.png") },
+    { name: "DSEL", logo: getAssetPath("/logo/organizors/DSEL.png") },
     //{ name: "IDSEA", logo: getAssetPath("/logo/organizors/idsea-logo.png") },
     //{ name: "APSCO", logo: getAssetPath("/logo/organizors/apsco-logo.png") },
   ],
