@@ -17,7 +17,7 @@ const footerData = {
   },
   social: [
     { icon: "Globe", href: "/", label: "Website" },
-    { icon: "Mail", href: "mailto:info@apase.org", label: "Email" },
+    { icon: "Mail", href: "mailto:apaseconference@gmail.com", label: "Email" },
   ],
   sections: [
     {
@@ -41,7 +41,7 @@ const footerData = {
   ],
   contact: {
     title: "Contact Us",
-    info: ["Conference Secretariat", "Email: TBD"],
+    info: ["Conference Secretariat", "Email: apaseconference@gmail.com"],
     hours: ["Office Hours: Mon - Fri", "09:00 - 18:00 (CST)"],
   },
   copyright:
