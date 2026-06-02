@@ -111,12 +111,12 @@ const technicalCommittee = [
     badge: null,
   },
   {
-    name: "Mr. Zhang Bing",
+    name: "Assoc. Prof. Dr. Zhang Bing",
     description: "Deep Space Exploration Laboratory",
     badge: null,
   },
   {
-    name: "Mr. Pang Shunxiang",
+    name: "Dr. Pang Shunxiang",
     description: "Deep Space Exploration Laboratory",
     badge: null,
   },
