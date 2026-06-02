@@ -37,6 +37,12 @@ const organizingCommittee = [
     affiliation:
       "National Astronomical Research Institute of Thailand, Thailand",
   },
+   {
+    role: "Honorary Chair",
+    name: "Mr. Hu Zhaobin",
+    affiliation:
+      "Deputy Director of Deep Space Exploration Laboratory, China",
+  },
   {
     role: "General Chairs",
     name: "Prof. Xinghong Zhang",
@@ -92,6 +98,26 @@ const technicalCommittee = [
   {
     name: "Prof. Alessandro Bartoloni",
     description: "Education & Outreach Coordinator of the Moon Village Association",
+    badge: null,
+  },
+  {
+    name: "Mr. Liu Wangwang",
+    description: "Deep Space Exploration Laboratory",
+    badge: null,
+  },
+  {
+    name: "Ms. Liu Ying",
+    description: "Deep Space Exploration Laboratory",
+    badge: null,
+  },
+  {
+    name: "Mr. Zhang Bing",
+    description: "Deep Space Exploration Laboratory",
+    badge: null,
+  },
+  {
+    name: "Mr. Pang Shunxiang",
+    description: "Deep Space Exploration Laboratory",
     badge: null,
   },
   {
