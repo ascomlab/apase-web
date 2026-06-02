@@ -16,7 +16,7 @@ const heroData = {
     alt: "Microscopic view of advanced physical materials",
   },
   eventInfo: {
-    //year: "2026",
+    year: null,
     location: "Harbin, China",
   },
   organizers: [
@@ -33,7 +33,6 @@ const heroData = {
 const todayKey = getTodayKey("Asia/Shanghai");
 
 const importantDates = [
-  
   {
     date: "SEP 30",
     year: "2026",
@@ -203,8 +202,7 @@ const technicalTracks = [
 const publications = [
   {
     year: "APASE",
-    title:
-      "The 5th Asia-Pacific Aerospace Science and Engineering Conference",
+    title: "The 5th Asia-Pacific Aerospace Science and Engineering Conference",
     publisher: null,
     location: "Harbin, China",
     featured: true,
@@ -260,7 +258,7 @@ export const institutionalSupport = {
     //{ name: "SWU", logo: getAssetPath("/logo/assistances/swu-logo.png") },
     //{ name: "MUT", logo: getAssetPath("/logo/assistances/mut-logo.png") },
     //{ name: "RMUTI", logo: getAssetPath("/logo/assistances/Logo_rmuti.png") },
-   // { name: "SSRU", logo: getAssetPath("/logo/assistances/SSRU_LOGO.png") },
+    // { name: "SSRU", logo: getAssetPath("/logo/assistances/SSRU_LOGO.png") },
   ],
 };
 
@@ -294,9 +292,11 @@ export default function Home() {
                 height={500}
               />
               <div className="absolute -bottom-6 -left-6 bg-primary text-on-primary p-6 rounded-xl shadow-2xl max-w-[200px]">
-                <p className="text-3xl font-black mb-1">
-                  {heroData.eventInfo.year}
-                </p>
+                {heroData.eventInfo.year && (
+                  <p className="text-3xl font-black mb-1">
+                    {heroData.eventInfo.year}
+                  </p>
+                )}
                 <p className="text-xs font-bold uppercase tracking-widest opacity-80 leading-tight">
                   {heroData.eventInfo.location}
                 </p>
@@ -346,25 +346,25 @@ export default function Home() {
                 </p>
                 <p className="font-body text-lg text-on-surface-variant leading-relaxed">
                   The 5th Asia-Pacific Aerospace Science and Engineering
-                  Conference (APASE), the annual conference held from the
-                  year 2020 with the name of The Innovation Aviation {"&"}{" "}
-                  Aerospace Industry (IAAI)- International Conference, will take
-                  place on January 8-10, 2027. in Harbin, China. Accepted
-                  papers in APASE will be submitted for publication into{" "}
+                  Conference (APASE), the annual conference held from the year
+                  2020 with the name of The Innovation Aviation {"&"} Aerospace
+                  Industry (IAAI)- International Conference, will take place on
+                  January 8-10, 2027. in Harbin, China. Accepted papers in APASE
+                  will be submitted for publication into{" "}
                   <b className="text-black">
                     EI Compendex(Journal of Physics: Conference Series, JPCS)
                   </b>
-                  . The APASE conference focuses on innovations in aviation
-                  and aerospace by fostering knowledge and new ideas for
-                  research work within the community, speakers, plenary
-                  speeches, young researchers and practitioners.
+                  . The APASE conference focuses on innovations in aviation and
+                  aerospace by fostering knowledge and new ideas for research
+                  work within the community, speakers, plenary speeches, young
+                  researchers and practitioners.
                 </p>
                 <p className="font-body text-lg text-on-surface-variant leading-relaxed">
-                  APASE also seeks to provide forums, oral presentations,
-                  and scientific sessions. APASE invites researchers,
-                  aerospace and aviation industry representatives, and others
-                  with an interest in the impacts of the aerospace and aviation
-                  industry to join us for what will be an exciting event.
+                  APASE also seeks to provide forums, oral presentations, and
+                  scientific sessions. APASE invites researchers, aerospace and
+                  aviation industry representatives, and others with an interest
+                  in the impacts of the aerospace and aviation industry to join
+                  us for what will be an exciting event.
                 </p>
               </div>
             </div>
