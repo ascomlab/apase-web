@@ -124,13 +124,13 @@ export default function RegistrationPage() {
                 <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
                 <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl transition-opacity duration-300 group-hover:opacity-100 opacity-70" />
                 <h3 className="font-headline font-bold text-xl mb-4 relative z-10">
-                  Registration
+                  Early Registration Deadline
                 </h3>
                 <p className="text-on-surface-variant body-md leading-relaxed mb-3 relative z-10">
-                  Period for registration
+                  Deadline for early registration
                 </p>
                 <div className="text-primary font-bold text-xl font-headline tracking-tight relative z-10">
-                  SEP 15 - OCT 31 2026
+                  Nov 15 2026
                 </div>
               </div>
               <div className="group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
@@ -140,10 +140,10 @@ export default function RegistrationPage() {
                   Conference Dates
                 </h3>
                 <p className="text-on-surface-variant body-md leading-relaxed mb-3 relative z-10">
-                  APASE 2026 conference in Harbin, China
+                  APASE conference in Harbin, China
                 </p>
                 <div className="text-on-surface font-bold text-xl font-headline tracking-tight relative z-10">
-                  DEC 18-21 2026
+                  Jan 8-10 2027
                 </div>
               </div>
             </div>
