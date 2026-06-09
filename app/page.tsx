@@ -23,10 +23,12 @@ const heroData = {
     { name: "KMITL", logo: getAssetPath("/logo/organizors/kmitl-logo.png") },
     { name: "HIT", logo: getAssetPath("/logo/organizors/hit-logo.png") },
     { name: "NARIT", logo: getAssetPath("/logo/organizors/narit-logo.png") },
-    { name: "MVA", logo: getAssetPath("/logo/organizors/mva.png") },
-    { name: "DSEL", logo: getAssetPath("/logo/organizors/DSEL.png") },
     //{ name: "IDSEA", logo: getAssetPath("/logo/organizors/idsea-logo.png") },
     //{ name: "APSCO", logo: getAssetPath("/logo/organizors/apsco-logo.png") },
+  ],
+  coOrganizers: [
+    { name: "MVA", logo: getAssetPath("/logo/organizors/mva.png") },
+    { name: "DSEL", logo: getAssetPath("/logo/organizors/DSEL.png") },
   ],
 };
 
@@ -305,26 +307,50 @@ export default function Home() {
           </div>
         </div>
         {/* Organizer Logos */}
-        <div className="mt-24 pt-12 border-t border-slate-200/50 flex flex-col md:flex-row flex-wrap items-center gap-16">
-          <p className="font-bold text-sm text-outline tracking-widest uppercase">
-            Organized By
-          </p>
-          <div className="flex flex-wrap gap-12 items-center justify-center">
-            {heroData.organizers.map((org, index) => (
-              <div
-                key={index}
-                className="relative h-20 w-36 flex items-center justify-center"
-                title={org.name}
-              >
-                <Image
-                  src={org.logo}
-                  alt={org.name}
-                  width={128}
-                  height={48}
-                  className="h-full w-auto object-contain"
-                />
-              </div>
-            ))}
+        <div className="mt-24 pt-12 border-t border-slate-200/50 flex flex-col gap-8">
+          <div className="flex flex-col md:flex-row flex-wrap items-center gap-16">
+            <p className="font-bold text-sm text-outline tracking-widest uppercase min-w-[140px]">
+              Organized By
+            </p>
+            <div className="flex flex-wrap gap-12 items-center justify-center">
+              {heroData.organizers.map((org, index) => (
+                <div
+                  key={index}
+                  className="relative h-20 w-36 flex items-center justify-center"
+                  title={org.name}
+                >
+                  <Image
+                    src={org.logo}
+                    alt={org.name}
+                    width={128}
+                    height={48}
+                    className="h-full w-auto object-contain"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row flex-wrap items-center gap-16">
+            <p className="font-bold text-sm text-outline tracking-widest uppercase min-w-[140px]">
+              Co-Organize By
+            </p>
+            <div className="flex flex-wrap gap-12 items-center justify-center">
+              {heroData.coOrganizers.map((org, index) => (
+                <div
+                  key={index}
+                  className="relative h-20 w-36 flex items-center justify-center"
+                  title={org.name}
+                >
+                  <Image
+                    src={org.logo}
+                    alt={org.name}
+                    width={128}
+                    height={48}
+                    className="h-full w-auto object-contain"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
