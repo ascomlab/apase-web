@@ -61,58 +61,135 @@ const organizingCommittee = [
     affiliation:
       "Education & Outreach Coordinator of the Moon Village Association,Italy",
   },
-
-
-
   {
-    role: "General Chairs",
-    name: "Prof. Xinghong Zhang",
-    affiliation: "Harbin Institute of Technology, China",
-  },
-  {
-    role: "General Chairs",
-    name: "Asst. Prof. Dr. Soemsak Yooyen",
+    role: "Organizing Committee Chairs",
+    name: "Assoc. Prof. Dr. Komsan Maleesee",
     affiliation: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
   },
-  
   {
-    role: "Program Committee Chairs",
-    name: "Prof. Xiyang Zhi",
-    affiliation: "Harbin Institute of Technology, China",
+    role: "Organizing Committee Chairs",
+    name: "Dr. Wiphu Rujopakarn",
+    affiliation: "National Astronomical Research Institute of Thailand,Thailand",
+  },
+    {
+    role: "Organizing Committee Chairs",
+    name: "Prof.Shuai Yuan",
+    affiliation: "Harbin Institute of Technology,China",
   },
   {
-    role: "Executive Committee Chairs",
-    name: "Prof. Zexu Zhang",
-    affiliation: "Harbin Institute of Technology, China",
+    role: "Organizing Committee Chairs",
+    name: "Mr. Hu Zhaobin",
+    affiliation: "Deep Space Exploration Laboratory,China",
   },
-  
-  {
-    role: "Executive Committee Chairs",
+    {
+    role: "Organizing committee members",
     name: "Prof. Chunxiang Cao",
     affiliation:
-      "Aerospace Information research Institute,Chinese Academy of Sciences,China",
+      "Aerospace Information research Institute, Chinese Academy of Sciences, China",
   },
-  {
-    role: "Executive Committee Chairs",
+   {
+    role: "Organizing committee members",
     name: "Prof. Zhao You",
     affiliation:
-      "National Astronomical Observatories,Chinese Academy of Sciences,China",
+      "National Astronomical Observatories, Chinese Academy of Sciences, China",
   },
-  {
-    role: "Executive Committee Chairs",
+   {
+    role: "Organizing committee members",
     name: "Assoc. Prof. Dr. Athikom Roeksabutr",
-    affiliation: "Mahanakorn University of Technology & EEAAT,Thailand",
+    affiliation:
+      "Mahanakorn University of Technology & EEAAT,Thailand",
   },
-  {
-    role: "Publication Chairs",
-    name: "Prof. Shuai Yuan",
-    affiliation: "Harbin Institute of Technology, China",
+   {
+    role: "Organizing committee members",
+    name: "Assoc. Prof. Wente Pan",
+    affiliation:
+      "Harbin Institute of Technology,China",
   },
-  {
-    role: "Local Chair",
-    name: "Prof. Wente Pan",
-    affiliation: "Harbin Institute of Technology, China",
+   {
+    role: "Organizing committee members",
+    name: "Assoc. Prof. Dr.Tuanjai Archevapanich",
+    affiliation:
+      "Rajamangala University of Technology Suvarnabhumi & EEAAT,Thailand",
   },
+   {
+    role: "Organizing committee members",
+    name: "Assoc.Prof.Dr.Boonchana Purahong",
+    affiliation:
+      "King Mongkut's Institute of Technology Ladkrabang & EEAAT,Thailand",
+  },
+   {
+    role: "Organizing committee members",
+    name: "Asst. Prof. Dr. Sommart Sang-Ngern",
+    affiliation:
+      "Naresuan University & EEAAT,Thailand",
+  },
+   {
+    role: "Organizing committee members",
+    name: "Asst. Prof. Dr. Manop Aorpimai",
+    affiliation:
+      "Mahanakorn University of Technology ,Thailand",
+  },
+   {
+    role: "Organizing committee members",
+    name: "Dr.Peerawat Artitthang",
+    affiliation:
+      "Valaya Alongkorn Rajabhat University under the Royal Patronage,Thailand",
+  },
+   {
+    role: "Organizing committee members",
+    name: "Asst. Prof. Dr. Minghao Lu",
+    affiliation:
+      "Harbin Institute of Technology,China",
+  },
+   {
+    role: "Organizing committee members",
+    name: "Asst. Prof. Dr. Qin Yang",
+    affiliation:
+      "Harbin Institute of Technology,China",
+  },
+   {
+    role: "Organizing committee members",
+    name: "Asst. Prof. Dr. Baolin Tian",
+    affiliation:
+      "Harbin Institute of Technology,China",
+  },
+   {
+    role: "Organizing committee members",
+    name: "Asst. Prof. Dr. Zheng Chen",
+    affiliation:
+      "Harbin Institute of Technology,China",
+  },
+   {
+    role: "Organizing committee members",
+    name: "Assoc. Prof.Cattareeya Suwanasri",
+    affiliation:
+      "King Mongkut's University of Technology North Bangkok & EEAAT,Thailand",
+  },
+   {
+    role: "Organizing committee members",
+    name: "Asst. Prof. Dr. Supattana Nirukkanaporn",
+    affiliation:
+      "Rangsit University & EEAAT,Thailand",
+  },
+   {
+    role: "Publication Chair",
+    name: "Asst. Prof. Dr. Patcharin Kamsing",
+    affiliation:
+      "King Mongkut's Institute of Technology Ladkrabang,Thailand",
+  },
+   {
+    role: "Publication Chair",
+    name: "Dr. Peerapong Torteeka",
+    affiliation:
+      "National Astronomical Research Institute of Thailand,Thailand",
+  },
+   {
+    role: "Publicity Chair",
+    name: "Assoc. Prof.Yixin Huang",
+    affiliation:
+      "Harbin Institute of Technology,China",
+  },
+  
 ];
 
 const technicalCommittee = [
