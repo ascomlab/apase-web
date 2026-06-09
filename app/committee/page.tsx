@@ -27,22 +27,43 @@ const keynoteSpeakers = [
 
 const organizingCommittee = [
   {
-    role: "Honorary Chair",
-    name: "Assoc. Prof. Dr. Komsan Maleesee",
-    affiliation: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
+    role: "Conference General Chair",
+    name: "Asst. Prof. Dr. Soemsak Yooyen",
+    affiliation: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
   },
   {
-    role: "Honorary Chair",
-    name: "Dr. Wiphu Rujopakarn",
+    role: "Conference General Chair",
+    name: "Prof. Xinghong Zhang",
     affiliation:
-      "National Astronomical Research Institute of Thailand, Thailand",
+      "Harbin Institute of Technology,China",
   },
    {
-    role: "Honorary Chair",
-    name: "Mr. Hu Zhaobin",
+    role: "Technical Program Committee Chair",
+    name: "Prof. Xiyang Zhi",
     affiliation:
-      "Deputy Director of Deep Space Exploration Laboratory, China",
+      "Harbin Institute of Technology,China",
   },
+   {
+    role: "Technical Program Committee Chair",
+    name: "Prof. Zexu Zhang",
+    affiliation:
+      "Harbin Institute of Technology,China",
+  },
+   {
+    role: "Technical Program Committee Chair",
+    name: "Prof. David John Ruffolo",
+    affiliation:
+      "Mahidol University,Thailand",
+  },
+   {
+    role: "Technical Program Committee Chair",
+    name: "Prof. Alessandro Bartoloni",
+    affiliation:
+      "Education & Outreach Coordinator of the Moon Village Association,Italy",
+  },
+
+
+
   {
     role: "General Chairs",
     name: "Prof. Xinghong Zhang",
@@ -96,109 +117,151 @@ const organizingCommittee = [
 
 const technicalCommittee = [
   {
-    name: "Prof. Alessandro Bartoloni",
-    description: "Education & Outreach Coordinator of the Moon Village Association",
-    badge: null,
-  },
-  {
-    name: "Mr. Liu Wangwang",
-    description: "Deep Space Exploration Laboratory",
-    badge: null,
-  },
-  {
-    name: "Ms. Liu Ying",
-    description: "Deep Space Exploration Laboratory",
+    name: "Mr.Liu Wangwang",
+    description: "Deep Space Exploration Laboratory,China",
     badge: null,
   },
   {
     name: "Assoc. Prof. Dr. Zhang Bing",
-    description: "Deep Space Exploration Laboratory",
+    description: "Deep Space Exploration Laboratory,China",
     badge: null,
   },
   {
     name: "Dr. Pang Shunxiang",
-    description: "Deep Space Exploration Laboratory",
-    badge: null,
-  },
-  {
-    name: "Asst. Prof. Dr. Patcharin Kamsing",
-    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
-    badge: null,
-  },
-  {
-    name: "Dr. Peerapong Torteeka",
-    description: "National Astronomical Research Institute of Thailand, Thailand",
+    description: "Deep Space Exploration Laboratory,China",
     badge: null,
   },
   {
     name: "Assoc. Prof. Dr. Pisit Boonsrimuang",
-    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
+    description: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
     badge: null,
   },
   {
-    name: "Assoc. Prof. Dr. Di LIU",
-    description: "Research Center for Eco-Environment Sciences, Chinese Academy of Sciences, China",
+    name: "Assoc. Prof. Dr.Di LIU",
+    description: "Research Center for Eco-Environment Sciences, Chinese Academy of Sciences,China",
     badge: null,
   },
   {
-    name: "Assoc. Prof. Dr. Kritsanapong Phansri",
-    description:
-      "Rajamangala University of Technology Isan, Khon Kaen Campus, Thailand",
-    badge: null,
-  },
-
-  {
-    name: "Asst. Prof. Dr. Prasert Prapamonthon",
-    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
-    badge: null,
-  },
-  {
-    name: "Asst. Prof. Dr. Pititat Itsariyapinyo",
-    description: "King Mongkut's Institute of Technology Ladkrabang, Thailand",
+    name: "Assoc. Prof. Dr.Kritsanapong Phansri",
+    description: "Rajamangala University of Technology Isan, Khon Kaen Campus,Thailand",
     badge: null,
   },
   {
     name: "Asst. Prof. Dr. Suphongsa Khetkeeree",
-    description: "Mahanakorn University of Technology，Thailand",
+    description: "Mahanakorn University of Technology ,Thailand",
     badge: null,
   },
   {
     name: "Asst. Prof. Dr. Wares Chancharoen",
-    description: "Chulabhorn Royal Academy, Thailand",
+    description: "Chulabhorn Royal Academy,Thailand",
     badge: null,
   },
   {
-    name: "Asst. Prof. Dr.Sethakarn Prongnuch",
-    description: "Suan Sunandha Rajabhat University, Thailand",
+    name: "Asst. Prof. Dr. Sethakarn Prongnuch",
+    description: "Suan Sunandha Rajabhat University,Thailand",
     badge: null,
   },
   {
     name: "Dr. Tatpong Tulyananda",
-    description: "Mahidol University, Thailand",
+    description:
+      "Mahidol University, Thailand",
     badge: null,
   },
+
   {
     name: "Dr. Potiwat Ngamkajornwiwat",
-    description: "Panyapiwat Institute of Management, Thailand",
+    description: "Panyapiwat Institute of Management,Thailand",
     badge: null,
   },
-
   {
     name: "Dr.Kullapha Chaiwongkhot",
-    description: "Mahidol University, Thailand",
+    description: "Mahidol University,Thailand",
+    badge: null,
+  },
+  {
+    name: "Dr.Komsan Rattanakijsuntorn",
+    description: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
+    badge: null,
+  },
+  {
+    name: "Asst. Prof. Dr. Pititat Itsariyapinyo",
+    description: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
+    badge: null,
+  },
+  {
+    name: "Asst. Prof. Dr. Prasert Prapamonthon",
+    description: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
+    badge: null,
+  },
+  {
+    name: "Asst. Prof. Dr. Nobphadon Suksangpanya",
+    description: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
+    badge: null,
+  },
+  {
+    name: "Assoc. Prof. Dr.Suwin Saleesongsom",
+    description: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
     badge: null,
   },
 
   {
-    name: "Shariff Manuthasna",
+    name: "Prof. Dr.Yuanpeng Liu",
+    description: "Harbin Institute of Technology,China",
+    badge: null,
+  },
+
+  {
+    name: "Prof. Dr.Dong Ye",
+    description:
+      "Harbin Institute of Technology,China",
+    badge: null,
+  },
+  {
+    name: "Prof. Dr.Teng Fei",
+    description:
+      "Harbin Institute of Technology,China",
+    badge: null,
+  },
+  {
+    name: "Prof. Dr.Yuqing Li",
+    description:
+      "Harbin Institute of Technology,China",
+    badge: null,
+  },
+  {
+    name: "Assoc. Prof. DrFilippo Fabiani",
+    description:
+      "IMT School for Advanced Studies Lucca, Lucca, Italy",
+    badge: null,
+  },
+  {
+    name: "Prof. Dr.Michele Lavagna",
+    description:
+      "Politecnico di Milano,Italy",
+    badge: null,
+  },
+  {
+    name: "Prof.Jun Xu",
+    description:
+      "Harbin Institute of Technology,China",
+    badge: null,
+  },
+  {
+    name: "Mr.Shariff Manuthasna",
     description:
       "National Astronomical Research Institute of Thailand, Thailand",
     badge: null,
   },
   {
-    name: "Thanayuth Panyalert",
+    name: "Mr.Thanayuth Panyalert",
     description:
       "National Astronomical Research Institute of Thailand, Thailand",
+    badge: null,
+  },
+  {
+    name: "Asst. Prof. Dr. Svetlana Illarionova",
+    description:
+      "Skolkovo Institute of Science and Technology, Moscow, Russia",
     badge: null,
   },
 ];
@@ -259,7 +322,7 @@ export default function CommitteePage() {
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-headline text-4xl font-extrabold tracking-tight mb-4 text-on-background">
-              Technical Program Committee
+              Program committee members
             </h2>
             <p className="text-on-surface-variant font-body">{/*TBC*/}</p>
           </div>
