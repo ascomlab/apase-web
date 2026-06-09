@@ -306,7 +306,7 @@ const technicalCommittee = [
     badge: null,
   },
   {
-    name: "Assoc. Prof. DrFilippo Fabiani",
+    name: "Assoc. Prof. Dr.Filippo Fabiani",
     description:
       "IMT School for Advanced Studies Lucca, Lucca, Italy",
     badge: null,
