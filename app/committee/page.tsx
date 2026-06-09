@@ -68,7 +68,7 @@ const organizingCommittee = [
   },
   {
     role: "Organizing Committee Chairs",
-    name: "Dr. Wiphu Rujopakarn",
+    name: "Asst. Prof. Dr. Wiphu Rujopakarn",
     affiliation: "National Astronomical Research Institute of Thailand,Thailand",
   },
     {
