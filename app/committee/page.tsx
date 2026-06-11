@@ -209,6 +209,11 @@ const technicalCommittee = [
     badge: null,
   },
   {
+    name: "Ms. LIU YING",
+    description: "Deep Space Exploration Laboratory,China",
+    badge: null,
+  },
+  {
     name: "Assoc. Prof. Dr. Pisit Boonsrimuang",
     description: "King Mongkut's Institute of Technology Ladkrabang,Thailand",
     badge: null,
