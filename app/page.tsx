@@ -29,7 +29,7 @@ const heroData = {
   coOrganizers: [
     { name: "MVA", logo: getAssetPath("/logo/organizors/mva.png") },
     { name: "DSEL", logo: getAssetPath("/logo/organizors/DSEL.png") },
-    { name: "EEAAT", logo: getAssetPath("/logo/organizors/LoGo_New.jpg") },
+    { name: "EEAAT", logo: getAssetPath("/logo/organizors/eeaat-logo.png") },
   ],
 };
 
