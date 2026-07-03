@@ -21,8 +21,8 @@ export const speakers: Speaker[] = [
     quote:
       "xLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     bio: [
-      "yLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "zDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "CK Lee is a space engineering leader with nearly 20 years across space, aerospace, and automotive, currently serving as Principal Research Engineer, Project Manager, and Mechanical Lead at Nanyang Technological University (NTU)'s Satellite Research Centre. His recent work spans vibration and thermal design for an edge computer payload launching in October 2026, qualification testing on a 180 kg microsatellite with Thailand's GISTDA, and integration support for the VELOX-AM satellite, launched on India's PSLV-C56. He holds an M.Sc. from National University of Singapore and a B.Eng. in Aerospace Engineering from Universiti Sains Malaysia, and is a Chartered Member of Hong Kong's Orion Astropreneur Space Academy.",
+      
     ],
     abstract:
       "aLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
