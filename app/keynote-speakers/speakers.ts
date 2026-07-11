@@ -13,7 +13,7 @@ export interface Speaker {
 export const speakers: Speaker[] = [
   {
     id: "speaker-1",
-    name: "Prof.Dr.Dong Qiao",
+    name: "Prof. XXXX XXXX",
     title: "Senior Research Director",
     subtitle: "(TBD) Future of Advanced Technologies",
     image: "/images/keynote-speakers/profile-placeholder.jpg",
