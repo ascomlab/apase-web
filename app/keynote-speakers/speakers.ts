@@ -15,7 +15,7 @@ export const speakers: Speaker[] = [
     id: "speaker-1",
     name: "Prof. Dr. Dong Qiao",
     title: "Senior Research Director",
-    subtitle: "(TBD) Future of Advanced Technologies",
+    subtitle: " ",
     image: "/images/keynote-speakers/ProfDongQiao.jpg",
     imageAlt: "Professional portrait of a speaker",
     quote:
