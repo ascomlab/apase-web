@@ -358,7 +358,7 @@ export default function CommitteePage() {
           </span>
           <h1 className="font-headline text-5xl md:text-7xl font-extrabold text-[#1A365D] tracking-tighter mb-8 leading-[1.05]">
             The Minds Behind <br />
-            <span className="text-primary italic">APASE 2026</span>
+            <span className="text-primary italic">APASE 2027</span>
           </h1>
           <p className="font-body text-xl text-on-surface-variant leading-relaxed max-w-2xl">
             {/*TBD*/}
