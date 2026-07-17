@@ -221,7 +221,7 @@ export const institutionalSupport = {
   sponsors: [
     { name: "NRCT", logo: getAssetPath("/logo/sponsors/nrct-logo.png") },
   ],
-  assistances: [
+  //assistances: [
     //{ name: "CRA", logo: getAssetPath("/logo/assistances/cra-logo.png") },
     //{ name: "KU", logo: getAssetPath("/logo/assistances/ku-logo.png") },
     //{ name: "MU", logo: getAssetPath("/logo/assistances/mu-logo.png") },
@@ -230,7 +230,7 @@ export const institutionalSupport = {
     //{ name: "MUT", logo: getAssetPath("/logo/assistances/mut-logo.png") },
     //{ name: "RMUTI", logo: getAssetPath("/logo/assistances/Logo_rmuti.png") },
     // { name: "SSRU", logo: getAssetPath("/logo/assistances/SSRU_LOGO.png") },
-  ],
+  //],
 };
 
 export default function Home() {
