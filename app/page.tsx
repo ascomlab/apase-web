@@ -79,17 +79,6 @@ const technicalTracks = [
     ],
   },
   {
-    id: "mission-design-systems-engineering",
-    title: "Space Mission Design & Systems Engineering",
-    covers: [
-      "End-to-end mission design",
-      "Conceptual studies",
-      "Systems architecture",
-      "Systems integration",
-      "Mission analysis for robotic and human spaceflight",
-    ],
-  },
-  {
     id: "rf-microwave-antennas-radio-science",
     title: "RF/Microwave Systems, Antennas & Radio Science",
     covers: [
@@ -170,17 +159,6 @@ const technicalTracks = [
     ],
   },
   {
-    id: "space-ground-operations",
-    title: "Space & Ground Operations",
-    covers: [
-      "Mission operations",
-      "Ground station networks",
-      "Data acquisition and distribution",
-      "Command and control systems",
-      "LEOP logistics",
-    ],
-  },
-  {
     id: "space-biology-life-support",
     title: "Space Biology & Life Support Systems",
     covers: [
@@ -188,16 +166,6 @@ const technicalTracks = [
       "Effects of space environment on living organisms",
       "Biology in microgravity",
       "Life support systems for human spaceflight",
-    ],
-  },
-  {
-    id: "aerospace-education-workforce-development",
-    title: "Aerospace Education & Workforce Development",
-    covers: [
-      "Innovative teaching methods",
-      "Student-led projects such as CanSats",
-      "Outreach programs",
-      "Next-generation aerospace workforce development",
     ],
   },
 ];
