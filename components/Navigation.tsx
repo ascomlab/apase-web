@@ -48,11 +48,15 @@ export default function Navigation() {
             </Link>
           ))}
         </div>
-        <Link href="/submission">
+        <a
+          href="https://www.aischolar.com/conference/apase2027/submission"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="hidden lg:inline-flex bg-gradient-to-br from-primary to-primary-dim text-on-primary px-6 py-2.5 rounded-md font-semibold tracking-wide hover:scale-95 transition-all duration-200">
             Submit Paper
           </button>
-        </Link>
+        </a>
         <button
           type="button"
           aria-label={isOpen ? "Close menu" : "Open menu"}
@@ -106,9 +110,17 @@ export default function Navigation() {
               {link.label}
             </Link>
           ))}
-          <button className="mt-2 inline-flex w-full items-center justify-center rounded-md bg-gradient-to-br from-primary to-primary-dim px-6 py-3 font-semibold tracking-wide text-on-primary transition-transform duration-200 hover:scale-[0.99]">
-            Submit Paper
-          </button>
+          <a
+            href="https://www.aischolar.com/conference/apase2027/submission"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsOpen(false)}
+            className="mt-2"
+          >
+            <button className="inline-flex w-full items-center justify-center rounded-md bg-gradient-to-br from-primary to-primary-dim px-6 py-3 font-semibold tracking-wide text-on-primary transition-transform duration-200 hover:scale-[0.99]">
+              Submit Paper
+            </button>
+          </a>
         </div>
       </div>
     </nav>
