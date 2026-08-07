@@ -344,7 +344,11 @@ export default function Home() {
                   Conference (APASE), the annual conference held from the year
                   2020 with the name of The Innovation Aviation {"&"} Aerospace
                   Industry (IAAI)- International Conference, will take place on
-                  January 8-10, 2027. in Harbin, China.  The APASE conference focuses on innovations in aviation and
+                  January 8-10, 2027. in Harbin, China.  Accepted papers in APASE will be submitted for publication into EI Compendex (Journal of Physics: Conference Series, JPCS)(ISSN:1742-6596).
+                  
+                  
+                  
+                  The APASE conference focuses on innovations in aviation and
                   aerospace by fostering knowledge and new ideas for research
                   work within the community, speakers, plenary speeches, young
                   researchers and practitioners.
