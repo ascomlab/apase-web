@@ -37,21 +37,21 @@ const todayKey = getTodayKey("Asia/Shanghai");
 
 const importantDates = [
   {
-    date: "SEP 30",
+    date: "NOV 8",
     year: "2026",
     title: "Paper Submission Deadline",
     description: "Deadline for full paper submission",
     active: todayKey >= getMilestoneKey("NOV 8", "2026")!,
   },
   {
-    date: "OCT 30",
+    date: "NOV 26",
     year: "2026",
     title: "Notification of Acceptance",
     description: "Deadline to notify authors of acceptance results",
-    active: todayKey >= getMilestoneKey("Nov 26", "2026")!,
+    active: todayKey >= getMilestoneKey("NOV 26", "2026")!,
   },
   {
-    date: "NOV 15",
+    date: "DEC 8",
     year: "2026",
     title: "Early Registration Deadline",
     description: "Deadline for early registration",
@@ -62,7 +62,7 @@ const importantDates = [
     year: "2027",
     title: "Conference Dates",
     description: "APASE conference in Harbin, China",
-    active: todayKey >= getMilestoneKey("JAN 8-10", "2027")!,
+    active: todayKey >= getMilestoneKey("JAN 8", "2027")!,
   },
 ];
 

@@ -130,7 +130,7 @@ export default function RegistrationPage() {
                   Deadline for early registration
                 </p>
                 <div className="text-primary font-bold text-xl font-headline tracking-tight relative z-10">
-                  Nov 15 2026
+                  Nov 8 2026
                 </div>
               </div>
               <div className="group relative overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_26px_60px_-30px_rgba(40,52,57,0.45)] border-primary/25 ring-1 ring-primary/15">
