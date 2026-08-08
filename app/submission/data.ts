@@ -16,8 +16,7 @@ Full details of the author publication guidelines for JPCS can be found [**here*
 The IOP Conference Series template is mandatory for submission. It can be found below:
 
 - [**Microsoft Word**](https://cms.iopscience.iop.org/alfresco/d/d/workspace/SpacesStore/f67538ae-18b2-11e4-831a-29411a5deefe/WordGuidelines.zip)
-- [**LaTeX**](https://cms.iopscience.iop.org/alfresco/d/d/workspace/SpacesStore/a83f1ab6-cd8f-11e0-be51-5d01ae4695ed/LaTeXTemplates.zip)
-- [**Overleaf**](https://www.overleaf.com/read/qhbdnjyswhxg#7770de)
+
 
 
 Ensure that within the template, all other JPCS formatting rules are still followed. The paper should be submitted as an editable and not password protected PDF. 
