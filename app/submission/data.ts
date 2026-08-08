@@ -11,7 +11,7 @@ Full details of the author publication guidelines for JPCS can be found [**here*
 - each page should have clear margins of 4cm (top), 2.5cm (left and right) and 2.7cm (bottom) 
 - pages should not contain page numbers, running heads or footlines 
 - all articles must contain an abstract 
-- in the PDF, all fonts should be embedded 
+- all fonts should be embedded 
 
 The IOP Conference Series template is mandatory for submission. It can be found below:
 
