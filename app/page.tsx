@@ -326,7 +326,7 @@ export default function Home() {
 
       <section className="px-12 py-24 bg-white">
         <div className="max-w-[1440px] mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 md:gap-16 items-start">
             <div className="lg:col-span-4">
               <h2 className="font-headline text-4xl font-extrabold text-[#1A365D] leading-tight sticky top-32">
                 About the <br />
@@ -362,6 +362,33 @@ export default function Home() {
                   in the impacts of the aerospace and aviation industry to join
                   us for what will be an exciting event.
                 </p>
+              </div>
+
+              <div className="mt-6 flex items-center gap-2 flex-wrap">
+                <div className="w-36">
+                  <Image
+                    src={getAssetPath("/logo/compendex.png")}
+                    alt="compendex-logo"
+                    width={970}
+                    height={253}
+                  />
+                </div>
+                <div className="w-30">
+                  <Image
+                    src={getAssetPath("/logo/scopus.png")}
+                    alt="compendex-logo"
+                    width={970}
+                    height={253}
+                  />
+                </div>
+                <div className="w-72">
+                  <Image
+                    src={getAssetPath("/logo/jpcs.jpg")}
+                    alt="compendex-logo"
+                    width={630}
+                    height={45}
+                  />
+                </div>
               </div>
             </div>
           </div>
