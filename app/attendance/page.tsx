@@ -18,19 +18,19 @@ One of the most famous events in Harbin is the Harbin International Ice and Snow
 Harbin's history has been shaped by its location near Russia. This influence is especially visible along Zhongyang Street, where European-style architecture lines the streets. Visitors can also see the beautiful Saint Sophia Cathedral, a former Russian Orthodox church that remains one of the city's most iconic landmarks.`,
   images: [
     {
-      src: getAssetPath("/images/venue/Picture1.png"),
+      src: getAssetPath("/images/venue/Picture1.JPG"),
       alt: "Harbin Ice and Snow Festival",
     },
     {
-      src: getAssetPath("/images/venue/Picture2.png"),
+      src: getAssetPath("/images/venue/Picture2.JPG"),
       alt: "Zhongyang Street Architecture",
     },
     {
-      src: getAssetPath("/images/venue/Picture3.png"),
+      src: getAssetPath("/images/venue/Picture3.JPG"),
       alt: "Saint Sophia Cathedral",
     },
     {
-      src: getAssetPath("/images/venue/Picture4.png"),
+      src: getAssetPath("/images/venue/Picture4.JPG"),
       alt: "Harbin Winter Landscape",
     },
   ],
