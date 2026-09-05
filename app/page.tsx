@@ -405,12 +405,30 @@ export default function Home() {
               Stay informed about critical deadlines. Early bird registrations
               offer exclusive networking sessions and lowered fees.
             </p>
+            <a
+              href={getAssetPath("/images/call-for-papers.png")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mt-10 block w-full md:max-w-[260px] bg-white p-3 rounded-2xl editorial-shadow transition-transform duration-300 hover:-translate-y-1 mx-auto"
+              title="Open the full-size Call for Papers poster"
+            >
+              <Image
+                src={getAssetPath("/images/call-for-papers-preview.jpg")}
+                alt="APASE 2027 Call for Papers poster"
+                width={989}
+                height={1400}
+                className="w-full h-auto rounded-xl"
+              />
+              <span className="mt-3 block text-center text-xs font-bold uppercase tracking-widest text-outline group-hover:text-primary transition-colors">
+                View Call for Papers
+              </span>
+            </a>
           </div>
           <div className="md:w-2/3 grid gap-3">
             {importantDates.map((date) => (
               <div
                 key={date.title}
-                className="bg-surface-container-lowest p-6 sm:p-7 flex items-start justify-between rounded-xl group hover:bg-surface-container-low transition-colors border border-transparent hover:border-primary-container"
+                className="bg-surface-container-lowest p-6 sm:p-7 flex items-center justify-between rounded-xl group hover:bg-surface-container-low transition-colors border border-transparent hover:border-primary-container"
               >
                 <div className="flex gap-6 sm:gap-8 items-start">
                   <div className="text-center min-w-[84px] sm:min-w-[96px] pt-0.5">
