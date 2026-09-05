@@ -181,9 +181,15 @@ export default function RegistrationPage() {
                 <p className="text-primary-fixed/80 text-sm mb-8 leading-relaxed">
                   {/*TBD*/}
                 </p>
-                <button className="inline-flex items-center gap-2 bg-surface-container-lowest text-primary px-6 py-3 rounded font-bold text-sm">
-                  Go to Registration Portal
-                </button>
+                <a
+                  href="https://www.aischolar.com/conference/apase2027/submission"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="inline-flex items-center gap-2 bg-surface-container-lowest text-primary px-6 py-3 rounded font-bold text-sm hover:scale-95 transition-all duration-200">
+                    Go to Registration Portal
+                  </button>
+                </a>
               </div>
             </div>
           </aside>

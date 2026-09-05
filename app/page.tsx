@@ -248,9 +248,18 @@ export default function Home() {
                 {heroData.title.highlighted}
               </span>
             </h1>
-            <p className="font-body text-xl text-on-surface-variant max-w-xl mb-12 leading-relaxed">
+            <p className="font-body text-xl text-on-surface-variant max-w-xl mb-8 leading-relaxed">
               {heroData.description}
             </p>
+            <a
+              href="#important-dates"
+              className="group inline-flex items-center gap-2 mb-12 font-headline font-bold tracking-tight text-lg text-primary hover:opacity-80 transition-opacity"
+            >
+              Call for Papers
+              <span className="transition-transform duration-200 group-hover:translate-x-1">
+                &rarr;
+              </span>
+            </a>
           </div>
           <div className="lg:col-span-5 relative">
             <div className="aspect-square bg-surface-container-low rounded-full absolute -top-12 -right-12 w-[120%] -z-10 blur-3xl opacity-50"></div>
@@ -395,7 +404,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-12 py-24 max-w-[1440px] mx-auto">
+      <section
+        id="important-dates"
+        className="px-12 py-24 max-w-[1440px] mx-auto scroll-mt-24"
+      >
         <div className="flex flex-col md:flex-row gap-20">
           <div className="md:w-1/3">
             <h2 className="font-headline text-4xl font-extrabold text-[#1A365D] mb-6 leading-tight">
