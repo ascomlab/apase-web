@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title:
     "APASE 2026 | Asia-Pacific Aerospace Science & Engineering Symposium International Conference",
   description:
-    "Join leading researchers and practitioners in exploring the frontiers of physics and engineering at APASE 2026 in Osaka, Japan.",
+    "Join leading researchers and practitioners in exploring the frontiers of physics and engineering at APASE 2026 in Harbin, China.",
 };
 
 export default function RootLayout({
