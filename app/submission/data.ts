@@ -12,7 +12,7 @@ Full details of the author publication guidelines for JPCS can be found [**here*
 - pages should not contain page numbers, running heads or footlines 
 - all articles must contain an abstract 
 - all fonts should be embedded 
-- The maximum allowable length of each paper is six (6) pages. An additional charge of US$60 or CNY 400 will apply for each page exceeding this limit.
+- [**The maximum allowable length of each paper is six (6) pages. An additional charge of US$60 or CNY 400 will apply for each page exceeding this limit.**]
 
 The Conference Series template is mandatory for submission. It can be found below:
 
