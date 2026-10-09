@@ -13,7 +13,7 @@ Full details of the author publication guidelines for JPCS can be found [**here*
 - all articles must contain an abstract 
 - all fonts should be embedded 
 
-The IOP Conference Series template is mandatory for submission. It can be found below:
+The Conference Series template is mandatory for submission. It can be found below:
 
 - [**Microsoft Word**](https://cms.iopscience.iop.org/alfresco/d/d/workspace/SpacesStore/f67538ae-18b2-11e4-831a-29411a5deefe/WordGuidelines.zip)
 
