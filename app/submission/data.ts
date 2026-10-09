@@ -6,12 +6,13 @@ The Asia-Pacific Aerospace Science & Engineering Symposium(APASE) will be publis
 
 Full details of the author publication guidelines for JPCS can be found [**here**](https://publishingsupport.iopscience.iop.org/author-guidelines-for-conference-proceedings/).  The following lists the essential requirements for an article to be published in an IOP: Conference Series journal: 
 
--The maximum allowable length of each paper is six (6) pages. An additional charge of US$60 or CNY 400 will apply for each page exceeding this limit.
+
 - the page size should be A4
 - each page should have clear margins of 4cm (top), 2.5cm (left and right) and 2.7cm (bottom) 
 - pages should not contain page numbers, running heads or footlines 
 - all articles must contain an abstract 
 - all fonts should be embedded 
+- The maximum allowable length of each paper is six (6) pages. An additional charge of US$60 or CNY 400 will apply for each page exceeding this limit.
 
 The Conference Series template is mandatory for submission. It can be found below:
 
