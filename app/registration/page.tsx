@@ -40,7 +40,9 @@ const registrationFeeSections = [
   },
 ];
 
-const registrationNotes = ["TBD", "TBD", "TBD"];
+const registrationNotes = [
+  "Paper registration: Each paper requires one registration. At least one author of each paper must register and pay the full fee that matches the paper's accepted type: Presentation & Publication or Presentation Only.",
+];
 
 export default function RegistrationPage() {
   return (
@@ -150,12 +152,11 @@ export default function RegistrationPage() {
           </div>
 
           <aside className="space-y-8">
-           
             <div className="bg-surface-container-low p-8 rounded-xl">
               <h3 className="font-headline font-bold text-lg mb-4">
                 Important Notes
               </h3>
-              <ul className="space-y-4 text-sm text-on-surface-variant">
+              <ul className="space-y-4 text-on-surface-variant">
                 {registrationNotes.map((note, idx) => (
                   <li key={note + idx} className="flex gap-3">
                     <span className="text-primary">•</span>
