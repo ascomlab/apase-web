@@ -1,7 +1,7 @@
 export const importantDate = [
  
   {
-    date: "Nov 8 2026",
+    date: "Nov 15 2026",
     title: "Paper Submission Deadline",
     description: "Deadline for full paper submission",
   },
