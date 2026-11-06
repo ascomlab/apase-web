@@ -182,7 +182,7 @@ export default function RegistrationPage() {
                   {/*TBD*/}
                 </p>
                 <a
-                  href="https://www.aischolar.com/conference/apase2027/submission"
+                  href="https://www.aischolar.com/conference/apase2027/registration"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
