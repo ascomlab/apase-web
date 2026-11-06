@@ -30,7 +30,7 @@ export default function SubmissionPage() {
             title="Open the full-size Call for Papers poster"
           >
             <Image
-              src={getAssetPath("/images/call-for-papers-preview.jpg")}
+              src={getAssetPath("/images/call-for-papers.png")}
               alt="APASE 2027 Call for Papers poster"
               width={989}
               height={1400}
