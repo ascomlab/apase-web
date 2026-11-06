@@ -150,16 +150,7 @@ export default function RegistrationPage() {
           </div>
 
           <aside className="space-y-8">
-            <div className="bg-surface-container-highest p-8 rounded-xl">
-              <h3 className="font-headline font-bold text-xl mb-6">
-                Payment Information
-              </h3>
-              <div className="space-y-6">
-                <p className="text-sm text-on-surface-variant leading-relaxed">
-                  Coming Soon
-                </p>
-              </div>
-            </div>
+           
             <div className="bg-surface-container-low p-8 rounded-xl">
               <h3 className="font-headline font-bold text-lg mb-4">
                 Important Notes
