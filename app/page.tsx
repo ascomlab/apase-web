@@ -38,7 +38,7 @@ const todayKey = getTodayKey("Asia/Shanghai");
 
 const importantDates = [
   {
-    date: "NOV 8",
+    date: "NOV 15",
     year: "2026",
     title: "Paper Submission Deadline",
     description: "Deadline for full paper submission",
