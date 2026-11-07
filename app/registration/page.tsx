@@ -42,6 +42,8 @@ const registrationFeeSections = [
 
 const registrationNotes = [
   "Paper registration: Each paper requires one registration. At least one author of each paper must register and pay the full fee that matches the paper's accepted type: Presentation & Publication or Presentation Only.",
+  "Registration fee includes conference proceedings(Type:Presentation & Publication), lunches, souvenirs and attending all technical sessions.",
+
 ];
 
 export default function RegistrationPage() {
