@@ -45,6 +45,7 @@ const registrationNotes = [
   "Registration fee includes conference proceedings(Type:Presentation & Publication), lunches, souvenirs and attending all technical sessions.",
   "The registration fee does not include: Accommodation, Visa application fee, Transportation fare.",
   "Completed registrations will be acknowledged by the Organizing Committee within 2-5 workdays after receiving your payment.",
+  "Student Registration, please send the copy of student card and Paper ID to apaseconference@gmail.com to apply student register rate before doing registering processes.",
 
 
 ];
