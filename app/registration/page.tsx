@@ -45,10 +45,9 @@ const registrationNotes = [
   "Registration fee includes conference proceedings(Type:Presentation & Publication), lunches, souvenirs and attending all technical sessions.",
   "The registration fee does not include: Accommodation, Visa application fee, Transportation fare.",
   "Completed registrations will be acknowledged by the Organizing Committee within 2-5 workdays after receiving your payment.",
-  "If you are a student, you can show the student certificate and note the order number and send it to the email lijianya@ais.cn, in order to verify the student benefits.",
-
-
 ];
+
+const studentVerificationEmails = ["lijianya@ais.cn", "apaseconference@gmail.com"];
 
 export default function RegistrationPage() {
   return (
@@ -74,6 +73,43 @@ export default function RegistrationPage() {
                 <h2 className="font-headline text-2xl font-bold tracking-tight">
                   Registration Fees
                 </h2>
+              </div>
+              <div
+                role="note"
+                aria-label="Student benefits verification"
+                className="group relative mb-8 overflow-hidden rounded-3xl border bg-surface-container-low p-8 shadow-[0_18px_40px_-28px_rgba(40,52,57,0.35)] border-primary/25 ring-1 ring-primary/15"
+              >
+                <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-transparent via-primary/35 to-transparent" />
+                <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-primary/8 blur-2xl opacity-70" />
+                <div className="relative z-10">
+                  <div className="flex items-center gap-3 mb-4">
+                    <span
+                      aria-hidden="true"
+                      className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary text-on-primary text-sm font-bold"
+                    >
+                      i
+                    </span>
+                    <h3 className="font-headline font-bold text-xl text-on-surface">
+                      Student Notice
+                    </h3>
+                  </div>
+                  <p className="text-on-surface-variant body-md leading-relaxed">
+                    If you are a student, you can show the student certificate
+                    and note the order number and send it to the email{" "}
+                    {studentVerificationEmails.map((email, idx) => (
+                      <span key={email}>
+                        <a
+                          href={`mailto:${email}`}
+                          className="font-semibold text-primary underline underline-offset-2 break-all hover:opacity-80"
+                        >
+                          {email}
+                        </a>
+                        {idx < studentVerificationEmails.length - 1 ? ", " : ""}
+                      </span>
+                    ))}{" "}
+                    in order to verify the student benefits.
+                  </p>
+                </div>
               </div>
               <div className="overflow-x-auto">
                 <table className="w-full min-w-[520px] text-left border-collapse">
