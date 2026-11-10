@@ -15,7 +15,7 @@ const registrationFeeSections = [
     ],
   },
   {
-    identity: "Students",
+    identity: "Students: If you are a student, you can show the student certificate and note the order number and send it to the email lijianya@ais.cn, in order to verify the student benefits.",
     entries: [
       { category: "Presentation & Publication", rate: "US $550 / CNY3800" },
       {
