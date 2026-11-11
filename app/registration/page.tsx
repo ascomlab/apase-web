@@ -47,7 +47,7 @@ const registrationNotes = [
   "Completed registrations will be acknowledged by the Organizing Committee within 2-5 workdays after receiving your payment.",
 ];
 
-const studentVerificationEmails = ["lijianya@ais.cn", "apaseconference@gmail.com"];
+const studentVerificationEmails = ["lijianya@ais.cn"];
 
 export default function RegistrationPage() {
   return (
