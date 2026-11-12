@@ -41,7 +41,7 @@ const footerData = {
   ],
   contact: {
     title: "Contact Us",
-    info: ["Conference Secretariat", "Email: lijianya@ais.cn , apaseconference@gmail.com"],
+    info: ["Conference Secretariat", "Email: lijianya@ais.cn"],
     hours: ["Office Hours: Mon - Fri", "09:00 - 18:00 (CST)"],
   },
   copyright:
