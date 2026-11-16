@@ -52,11 +52,11 @@ const importantDates = [
     active: todayKey >= getMilestoneKey("DEC 6", "2026")!,
   },
   {
-    date: "Jan 8",
-    year: "2026",
+    date: "JAN 8",
+    year: "2027",
     title: "Early Registration Deadline",
     description: "Deadline for early registration",
-    active: todayKey >= getMilestoneKey("Jan 8", "2027")!,
+    active: todayKey >= getMilestoneKey("JAN 8", "2027")!,
   },
   {
     date: "JAN 8–10",
