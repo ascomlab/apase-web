@@ -32,10 +32,10 @@ const registrationFeeSections = [
   {
     identity: "Others",
     entries: [
-      { category: "Additional Papers", rate: "US $450 / CNY3200" },
+      // { category: "Additional Papers", rate: "US $450 / CNY3200" },
       { category: "Extra Page (over 6 pages)", rate: "US $60 / CNY400 / Page" },
-      { category: "Extra Proceedings", rate: "US $60 / CNY400" },
-      { category: "Social Program (Optional)", rate: "US $60 / CNY400" },
+      // { category: "Extra Proceedings", rate: "US $60 / CNY400" },
+      // { category: "Social Program (Optional)", rate: "US $60 / CNY400" },
     ],
   },
 ];
